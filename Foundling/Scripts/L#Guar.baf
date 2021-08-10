@@ -1,0 +1,67 @@
+IF
+Global("L#FouPlot","GLOBAL",15)
+THEN
+RESPONSE #100
+MoveToObject([PC])
+Dialogue(Player1)
+END
+
+IF
+Global("L#FouPlot","GLOBAL",16)
+Global("L#SomeSpells","LOCALS",0)
+THEN
+RESPONSE #100
+SetGlobal("L#SomeSpells","LOCALS",1)
+ApplySpell(Myself,WIZARD_FIRE_SHIELD_BLUE)
+ApplySpell(Myself,WIZARD_STONE_SKIN)
+ApplySpell(Myself,WIZARD_TRUE_SIGHT)
+ForceSpell(Player1,WIZARD_INVISIBLE_STALKER)
+END
+
+
+
+//////////////////////
+//////////////////////
+
+IF
+  See(Nearestenemyof(Myself))
+  Global("DaoStoneSkin","LOCALS",0)
+THEN
+  RESPONSE #100
+    ApplySpell(Myself,WIZARD_IMPROVED_HASTE)
+    SetGlobal("DaoStoneSkin","LOCALS",1)
+END
+
+IF
+  See(Nearestenemyof(Myself))
+  Global("skins","LOCALS",0)
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,WIZARD_STONE_SKIN)
+    SetGlobal("skins","LOCALS",1)
+END
+
+IF
+  See(Nearestenemyof(Myself))
+  Global("stone","LOCALS",0)
+THEN
+  RESPONSE #100
+    ApplySpell(Myself,WIZARD_STONE_SKIN)
+    SetGlobal("stone","LOCALS",1)
+END
+
+IF
+  See(Nearestenemyof(Myself))
+  Global("invis","LOCALS",0)
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,WIZARD_INVISIBILITY)
+    SetGlobal("invis","LOCALS",1)
+END
+
+IF
+  See(Nearestenemyof(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(Nearestenemyof(Myself),15)
+END

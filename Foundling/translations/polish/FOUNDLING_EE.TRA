@@ -1,0 +1,188 @@
+@191 = ~Czarny miecz~ 
+@192 = ~Rytualny miecz: "K³amstwo Leiry"~
+@193 = ~Widaæ wyraŸnie, ¿e ten miecz zosta³ stworzony do rytua³ów. Wygl¹da na solidn¹, dobrze wykonan¹ broñ. Nie tyle s³u¿¹c¹ za dekoracjê, co za ulubiony orê¿. Wydaje siê, ¿e jest zrobiona ze z³ota i jakiegoœ ciemnego metalu. Na rêkojeœci i klindze widniej¹ pewne znaki, ale nie wiesz, co one mog¹ oznaczaæ.
+Kr¹¿y pog³oska, ¿e ten miecz potrafi sprawiæ, ¿eby lekkie rany sta³y siê powa¿ne, a prawdê przemieniæ w mistyfikacjê. Przez d³ugi czas by³ trzymany w tej dziwnej jaskini.
+  
+PARAMETRY:
+
+Specjalne:
+- Ostrze to powinno ujawniæ kl¹twê rzucon¹ na Znajdê
+- Osoba korzystaj¹ca z tej broni staje siê mistrzem w bieg³oœci d³ugimi mieczami
+- Ostrze traktuje siê jako broñ o umagicznieniu +5
+
+- 5% szansa na rzucenie na przeciwnika kl¹twy dzikiej magii na 10 sekund
+- 2% szansa na odzyskanie wykorzystanych zaklêæ
+- 1% szansa na zabicie przeciwnika, który ma mniej ni¿ 60 punktów ¿ycia
+
+Obra¿enia: 1k8 +3
+TraK0: +3
+Typ obra¿eñ: sieczne
+Rodzaj bieg³oœci: d³ugi miecz
+Typ broni: 1-rêczna
+
+Waga: 3~ 
+@194 = ~Kolczuga solara~
+@195 = ~Zbroja ta jest wyj¹tkowego rodzaju broni¹, któr¹ ponoæ nosz¹ sami solarowie, planetarowie jak równie¿ devy. W rzeczywistoœci jest to tylko mit. Zbroja ta zosta³a pob³ogos³awiona boskimi mocami, które chroni¹ w³aœciciela nie tylko przed typow¹ broni¹, ale równie¿ obdarowuj¹ go specjaln¹ ochron¹ przeciw nieumar³ym istotom. W³aœciciel tej kolczugi bêdzie ignorowany przez wiêkszoœæ nieumar³ych za wyj¹tkiem tych o niewyobra¿alnej mocy jak lisze czy drakolisze. 
+
+PARAMETRY:
+
+Specjalne:
+- Posiadacz zostaje zignorowany przez szkielety, zombie oraz ghoule
+- Odpornoœæ na ogieñ: +25%
+
+Klasa Pancerza: 3
+
+Waga: 10~ 
+@196 = ~Zakurzona skóra~
+@197 = ~Ta stara zbroja jest zrobiona z ciemnoszarej skóry. Nie wygl¹da na zbyt solidn¹ i nie daje ¿adnej niesamowitej ochrony, ale jest na tyle elastyczna, ¿e nie ograniczania rzucania zaklêæ.
+To ulubiona zbroja Znajdy.
+
+PARAMETRY:
+
+Specjalne:
+- Rzuty obronne: +3 przeciw polimorfii
+
+Klasa Pancerza: 7
+
+Waga: 8~
+@200 = ~Cienisty kamieñ ioun~ 
+@201 = ~Ten kamieñ ioun jest podobny do kamienia stra¿niczego cienistego smoka znalezionego w ruinach œwi¹tyni. Ten jednak zosta³ zaklêty szczególn¹ magi¹, która uwolni³a siê po walce ze wskrzeszonym cienistym smokiem, kiedy ten przej¹³ kontrolê nad cia³em Znajdy.
+
+PARAMETRY:
+
+Specjalne:
+- Klasa Pancerza: +2 (+2 przeciw nieumar³ym)
+- Ochrona przed uderzeniem skrzyde³~
+@202 = ~Miecz cienia~ 
+@203 = ~Ten miecz zosta³ stworzony przez adepta cienia i tylko oni mog¹ w³adaæ tym orê¿em bez doznawania obra¿eñ od magicznego zimna. Samo ostrze wygl¹da tak, jakby powsta³o z czarnego metalu i ciemnego kryszta³u. Kr¹¿y pog³oska, ¿e im potê¿niejszy jest adept cienia w momencie jego stworzenia, tym bardziej œmiercionoœne staje siê jego ostrze. Jeœli ktoœ inny prócz adepta cienia u¿yje ten broni, to dozna obra¿eñ od czarnego zimna.
+
+PARAMETRY:
+
+Specjalne:
+- Traktowana jako broñ o umagicznieniu +1
+
+Obra¿enia: 1k8 +1 obra¿eñ od zimna
+TraK0: +1, +1 przeciw humanoidom
+Typ obra¿eñ: sieczne
+Rodzaj bieg³oœci: d³ugi miecz
+Typ broni: 1-rêczna
+
+Waga: 8~
+@204 = ~Miecz cienia +2~
+@205 = ~Ten miecz zosta³ stworzony przez adepta cienia i tylko oni mog¹ w³adaæ tym orê¿em bez doznawania obra¿eñ od magicznego zimna. Samo ostrze wygl¹da tak, jakby powsta³o z czarnego metalu i ciemnego kryszta³u. Kr¹¿y pog³oska, ¿e im potê¿niejszy jest adept cienia w momencie jego stworzenia, tym bardziej œmiercionoœne staje siê jego ostrze. Jeœli ktoœ inny prócz adepta cienia u¿yje ten broni, to dozna obra¿eñ od czarnego zimna.
+
+PARAMETRY:
+
+Specjalne:
+- Traktowana jako broñ o umagicznieniu +2
+
+Obra¿enia: 1k8 +1k4 obra¿eñ od zimna
+TraK0: +2, +1 przeciw humanoidom
+Typ obra¿eñ: sieczne
+Rodzaj bieg³oœci: d³ugi miecz
+Typ broni: 1-rêczna
+
+Waga: 8~ 
+@206 = ~Miecz cienia +3~
+@207 = ~Ten miecz zosta³ stworzony przez adepta cienia i tylko oni mog¹ w³adaæ tym orê¿em bez doznawania obra¿eñ od magicznego zimna. Samo ostrze wygl¹da tak, jakby powsta³o z czarnego metalu i ciemnego kryszta³u. Kr¹¿y pog³oska, ¿e im potê¿niejszy jest adept cienia w momencie jego stworzenia, tym bardziej œmiercionoœne staje siê jego ostrze. Jeœli ktoœ inny prócz adepta cienia u¿yje ten broni, to dozna obra¿eñ od czarnego zimna.
+
+PARAMETRY:
+
+Specjalne:
+- Traktowana jako broñ o umagicznieniu +3
+- 10% szansa na spowolnienie przeciwnika
+
+Obra¿enia: 1k8 +1k6 obra¿eñ od zimna
+TraK0: +3, +2 przeciw humanoidom
+Typ obra¿eñ: sieczne
+Rodzaj bieg³oœci: d³ugi miecz
+Typ broni: 1-rêczna
+
+Waga: 8~ 
+@208 = ~Miecz cienia +4~
+@209 = ~Ten miecz zosta³ stworzony przez adepta cienia i tylko oni mog¹ w³adaæ tym orê¿em bez doznawania obra¿eñ od magicznego zimna. Samo ostrze wygl¹da tak, jakby powsta³o z czarnego metalu i ciemnego kryszta³u. Kr¹¿y pog³oska, ¿e im potê¿niejszy jest adept cienia w momencie jego stworzenia, tym bardziej œmiercionoœne staje siê jego ostrze. Jeœli ktoœ inny prócz adepta cienia u¿yje ten broni, to dozna obra¿eñ od czarnego zimna.
+
+PARAMETRY:
+
+Specjalne:
+- Traktowana jako broñ o umagicznieniu +4
+- 20% szansa na spowolnienie przeciwnika
+
+Obra¿enia: 1k8 +1k8 obra¿eñ od zimna
+TraK0: +4, +2 przeciw humanoidom
+Typ obra¿eñ: sieczne
+Rodzaj bieg³oœci: d³ugi miecz
+Typ broni: 1-rêczna
+
+Waga: 8~
+@210 = ~Miecz cienia +5~
+@211 = ~Ten miecz zosta³ stworzony przez adepta cienia i tylko oni mog¹ w³adaæ tym orê¿em bez doznawania obra¿eñ od magicznego zimna. Samo ostrze wygl¹da tak, jakby powsta³o z czarnego metalu i ciemnego kryszta³u. Kr¹¿y pog³oska, ¿e im potê¿niejszy jest adept cienia w momencie jego stworzenia, tym bardziej œmiercionoœne staje siê jego ostrze. Jeœli ktoœ inny prócz adepta cienia u¿yje ten broni, to dozna obra¿eñ od czarnego zimna.
+
+PARAMETRY:
+
+Specjalne:
+- Traktowana jako broñ o umagicznieniu +5
+- 40% szansa na spowolnienie przeciwnika
+- 10% szansa na wyssanie jednego punktu Zrêcznoœci
+
+Obra¿enia: 1k8 +1k10 obra¿eñ od zimna
+TraK0: +5, +2 przeciw humanoidom
+Typ obra¿eñ: sieczne
+Rodzaj bieg³oœci: d³ugi miecz
+Typ broni: 1-rêczna
+
+Waga: 8~ 
+@212 = ~P³on¹cy miecz cienia +5~
+@213 = ~Ten miecz zosta³ stworzony przez adepta cienia i tylko oni mog¹ w³adaæ tym orê¿em bez doznawania obra¿eñ od magicznego zimna. Samo ostrze wygl¹da tak, jakby powsta³o z czarnego metalu i ciemnego kryszta³u. Kr¹¿y pog³oska, ¿e im potê¿niejszy jest adept cienia w momencie jego stworzenia, tym bardziej œmiercionoœne staje siê jego ostrze. Jeœli ktoœ inny prócz adepta cienia u¿yje ten broni, to dozna obra¿eñ od czarnego zimna.
+
+PARAMETRY:
+
+Specjalne:
+- Traktowana jako broñ o umagicznieniu +5
+- 40% szansa na spowolnienie przeciwnika
+- 10% szansa na wyssanie jednego punktu Zrêcznoœci
+
+Obra¿enia: 1k8 +1k12 obra¿eñ od zimna
+TraK0: +5, +3 przeciw humanoidom
+Typ obra¿eñ: sieczne
+Rodzaj bieg³oœci: d³ugi miecz
+Typ broni: 1-rêczna
+
+Waga: 8~ 
+@218 = ~Czarnoszramy~ 
+@219 = ~Oto Czarnoszramy, rêkawice o wielkiej mocy, które mog¹ wzmocniæ magiê Cienistego Splotu. Wydaj¹ siê byæ wyj¹tkowe i intryguj¹ce. S¹ trójkolorowe, czarno-niebiesko-szare i wygl¹daj¹ na bardzo solidne. Umieszczono w nich ciemnoniebieskie kamienie szlachetne.
+Niestety, tylko cienie i adepci cienia mog¹ ich u¿ywaæ.
+
+PARAMETRY:
+
+Specjalne:
+- Poziom zaklêæ: +1
+- Pozwala adeptowi cienia wkroczyæ do w³asnej sfery na wzór Sfery Kieszeniowej~
+@220 = ~Oto Czarnoszramy, rêkawice o wielkiej mocy, któr¹ mog¹ wzmocniæ magiê Cienistego Splotu. Wydaj¹ siê byæ wyj¹tkowe i intryguj¹ce. S¹ trójkolorowe, czarno-niebiesko-szare i wygl¹daj¹ na bardzo solidne. Umieszczono w nich ciemnoniebieskie kamienie szlachetne.
+Niestety, tylko cienie i adepci cienia mog¹ ich u¿ywaæ.
+
+PARAMETRY:
+
+Uwaga: U¿yj tych rêkawic, ¿eby opuœciæ sferê Czarnoszram.
+
+Specjalne:
+- Poziom zaklêæ: +1
+- Pozwala adeptowi cienia wkroczyæ do w³asnej sfery na wzór Sfery Kieszeniowej~ 
+@221 = ~Oto Czarnoszramy, rêkawice o wielkiej mocy, które mog¹ wzmocniæ magiê Cienistego Splotu. Wydaj¹ siê byæ wyj¹tkowe i intryguj¹ce. S¹ trójkolorowe, czarno-niebiesko-szare i wygl¹daj¹ na bardzo solidne. Umieszczono w nich ciemnoniebieskie kamienie szlachetne.
+Niestety, tylko cienie i adepci cienia mog¹ ich u¿ywaæ.
+
+PARAMETRY:
+
+Specjalne:
+- Poziom zaklêæ: +1
+- Te rêkawice pozwalaj¹ adeptowi cienia ukryæ siê w swojej w³asnej sferze, gdzie jego czary ulegaj¹ odnowieniu. Czas w osobistej sferze dzia³a na innych zasadach. 8-godzinny odpoczynek trwa 30 sekund w Pierwszej Sferze Materialnej.~
+@225 = ~Nieprzemijaj¹ca lodowa strza³a~
+@226 = ~Ta magiczna strza³a zrobiona jest z trwa³ego lodu. Nie tylko zadaje dodatkowe obra¿enia od zimna, ale równie¿ wraca do w³aœciciela. Dziêki tej strzale, nigdy nie opuœci ciê szczêœcie.
+
+PARAMETRY:
+
+Obra¿enia: 1k6 + 1k2 obra¿eñ od zimna
+Typ obra¿eñ: pocisk
+Wyrzutnia: ³uk
+
+Waga: 0~

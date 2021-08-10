@@ -1,0 +1,8 @@
+IF
+Global("L#FouPlot","GLOBAL",14)
+THEN
+RESPONSE #100
+CreateCreature("L#Guar",[1030.1030],3)
+SetGlobal("L#FouPlot","GLOBAL",15)
+END
+

@@ -1,0 +1,830 @@
+// shadow_magic.tph
+
+
+COPY ~Foundling/Spells/l#fsp01e.SPL~    ~override~
+COPY ~Foundling/effects/l#fsp1.eff~     ~override~
+
+COPY ~Foundling/Spells/l#fsp01.SPL~     ~override~
+  SAY NAME1 @8 /* Darkvision */
+  SAY NAME2 @8 /* Darkvision */
+  SAY UNIDENTIFIED_DESC @9 /* Darkvision (Shadow Weave Magic)
+Level: 1
+Range: Visual range of caster
+Duration: 10 turns
+Casting Time: 1 
+Area of Effect: 1 Creature
+Saving Throw: None 
+
+After this spell is cast, the mage gains the ability to see through non-magical darkness.  The spell has a 10% chance to detect the presence of those who are hidden by magic spells like Invisibility.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers -5% penalty to cold resistance for 10 seconds.  */
+  READ_LONG 0x64 "abil_off"
+  READ_SHORT 0x68 "abil_num"
+  SET "delta" = 0
+  FOR (index = 0; index < abil_num; index = index + 1) BEGIN
+    WRITE_SHORT (%abil_off% + (0x28 * %index%) + 0x26) ~%radius10%~
+  END
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp02.SPL~     ~override~
+  SAY NAME1 @10 /* Hue of Shadows */
+  SAY NAME2 @10 /* Hue of Shadows */
+  SAY UNIDENTIFIED_DESC @11 /* Hue of Shadows (Shadow Weave Magic)
+Level: 1
+Range: touch
+Duration: 20 turns
+Casting Time: 2
+Area of Effect: 1 Creature
+Saving Throw: None 
+
+The creature who is under the effect of this spell is given a +25% bonus to the "Hide in Shadows" ability, which makes thieves and rangers better scouts.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -5% penalty to cold resistance for 10 seconds. */
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp03.SPL~     ~override~
+  SAY NAME1 @12 /* Dark Missile */
+  SAY NAME2 @12 /* Dark Missile */
+  SAY UNIDENTIFIED_DESC @13 /* Dark Missile (Shadow Weave Magic)
+Level: 1
+Range: Visual range of caster 
+Duration: Instantaneous 
+Casting Time: 1
+Area of Effect: 1 Creature
+Saving Throw: None 
+
+This spell is a distant and dark cousin of the well-known Magic Missile spell. However, this spell does not create more than one missile; the power is concentrated into one powerful strike that has an increased chance of hitting the target. This missile inflicts 1d4+1 damage (additional 1d4 for each two levels) and +1 cold damage.  
+
+NOTE: This spell uses Shadow Weave Magic that makes caster more vulnerable to cold.  If this spell is cast, the mage suffers -5% penalty to cold resistance for 10 seconds. */
+  READ_LONG 0x64 "abil_off"
+  READ_SHORT 0x68 "abil_num"
+  SET "delta" = 0
+  FOR (index = 0; index < abil_num; index = index + 1) BEGIN
+    WRITE_SHORT (%abil_off% + (0x28 * %index%) + 0x26) ~%l#fsp03e%~
+  END
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp04.SPL~     ~override~
+  SAY NAME1 @14 /* Black Blindness */
+  SAY NAME2 @14 /* Black Blindness */
+  SAY UNIDENTIFIED_DESC @15 /* Black Blindness (Shadow Weave Magic)
+Level: 1
+Range: Visual range of caster 
+Duration: 10 turns
+Casting Time: 2
+Area of Effect: 1 creature 
+Saving Throw: Neg.
+
+This first level spell temporarily blinds its target.  A saving throw is allowed, and if successful there are no harmful effects.  If a victim is blinded he receives -4 to hit on his attack rolls, and has a 4 point armor penalty.
+The Shadow Weave version of the spell differs slightly--it provides a 5% chance that the target will run in panic.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold. If this spell is cast, the mage suffers a -5% penalty to cold resistance for 10 seconds. */
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp05.SPL~     ~override~
+  SAY NAME1 @16 /* Shadow Armor */
+  SAY NAME2 @16 /* Shadow Armor */
+  SAY UNIDENTIFIED_DESC @17 /* Shadow Armor (Shadow Weave Magic)
+Level: 1
+Range: 0
+Duration: 9 hours
+Casting Time: 1 round 
+Area of Effect: caster
+Saving Throw: None 
+
+By means of this spell, the wizard creates a magical field of force equivalent to scale mail armor (AC 6). It is cumulative with Dexterity and, in the case of fighter/mages, with the shield bonus. The armor spell does not hinder movement, adds no weight or encumbrance, and does not prevent spellcasting. It lasts until successfully dispelled or until the duration ends.
+The Shadow Weave version of this spell is said to be more successful against missiles and shadows. It provides extra +2 AC vs missiles and another +2 AC versus all types of shadows. 
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold. If this spell is cast, the mage suffers a -5% penalty to cold resistance for 10 seconds */
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp06.SPL~     ~override~
+  SAY NAME1 @18 /* Faded Horror */
+  SAY NAME2 @18 /* Faded Horror */
+  SAY UNIDENTIFIED_DESC @19 /* Faded Horror (Shadow Weave Magic)
+Level: 2
+Range: 25 yards
+Duration: 1 turn
+Casting Time: 1 
+Area of Effect: 30 foot cube
+Saving Throw: Neg. 
+
+All enemies within the area of effect when this spell is cast must save vs. spells (with -1 penalty) or flee in terror.  Certain creatures are immune to the effects of Fear, including all undead. This spell has a 2% chance to kill enemies just as an arcane Death Spell.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -5% penalty to cold resistance for 10 seconds. */
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp07.SPL~     ~override~
+  SAY NAME1 @20 /* Explosive Darkness */
+  SAY NAME2 @20 /* Explosive Darkness */
+  SAY UNIDENTIFIED_DESC @21 /* Explosive Darkness (Shadow Weave Magic)
+Level: 2
+Range: Visual range of caster 
+Duration: 1 turn
+Casting Time: 1 
+Area of Effect: 1 Creature
+Saving Throw: halves the damage
+
+This Shadow Spell does 2d8+2 piercing damage with +1d4 fire damage per five levels of the caster (maximum +3d4).  The explosion itself has the power to hurt only one selected creature. The victim is allowed to make a save vs. magic--if it's successful, the damage is halved.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -5% penalty to cold resistance for 10 seconds. */
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp08.SPL~     ~override~
+  SAY NAME1 @22 /* Shadow Invisibility */
+  SAY NAME2 @22 /* Shadow Invisibility */
+  SAY UNIDENTIFIED_DESC @23 /* Shadow Invisibility (Shadow Weave Magic)
+Level: 2
+Range: Touch 
+Duration: Special 
+Casting Time: 1 
+Area of Effect: Creature touched 
+Saving Throw: None
+
+This spell causes the creature touched to vanish from sight and be undetectable by both normal vision and infravision. Of course, the invisible creature is not magically silenced, and certain other conditions can render the creature detectable. Even allies cannot see the invisible creature or his/her gear, unless these allies can normally see invisible things or employ magic to do so.  Items dropped or put down by the invisible creature become visible, items picked up disappear if tucked into the clothing or pouches worn by the creature. The spell remains in effect until it is magically broken or dispelled, the recipient attacks any creature, or until 24 hours have passed. The caster cannot perform any actions that manipulate the environment around him such as opening doors, disarming a trap, or opening a chest without becoming visible.  He can, however, cast defensive spells on himself and fellow party members.  If he attacks, he immediately becomes visible, though the invisibility enables him to attack first.
+Shadow Magic version of the Invisibility spell provides additional +2 movement rate bonus.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -5% penalty to cold resistance for 10 seconds. */
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp09.SPL~     ~override~
+  SAY NAME1 @24 /* Dark Luck */
+  SAY NAME2 @24 /* Dark Luck */
+  SAY UNIDENTIFIED_DESC @25 /* Dark Luck (Shadow Weave Magic)
+Level: 2
+Range: 10 yards
+Duration: 3 rounds
+Casting Time: 2 
+Area of Effect: 1 creature
+Saving Throw: None 
+
+The recipient of this spell is lucky in everything that he does for the next 3 rounds. He receives a 5% bonus to any of his actions.  This includes saving throws, to-hit chances, thieving skills, etc.
+This dark version of the Luck spell provides a 45% chance to get +1 AC bonus and 2% magic resistance.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -5% penalty to cold resistance for 10 seconds. */
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp10.SPL~     ~override~
+  SAY NAME1 @26 /* Shadow Twin */
+  SAY NAME2 @26 /* Shadow Twin */
+  SAY UNIDENTIFIED_DESC @27 /* Shadow Twin (Shadow Weave Magic)
+Level: 2
+Range: 0 
+Duration: 3 rounds + 1 round/level 
+Casting Time: 1
+Area of Effect: Special
+Saving Throw: None 
+
+Upon casting this spell the wizard creates one image of himself that will travel along beside him.  The image will perform all of the actions that the wizard does so that if any enemies are trying to attack the wizard they will not know which one is real.  There is a 50% chance that an attacker will attack the image and a 50% chance that he will attack the caster.  The image will disappear with a successful casting of dispel magic, when attacked, or when the spell duration runs out.
+As well as the Reflected Image spell effect, Shadow Twin also provides +5% physical resistance (excluding bludgeoning, as it may "crack the mirror" nature of the spell) and +2 save vs. death.
+What is more, there is 30% chance that the spell will act as a Mirror Image spell instead.
+
+The Reflected Image (or Mirror Image) and the caster are both covered with dark gray hues.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -5% penalty to cold resistance for 10 seconds. */
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp11.SPL~     ~override~
+  SAY NAME1 @28 /* Shadow Bolt */
+  SAY NAME2 @28 /* Shadow Bolt */
+  SAY UNIDENTIFIED_DESC @29 /* Shadow Bolt (Shadow Weave Magic)
+Level: 3
+Range: Visual range of caster
+Duration: Instantaneous
+Casting Time: 2
+Area of Effect: 1 Creature
+Saving Throw: 1/2
+
+Upon casting this spell, the wizard releases a powerful bolt of dark energy that inflicts 1d6 points of electric damage per level of the spellcaster (maximum damage of 8d6) +1d12 piercing damage and +2 cold damage to the specific creature targeted. A successful saving throw vs. spell reduces this damage to half (round fractions down).
+There is a difference between the Shadow Bolt spell and the more well-known Lightning Bolt spell as the first one hits the target with the whole of its power, which means the bolt itself won't go through the enemy and won't bounce against any surfaces. However, there is a 15% chance that the victim and enemies close to him will be slowed for 10 seconds.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -8% penalty to cold resistance for 10 seconds.
+ */
+  READ_LONG 0x64 "abil_off"
+  READ_SHORT 0x68 "abil_num"
+  SET "delta" = 0
+  FOR (index = 0; index < abil_num; index = index + 1) BEGIN
+    WRITE_SHORT (%abil_off% + (0x28 * %index%) + 0x26) ~%l#fsp11e%~
+  END
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp12.SPL~     ~override~
+  SAY NAME1 @30 /* Black Meteors */
+  SAY NAME2 @30 /* Black Meteors */
+  SAY UNIDENTIFIED_DESC @31 /* Black Meteors (Shadow Weave)
+Level: 3
+Range: 70 yds
+Duration: Special
+Casting Time: 3
+Area of Effect: 1 target/meteor
+Saving Throw: None
+
+This spell enables the wizard to cast small globes of dark fire (one for each experience level she has attained), each of which bursts into a 1-foot-diameter sphere upon impact and inflicts 1d4 points of magic damage to the creature struck. It can also ignite combustible materials (even solid planks). The meteors are treated as missiles hurled by the wizard with a +5 bonus to the attack rolls and with no penalty for range. Each meteor inflicts +3 damage as well as an additional +1 fire damage (less than Minute Meteors, as the fire seems colder), and has a +6 enchantment. There is 10% chance that the meteors will scare the target. The wizard may discharge up to five missiles per round.
+
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers -8% penalty to cold resistance for 10 seconds. */
+
+COPY ~Foundling/Items/l#met.itm~     ~override~
+  SAY NAME1 @30 /* Black Meteors */
+  SAY NAME2 @30 /* Black Meteors */
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp13.SPL~     ~override~
+  SAY NAME1 @32 /* Blackout */
+  SAY NAME2 @32 /* Blackout */
+  SAY UNIDENTIFIED_DESC @33 /* Blackout (Shadow Weave)
+Level: 3
+Range: 0
+Duration: Special
+Casting Time: 1 round
+Area of Effect: 10' radius
+Saving Throw: None
+
+This spell is similar to the Mystra's Weave spell "Invisibility 10' Radius". When cast, this spell causes all creatures within a 10 foot radius of the caster to vanish from sight and be rendered undetectable by normal vision or even infravision.  The spell remains in effect until it is magically broken or dispelled, until the recipients perform any action that cancels it, or until 24 hours have passed.  The newly-invisible creatures cannot talk or attack without immediately becoming visible, although the invisibility does enable them to attack first.
+However, Shadow Weave version provides also +3 movement speed rate too all creatures in the effect area.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -8% penalty to cold resistance for 10 seconds. */
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp14e.SPL~    ~override~
+
+COPY ~Foundling/Spells/l#fsp14.SPL~     ~override~
+  SAY NAME1 @34 /* Dim Haste */
+  SAY NAME2 @34 /* Dim Haste */
+  SAY UNIDENTIFIED_DESC @35 /* Dim Haste (Shadow Weave)
+Level: 3
+Range: Visual range of caster
+Duration: 3 rounds + 1 round/level
+Casting Time: 3
+Area of Effect: 40' cube, 1 creature/level
+Saving Throw: None
+
+When this spell is cast, all creatures affected function at double their normal movement rate, gain a -2 initiative bonus, and receive an extra attack each round. Thus, a creature moving at 6 and attacking once per round would move at 12 and attack twice per round. At the instant the spell is completed, it affects all ally creatures in a 40-foot cube centered on a point selected by the caster (thus, creatures leaving the area are still subject to the spell's effect; those entering the area after the casting is completed are not). Note that affected creatures expend as much energy during this spell as they would normally in a whole day, significantly raising their fatigue level. This spell is not cumulative with itself or with other similar magic. Spellcasting and spell effects are not affected. Note that this spell negates the effects of a slow spell.
+There is also a 5% chance that the enemies who are in the area will become confused.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -8% penalty to cold resistance for 10 seconds. */
+  READ_LONG 0x64 "abil_off"
+  READ_SHORT 0x68 "abil_num"
+  SET "delta" = 0
+  FOR (index = 0; index < abil_num; index = index + 1) BEGIN
+    WRITE_SHORT (%abil_off% + (0x28 * %index%) + 0x26) ~%rad40p%~
+  END
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp15.SPL~     ~override~
+  SAY NAME1 @36 /* Dark Blade */
+  SAY NAME2 @36 /* Dark Blade */
+  SAY UNIDENTIFIED_DESC @37 /* Dark Blade (Shadow Weave)
+Level: 3
+Range: 0
+Duration: 4 rounds + 1 round/2 levels
+Casting Time: 3
+Area of Effect: Special
+Saving Throw: None
+
+This is a dark version, allowed by Shar, of the divine Flame Blade spell. With this spell, the caster causes a blazing ray of black fire to spring forth from his hand. This blade-like darkness is wielded as if it were a sword that the caster already knows how to use, hence there are no bonuses or penalties. If the caster successfully hits with the blade in melee combat, the creature struck suffers 1d4 points of slashing damage, plus an additional 1d2 + 4 points of magic damage +2% chance to cause additional 3 cold damage. However, it is not a magical weapon in the normal sense of the term, so creatures struck only by magical weapons are not harmed by it.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -8% penalty to cold resistance for 10 seconds. */
+  
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp16.SPL~     ~override~
+  SAY NAME1 @38 /* Shadow Ritual */
+  SAY NAME2 @38 /* Shadow Ritual */
+  SAY UNIDENTIFIED_DESC @39 /* Shadow Ritual (Shadow Weave)
+Level: 4
+Range: Visual range of caster
+Duration: instant
+Casting Time: 3
+Area of Effect: 10' radius
+Saving Throw: half damage
+
+This spell is a combination of Shadow Weave Magic and Shadow Magic, which makes it more powerful than other spells of 4th level. It allows the caster to trigger a shadow ritual that may become deadly for some enemies. It causes 3d10+5 magic damage (+1d10 every 3 levels up to 6d10+5). The victim may halve the damage with a successful saving throw vs. magic (-3 penalty). There is also a 20% chance that enemies with less than 60 will instantly die.
+Apart from damage, the spell has also 10% chance to summon a Shadow that can be controlled by the caster.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -10% penalty to cold resistance for 10 seconds. */
+  READ_LONG 0x64 "abil_off"
+  READ_SHORT 0x68 "abil_num"
+  SET "delta" = 0
+  FOR (index = 0; index < abil_num; index = index + 1) BEGIN
+    WRITE_SHORT (%abil_off% + (0x28 * %index%) + 0x26) ~%l#fsp16e%~
+  END
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp17.SPL~     ~override~
+  SAY NAME1 @40 /* Fireshield (Black) */
+  SAY NAME2 @40 /* Fireshield (Black) */
+  SAY UNIDENTIFIED_DESC @41 /* Fireshield (Black) (Shadow Weave)
+Level: 4
+Range: 0
+Duration: 3 rounds + 1 round/level
+Casting Time: 4
+Area of Effect: The Caster
+Saving Throw: None
+
+The Black Fireshield partially protects the user from magic damage by surrounding the caster with a shield of dark flame.  This shield not only grants the user 15% magic resistance, but also protects the caster from attacks made within a 5' radius around him.  An opponent that hits the caster with any weapons or spells within this radius is harmed by shadowy and solid energy formed from darkness, which deals 1d8 piercing damage and +2 magic damage.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -10% penalty to cold resistance for 10 seconds. */
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp18.SPL~     ~override~
+  SAY NAME1 @42 /* Dark Eye */
+  SAY NAME2 @42 /* Dark Eye */
+  SAY UNIDENTIFIED_DESC @43 /* Dark Eye (Shadow Weave)
+Level: 4
+Range: 0
+Duration: 1 round/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+When this spell is employed, the wizard creates an invisible sensory organ that sends him visual information. The wizard eye can see with normal vision up to 60 feet away in brightly lit areas. The wizard eye can travel in any direction as long as the spell lasts. It has substance and a form that can be detected (by a detect invisibility spell, for instance). Solid barriers prevent the passage of a wizard eye.  The powers of the eye cannot be enhanced by other spells or items. The caster is subject to any gaze attack met by the eye. A successful dispel cast on the wizard or eye ends the spell.
+
+NOTE: This spell uses Shadow Weave Magic that makes caster more vulnerable to cold.  If this spell is cast, the mage suffers a -10% penalty to cold resistance for 10 seconds. */
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp19.SPL~     ~override~
+  SAY NAME1 @44 /* Shadowskin */
+  SAY NAME2 @44 /* Shadowskin */
+  SAY UNIDENTIFIED_DESC @45 /* Shadowskin (Shadow Weave)
+Level: 4
+Range: 0
+Duration: 12 hours
+Casting Time: 1
+Area of Effect: Caster
+Saving Throw: None
+
+When a wizard casts this powerful spell upon himself, an outer skin of shadow will move up from the ground, completely covering him.  This skin is of course magical and will hinder the wizard in no way.  The effect of this is to protect the wizard from physical attacks such as melee weapons and projectiles.  For every 2 levels of the caster an additional skin is gained upon casting; for example a 10th level wizard would receive 5 skins while a 20th level wizard would receive 10.  For each skin the wizard possesses, the spell will stop one attack, so a 10th level wizard would be protected from the first 5 attacks made against him, but the sixth would affect him normally.  The skins will remain on the wizard until he is affected by dispel magic, all of the skins are removed due to physical attacks, or the spell duration expires.  It is important to note that this will not protect the wizard from any magical attacks such as Fireball; however, it will protect him from physical magical attacks such as Magic Missile.
+While Stoneskin provides gray skin, Shadowskin provides pitch black skin.
+
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -10% penalty to cold resistance for 10 seconds. */
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp20.SPL~     ~override~
+  SAY NAME1 @46 /* Shadow Walk */
+  SAY NAME2 @46 /* Shadow Walk */
+  SAY UNIDENTIFIED_DESC @47 /* Shadow Walk (Shadow Weave)
+Level: 4
+Range: 0
+Duration: Instant
+Casting Time: 0
+Area of Effect: The caster
+Saving Throw: None
+
+This spell transports the caster to any place within his or her visual range.  When the spell is cast, a dimensional portal opens up in front of the caster, which is immediately stepped into.  Upon passing through the portal, the caster finds himself at his chosen destination.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -10% penalty to cold resistance for 10 seconds. */
+  
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp21.SPL~     ~override~
+  SAY NAME1 @48 /* Breaching Shadow */
+  SAY NAME2 @48 /* Breaching Shadow */
+  SAY UNIDENTIFIED_DESC @49 /* Breaching Shadow (Shadow Weave)
+Level: 5
+Range: Visual sight of caster
+Duration: Instant
+Casting Time: 5
+Area of Effect: Target Creature
+Saving Throw: None
+
+When this spell is cast at a creature, it breaches and dispels all of the specific and combat protections on the target creature.
+
+Here is a complete list of all the specific protection spells that are dispelled by Breaching Shadow:  Chaotic Commands, Resist Fear, Protection From Fire/Cold, Resist Fire/Cold, Death Ward, Fireshield, Free Action, Protection From Acid, Protection From Electricity, Protection From Evil, Protection From Evil 10' Radius, Protection From Lightning, Protection From Magic Energy, Protection From The Elements, and Protection From Energy.
+
+The combat protection spells dispelled by this spell are: Blade Barrier, Physical Mirror, Shield, Protection From Normal Missiles, Protection From Normal Weapons, Protection From Magic Weapons, Barkskin, Stoneskin, Defensive Harmony, Armor, Armor Of Faith, Ghost Armor, Spirit Armor, Absolute Immunity, Mantle, and Improved Mantle.  The target's magic resistance, if any, does not affect this spell. It will not dispel Iron Skins.
+
+The shadow version of the spell makes the target less resistant to cold - it causes -25% cold resistance.
+
+NOTE: This spell uses Shadow Weave Magic that makes the the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -12% penalty to cold resistance for 10 seconds. */
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp22.SPL~     ~override~
+  SAY NAME1 @50 /* Unbreachable Blackness */
+  SAY NAME2 @50 /* Unbreachable Blackness */
+  SAY UNIDENTIFIED_DESC @51 /* Unbreachable Blackness (Shadow Weave)
+Level: 5
+Range: Self
+Duration: 1 round/level
+Casting Time: 2
+Area of Effect: Self
+Saving Throw: None
+
+When the spell is cast it confers complete invulnerability to all non-magical weapons.  This does not include weapons that are blessed or enchanted. This spell may not be cast on someone who is protected from magical weapons. This spell also provides a +2 AC bonus for its duration.  This effect lasts for the duration of the spell or until dispelled.
+
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -12% penalty to cold resistance for 10 seconds. */
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp23b.SPL~    ~override~
+COPY ~Foundling/Spells/l#fsp23c.SPL~    ~override~
+
+COPY ~Foundling/Spells/l#fsp23.SPL~     ~override~
+  SAY NAME1 @52 /* Dark Fatum */
+  SAY NAME2 @52 /* Dark Fatum */
+  SAY UNIDENTIFIED_DESC @53 /* Dark Fatum (Shadow Weave)
+Level: 5
+Range: Self
+Duration: 1 round/level
+Casting Time: 1
+Area of Effect: Self
+Saving Throw: None
+
+This spell's source is the energy of dark luck. It provides protection from poison and backstabs, which makes the incantation useful in fights with assassins. One of these three effects will also be applied: 20% magic resistance, protection from level drain, or a 30 HP bonus.
+There is a 20% chance that two of three effects will be applied.
+
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -12% penalty to cold resistance for 10 seconds. */
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp23a.SPL~     ~override~
+  SAY NAME1 @54 /* +20% Magic Resistance */
+  SAY UNIDENTIFIED_DESC ~~
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp23b.SPL~     ~override~
+  SAY NAME1 @55 /* +30 HP */
+  SAY UNIDENTIFIED_DESC ~~
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp23c.SPL~     ~override~
+  SAY NAME1 @56 /* Protection from Level Drain */
+  SAY UNIDENTIFIED_DESC ~~
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp24.SPL~     ~override~
+  SAY NAME1 @57 /* Black Rain */
+  SAY NAME2 @57 /* Black Rain */
+  SAY UNIDENTIFIED_DESC @58 /* Black Rain (Shadow Weave)
+Level: 5
+Range: Self
+Duration: 1 round/level
+Casting Time: 1
+Area of Effect: 15' radius
+Saving Throw: halves damage
+
+When cast, this spell summons a rain of black shards that pierce the creatures in range of the spell causing 5d8+6 piercing damage. When embedded in enemies, the dark shards melt and deal 1d4 acid damage per every 3 levels of the caster (up to 5d4). Those affected by the spell will also suffer from a -1 movement rate penalty.
+When cast, this spell summons a rain of black shards that pierce the creatures in range of the spell causing 5d8+6 piercing damage. When embedded in enemies, the dark shards melt and deal 1d4 acid damage per every 3 levels of the caster (up to 5d4). Those affected by the spell will also suffer from a -1 movement rate penalty.
+Movement rate penalty may be avoided with a successful saving throw.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -12% penalty to cold resistance for 10 seconds. */
+  READ_LONG 0x64 "abil_off"
+  READ_SHORT 0x68 "abil_num"
+  SET "delta" = 0
+  FOR (index = 0; index < abil_num; index = index + 1) BEGIN
+    WRITE_SHORT (%abil_off% + (0x28 * %index%) + 0x26) ~%l#fsp24e%~
+  END
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp25.SPL~     ~override~
+  SAY NAME1 @59 /* Pitch Black Death */
+  SAY NAME2 @59 /* Pitch Black Death */
+  SAY UNIDENTIFIED_DESC @60 /* Pitch Black Death (Shadow Weave)
+Level: 6
+Range: Visual sight of caster
+Duration: Instant
+Casting Time: 6
+Area of Effect: 30' radius
+Saving Throw: None
+
+When Pitch Black Death is cast, it grinds the life forces of creatures in the area of effect instantly and irrevocably. Such creatures cannot be raised or resurrected, but an individual slain in this manner might be brought back via a wish.  Creatures with more than 8 hit dice are immune to this spell, with the exception of summoned creatures, which are slain automatically.  All enemies who were in the area of the spell and didn't die, suffer 2d10 crushing damage.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -14% penalty to cold resistance for 10 seconds. */
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp26.SPL~     ~override~
+  SAY NAME1 @61 /* Unsmashable Blackness */
+  SAY NAME2 @61 /* Unsmashable Blackness */
+  SAY UNIDENTIFIED_DESC @62 /* Unsmashable Blackness (Shadow Weave)
+Level: 6
+Range: Self
+Duration: 4 rounds
+Casting Time: 1
+Area of Effect: Self
+Saving Throw: None
+
+This particular spell works like its well-known cousin Protection from Magic Weapons. When the spell is cast it confers complete invulnerability to all magical weapons.  This includes weapons that are blessed or enchanted. The attacks of powerful monsters are also considered magical weapons.  This spell cannot be cast on anyone who is Protected from Normal Weapons, or by Mantle, Improved Mantle, or Absolute Immunity.  Due to the nature of this spell with its short speed factor and duration, it is mainly used to buy the wizard a few rounds in the thick of combat.  This effect lasts for the duration of the spell or until dispelled.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -14% penalty to cold resistance for 10 seconds. */
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp27.SPL~     ~override~
+  SAY NAME1 @63 /* Feast on Shadows */
+  SAY NAME2 @63 /* Feast on Shadows */
+  SAY UNIDENTIFIED_DESC @64 /* Feast on Shadows (Shadow Weave)
+Level: 6
+Range: 0
+Duration: instant / 5 rounds
+Casting Time: 2
+Area of Effect: visual range of sight / Self
+Saving Throw: None
+
+This very little-known spell is mostly used by those who serve Shar. It allows the caster to feast on all shadows cast by normal objects. If there are any shadow creatures in visual range of the character's sight, they will die without any saving throw. When the hunger is satiated, the caster will regenerate for 5 rounds - 1 HP per second.
+There is also a 20% (+5% every 6 levels to a maximum of 40%) chance that the character will be fully healed.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -14% penalty to cold resistance for 10 seconds. */
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp28.SPL~     ~override~
+  SAY NAME1 @65 /* Mislead with Shadows */
+  SAY NAME2 @65 /* Mislead with Shadows */
+  SAY UNIDENTIFIED_DESC @66 /* Mislead with Shadows (Shadow Weave)
+Level: 6
+Range: 0
+Duration: 1 round/level
+Casting Time: 1
+Area of Effect: Special
+Saving Throw: None
+
+When this spell is cast, the wizard is affected with an Improved Invisibility spell and teleported a few feet away from his original position.  Meanwhile, an exact image of the caster is created where he used to be with exactly the same hit points as the caster.  The image cannot perform any actions at all such as attacking or casting spells.  It can, however, move around and act as a decoy for the invisible mage.  The image will remain under the control of the caster until it is reduced to 0 hit points, or until it is affected by Dispel Magic or a spell that destroys illusions such as True Sight.
+Even though the spell seems to work similarly to the usual Mislead spell, there is an additional effect. The created decoy looks more demonic and dangerous - there is a 20% chance it may cause fear in nearby creatures.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -14% penalty to cold resistance for 10 seconds. */
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp29.SPL~     ~override~
+  SAY NAME1 @67 /* Sphere of Black Chaos */
+  SAY NAME2 @67 /* Sphere of Black Chaos */
+  SAY UNIDENTIFIED_DESC @68 /* Sphere of Black Chaos (Shadow Weave)
+Level: 7
+Range: Visual sight of caster
+Duration: 1 turn
+Casting Time: 3
+Area of Effect: 30' radius
+Saving Throw: Special
+
+All enemies within the area of effect must make a save vs. spells every round that they remain in the sphere, and if the save is failed one of the following random effects occurs:  polymorphed into a squirrel, confused, burst into flames, paralyzed, disintegrated, healed 20 hit points, randomly teleported, rendered unconscious, or hasted.
+The Shadow Weave version of "Sphere of Chaos" is much faster to cast than its more well-known counterpart and provides 10% magic resistance. The protection lasts for the duration of the sphere.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -15% penalty to cold resistance for 10 seconds. */
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp30.SPL~     ~override~
+  SAY NAME1 @69 /* Dark Cocoon */
+  SAY NAME2 @69 /* Dark Cocoon */
+  SAY UNIDENTIFIED_DESC @70 /* Dark Cocoon (Shadow Weave)
+Level: 7
+Range: Self
+Duration: 1 turn
+Casting Time: 2
+Area of Effect: Self
+Saving Throw: None
+
+This spell creates a protective sphere around the caster. Nothing that's outside the cocoon can affect the protected individual, but neither can the protected individual affect others outside the sphere. This is similar to the spell Oiluke's Resiliant Sphere.
+However, the creature inside the cocoon is given regeneration (3 HP per second).
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -15% penalty to cold resistance for 10 seconds. */
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp31.SPL~     ~override~
+  SAY NAME1 @71 /* Unavoidable Fangs */
+  SAY NAME2 @71 /* Unavoidable Fangs */
+  SAY UNIDENTIFIED_DESC @72 /* Unavoidable Fangs (Shadow Weave)
+Level: 7
+Range: Visual range of the caster
+Duration: Instant
+Casting Time: 2
+Area of Effect: 1 Creature
+Saving Throw: halves the damage
+
+This spell create magical fangs and spikes, most of them located on crushing tentacles. They try to grasp the enemy and apply different effects:
+First of all, spikes and fangs do 2d10+5 piercing damage.
+Tentacles grasp and try to crush enemies, applying 2d10+5 crushing damage.
+Sharper and longer fangs may cause 2d10+5 slashing damage.
+There is a 25% chance that the target will have bleeding damage, causing 2 points of damage each second (lasts 12 seconds).
+There is a 10% chance that the target will be stunned.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -15% penalty to cold resistance for 10 seconds. */
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp32.SPL~     ~override~
+  SAY NAME1 @73 /* Shadowblood */
+  SAY NAME2 @73 /* Shadowblood */
+  SAY UNIDENTIFIED_DESC @74 /* Shadowblood (Shadow Weave)
+Level: 8
+Range: Self
+Duration: Instant
+Casting Time: 2
+Area of Effect: Party Members
+Saving Throw: None
+
+This spell lets the caster sacrifice 2 points of constitution for 6 rounds, in exchange for healing all the party members.
+There is a 30% chance that the spell will bring back drained levels.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -15% penalty to cold resistance for 10 seconds. As this spell is a more powerful one, there is a 10% chance that more chill will appear, dealing 1d6 cold damage. */
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp33.SPL~     ~override~
+  SAY NAME1 @75 /* Infernal Shadows */
+  SAY NAME2 @75 /* Infernal Shadows */
+  SAY UNIDENTIFIED_DESC @76 /* Infernal Shadows (Shadow Weave)
+Level: 8
+Range: Self
+Duration: Instant
+Casting Time: 2
+Area of Effect: Party Members
+Saving Throw: None
+
+This spell creates black fire around the enemy and not only causes 6d10 magic damage, but +10 fire damage as well.  Further more, it includes the same dispel effect as Breach.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -15% penalty to cold resistance for 10 seconds. As this spell is a more powerful one, there is a 10% chance that more chill will appear, dealing 1d6 cold damage. */
+
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp34.SPL~     ~override~
+  SAY NAME1 @77 /* Black Blade of Disaster */
+  SAY NAME2 @77 /* Black Blade of Disaster */
+  SAY UNIDENTIFIED_DESC @78 /* Black Blade of Disaster (Shadow Weave)
+Level: 8
+Range: 0
+Duration: 18 rounds
+Casting Time: 4
+Area of Effect: Special
+Saving Throw: None
+
+This spell enables the caster to create a black, blade-shaped planar rift, about three feet long.  It jumps into the caster's hand and is used as a normal sword, remaining there for the duration of the spell.  The caster is considered to be proficient to grandmastery skill with this weapon.  The sword acts as a +6 weapon and deals 2-24 damage to its victims.  Also, every time this hits a target, the victim must make a save vs. death at +4 or be disintegrated. There is also a 10% chance with every hit that the sword drains 4 levels from the target and heals the wielder 20 hit points.
+This spell is available sooner for Shadow Weave users (8 level spell instead of 9 level).
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -15% penalty to cold resistance for 10 seconds. As this spell is a more powerful one, there is a 10% chance that more chill will appear, dealing 1d6 cold damage. */
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp35.SPL~     ~override~
+  SAY NAME1 @79 /* Timeless Shadow */
+  SAY NAME2 @79 /* Timeless Shadow */
+  SAY UNIDENTIFIED_DESC @80 /* Timeless Shadow (Shadow Weave)
+Level: 9
+Range: 0
+Duration: 2 rounds
+Casting Time: 3
+Area of Effect: Self
+Saving Throw: None
+
+This spell makes the caster resistant to time manipulation--the target can't be slowed down and is immune to Time Stop. There is a 15% chance that the caster will be granted 50% magic resistance.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -16% penalty to cold resistance for 10 seconds. As this spell is a more powerful one, there is a 10% chance that more chill will appear, dealing 1d6 cold damage. */
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/Spells/l#fsp36a.SPL~    ~override~
+COPY ~Foundling/Spells/l#fsp36b.SPL~    ~override~
+
+COPY ~Foundling/Spells/l#fsp36.SPL~     ~override~
+  SAY NAME1 @81 /* Field of Perfect Shadow */
+  SAY NAME2 @81 /* Field of Perfect Shadow */
+  SAY UNIDENTIFIED_DESC @82 /* Field of Perfect Shadow (Shadow Weave)
+Level: 9
+Range: Self
+Duration: instant / 2 rounds
+Casting Time: 2
+Area of Effect: 10' radius
+Saving Throw: halves the damage
+
+The Field of Perfect Shadow partially protects the user from magic damage by surrounding the caster with a shield of dark particles.  This shield not only grants the user 15% magic resistance, but also protects the caster from attacks made within a 10' radius around the caster.  An opponent that hits the caster with any weapons or spells within this radius is pierced with shadowy and solid energy formed from darkness dealing 6d10 piercing damage and +1 magic damage with 10% chance to cause enemy to berserk for 10 seconds.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -16% penalty to cold resistance for 10 seconds. As this spell is a more powerful one, there is 10% chance that more chill will appear, dealing 1d6 cold damage. */
+  READ_LONG 0x64 "abil_off"
+  READ_SHORT 0x68 "abil_num"
+  SET "delta" = 0
+  FOR (index = 0; index < abil_num; index = index + 1) BEGIN
+    WRITE_SHORT (%abil_off% + (0x28 * %index%) + 0x26) ~%radius10%~
+  END
+
+
+/////////////////////////////////////////////////////
+
+
+COPY ~Foundling/effects/l#SSH.eff~      ~override~
+
+COPY ~Foundling/Spells/l#fsp37.SPL~     ~override~
+  SAY NAME1 @83 /* Summon Shadow Hatchling */
+  SAY NAME2 @83 /* Summon Shadow Hatchling */
+  SAY UNIDENTIFIED_DESC @84 /* Summon Shadow Hatchling (Shadow Weave) 
+Level: 9
+Range: Self 
+Duration: 7 rounds
+Casting Time: 2
+Area of Effect: special
+Saving Throw: none
+
+This spell lets the mage summon a special creature from the Plane of Shadows. It passes through the portal to support the caster. The creature is immune to backstabs, fear, stun, sleep, berserk, level drain, poison, disease, blindness and silence. It is also partially resistant to all elemental damage and magic.
+The Hatchling fights with two +5 magic daggers and is difficult to hit. However, the creature itself is fragile, so when hit, it may be easily killed. 
+Each Hatchling's successful hit has a 5% chance to kill the victim.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -16% penalty to cold resistance for 10 seconds. As this spell is a more powerful one, there is a 10% chance that more chill will appear, dealing 1d6 cold damage. */
+
+
+/////////////////////////////////////////////////////
+/////////////////////////////////////////////////////
+/////////////////////////////////////////////////////

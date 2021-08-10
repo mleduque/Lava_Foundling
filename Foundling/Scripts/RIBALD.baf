@@ -1,0 +1,18 @@
+
+IF
+See(Player1)
+See("L#FOU")
+See("L#Glor")
+Global("L#FouPlot","GLOBAL",6)
+GlobalTimerExpired("L#FoundGloriaTime","GLOBAL")
+THEN
+RESPONSE #100
+SetGlobal("L#FouPlot","GLOBAL",7)
+END
+
+IF
+Global("L#FouPlot","GLOBAL",7)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END

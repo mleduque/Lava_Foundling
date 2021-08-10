@@ -1,0 +1,21 @@
+IF
+  InParty("L#FOU")
+  Global("L#FouPlot","GLOBAL",3)
+  Global("L#SHACreate","AR1401",0)
+THEN
+  RESPONSE #100
+    CreateCreature("L#SHA1",[1555.1800],3)
+    SetGlobal("L#SHACreate","AR1401",1)
+    Continue()
+END
+
+IF
+  !Dead("SHADRA01")
+  Global("L#FouCreate","AR1401",0)
+THEN
+  RESPONSE #100
+    CreateCreature("L#Fou",[2990.1575],3)
+    SetGlobal("L#FouCreate","AR1401",1)
+    Continue()
+END
+

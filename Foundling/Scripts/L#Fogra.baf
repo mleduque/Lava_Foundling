@@ -1,0 +1,9 @@
+IF
+Global("L#tadam","LOCALS",0)
+See([PC])
+THEN
+RESPONSE #100
+ApplySpellRES("l#fsp08",Myself)
+SetGlobal("L#tadam","LOCALS",1)
+Continue()
+END

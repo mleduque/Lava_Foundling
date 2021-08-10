@@ -1,0 +1,1055 @@
+@0       = ~Znajda~ 
+@1       = ~ADEPT CIENI~
+@2       = ~Adept Cieni~ 
+@3       = ~ADEPT CIENI: Ci magowie tajemnej sztuki s¹ zwi¹zani ze Sfer¹ Cienia. Cienie s¹ dla nich zarówno b³ogos³awieñstwie, jak i przekleñstwem. Potrafi¹ korzystaæ z odmiennego Ÿród³a magii, Cienistego Splotu, na mocy kontraktu zawartego z Shar. Wiêkszoœæ z nich dokonuje nadzwyczajnego poœwiêcenia, które umo¿liwia im siêgniêcie do Cienistego Splotu, ale niektórzy z nich s¹ zmuszeni do s³u¿enia bogini wbrew swojej woli. Kr¹¿¹ pog³oski, ¿e istniej¹ potê¿ni magowie, którzy s¹ zdolni korzystaæ z tej¿e bez powierzania ¿ycia Shar.
+
+Zalety:
+- Premia +2 do TraK0. Na poziomie 14 i 21 uzyskuje dodatkowe +2 do TraK0 i 1/2 ataku na rundê
+- +10% odpornoœci na zimno. Odpornoœæ ta zwiêksza siê o 10% na ka¿de 10 poziomów
+- Na 5 poziomie uzyskuje sta³¹ Infrawizjê, wynikaj¹c¹ z kontaktu z energi¹ cienia
+- Posiada dostêp do zupe³nie nowych zaklêæ magii cienia. Wiêkszoœæ z nich jest zbli¿ona do odpowiadaj¹cym im czarów ze Splotu, ale poniewa¿ pochodz¹ z innego Ÿród³a, mog¹ mieæ odmienny charakter od zaklêæ ze Splotu Mystry.
+- Raz w swoim ¿yciu Adept Cienia mo¿e stworzyæ czarne ostrze, którym w³adaæ mo¿e jedynie jego stwórca. Moc ostrza zale¿na jest od poziomu maga w momencie jego stworzenia.
+
+Wady:
+- Nie mo¿e mieæ dobrego charakteru
+- Kara -20% odpornoœci na ogieñ i -5% odpornoœci na magiczny ogieñ
+- Nie mo¿e uczyæ siê nowych zaklêæ lub korzystaæ z magii pochodz¹cej ze Splotu Mystry w³¹czaj¹c w to zwoje z zaklêciami.
+- W œwietle dnia traci dwa poziomy zaklêæ maga. Na poziomie 14 kara ta zostaje zniesiona.
+
+
+MAGIA CIENISTEGO SPLOTU: z tego nowego rodzaju magii mog¹ korzystaæ jedynie Adepci Cienia, którzy w wiêkszoœci przypadków staj¹ siê s³ugami Shar. Ch³ód towarzyszy Magii Cienistego Splotu i z ka¿dym kolejnym rzuconym zaklêciem coraz trudniej magowi stawiæ mu czo³a. Wiêkszoœæ czarów z Cienistego Splotu jest potê¿niejsza i dzia³a nieco szybciej, jednak Adepci Cienia znaj¹ niewiele zaklêæ na poziom w porównaniu z ich rówieœnikami, korzystaj¹cymi ze Splotu Mystry.~
+@4       = ~Kara do odpornoœci na ogieñ~ 
+@5       = ~Premia do odpornoœci na zimno~
+@6       = ~Zyskujesz Infrawizjê~
+@8       = ~Widzenie w ciemnoœciach~ 
+@9       = ~Widzenie w ciemnoœciach (Magia Cienistego Splotu)
+Poziom: 1
+Zasiêg: pole widzenia
+Czas dzia³ania: 10 tur
+Czas rzucania: 1 
+Obszar dzia³ania: 1 istota
+Rzut obronny: brak
+
+Po rzuceniu tego zaklêcia, mag zyskuje zdolnoœæ widzenia w ciemnoœciach nie wynikaj¹cych z dzia³ania magii. Zaklêcie ma 10% szansê na wykrycie obecnoœci tych, których skrywaj¹ magiczne zaklêcia typu Niewidzialnoœæ.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 5% przez kolejne 10 sekund.~
+@10      = ~Odcieñ~ 
+@11      = ~Odcieñ (Magia Cienistego Splotu)
+Poziom: 1
+Zasiêg: dotyk
+Czas dzia³ania: 20 tur
+Czas rzucania: 2
+Obszar dzia³ania: 1 istota
+Rzut obronny: brak
+
+Istota, która znajdzie siê pod wp³ywem tego zaklêcia otrzymuje premiê +25% do umiejêtnoœci "Krycia siê w cieniu", która sprawia, ¿e z³odzieje i ³owcy staj¹ siê jeszcze lepszymi zwiadowcami.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 5% przez kolejne 10 sekund.~
+@12      = ~Cienisty pocisk~
+@13      = ~Cienisty pocisk (Magia Cienistego Splotu)
+Poziom: 1
+Zasiêg: pole widzenia
+Czas dzia³ania: natychmiastowy 
+Czas rzucania: 1
+Obszar dzia³ania: 1 istota
+Rzut obronny: brak
+
+To zaklêcie jest dalekim i mrocznym kuzynem bardzo znanego czaru zwanego Magicznym pociskiem. Jednak to zaklêcie tworzy tylko jeden pocisk. Moc koncentruje siê na jednym potê¿nym uderzeniu, który ma wiêksz¹ szansê trafienia w cel. Pocisk zadaje 1k4+1 obra¿eñ (dodatkowe 1k4 na ka¿de dwa poziomy doœwiadczenia) i 1 punkt obra¿eñ od zimna.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 5% przez kolejne 10 sekund.~ 
+@14      = ~Œlepota zmierzchowa~
+@15      = ~Œlepota zmierzchowa (Magia Cienistego Splotu)
+Poziom: 1
+Zasiêg: pole widzenia
+Czas dzia³ania: 10 tur
+Czas rzucania: 2 
+Obszar dzia³ania: 1 istota
+Rzut obronny: neguje
+
+To zaklêcie pierwszego poziomu tymczasowo oœlepia ofiarê. Istota mo¿e wykonaæ rzut obronny, by uchroniæ siê przed jego efektami. Bêd¹c pod wp³ywem czaru, wykonuje ona wszystkie ataki z modyfikatorem -4, a klasa jej pancerza zmniejsza siê o 4.
+Zaklêcie z Cienistego Splotu ma pewn¹ ró¿nicê. Zapewnia 5% szansê na to, ¿e cel wpadnie w panikê. 
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 5% przez kolejne 10 sekund.~ 
+@16      = ~Zbroja cienia~
+@17      = ~Zbroja cienia (Magia Cienistego Splotu)
+Poziom: 1
+Zasiêg: rzucaj¹cy czar
+Czas dzia³ania: 9 godzin
+Czas rzucania: 1 runda
+Obszar dzia³ania: rzucaj¹cy czar
+Rzut obronny: brak
+
+Czar ten tworzy magiczne pole si³owe, które ma w³aœciwoœci takie, jak zbroja ³uskowa (KP: 6). Jej w³aœciwoœci kumuluj¹ siê ze Zrêcznoœci¹, a w przypadku wojowników/magów, tak¿e z dodatkowymi punktami uzyskanymi za u¿ywanie tarczy. Zaklêcie to nie ogranicza ruchów postaci, na któr¹ zosta³o rzucone, nie zwiêksza obci¹¿enia, ani nie uniemo¿liwia rzucania czarów. Zaklêcie dzia³a przez 9 godzin lub do momentu rozproszenia.
+Zaklêcie z Cienistego Splotu jest skuteczniejsze przeciwko pociskom i cieniom. Zwiêksza klasê pancerza o 2 przeciw pociskom, a tak¿e o 2 przeciw ka¿demu rodzajowi cienia.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 5% przez kolejne 10 sekund.~
+@18      = ~Blady strach~
+@19      = ~Blady strach (Magia Cienistego Splotu)
+Poziom: 2
+Zasiêg: 25 metrów
+Czas dzia³ania: 1 tura
+Czas rzucania: 1 
+Obszar dzia³ania: szeœcian o boku 10 m
+Rzut obronny: neguje
+
+Wszyscy przeciwnicy, którzy znajd¹ siê w obszarze dzia³ania tego zaklêcia, musz¹ wykonaæ rzut obronny przeciw czarom (z modyfikatorem -1) lub uciekn¹ z przera¿enia. Niektóre istoty, w tym wszyscy nieumarli, s¹ odporne na dzia³anie tego czaru. To zaklêcia ma 2% szansê na zabicie przeciwników jak w przypadku Zaklêcia œmierci.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 5% przez kolejne 10 sekund.~ 
+@20      = ~Eksploduj¹ca ciemnoœæ~
+@21      = ~Eksploduj¹ca ciemnoœæ (Magia Cienistego Splotu)
+Poziom: 2
+Zasiêg: pole widzenia 
+Czas dzia³ania: 1 tura
+Czas rzucania: 1
+Obszar dzia³ania: 1 istota
+Rzut obronny: 1/2
+
+To zaklêcia cienia zadaje 2k8+2 obra¿enia k³ute, a tak¿e 1k4 obra¿eñ od ognia na ka¿de piêæ poziomów doœwiadczenia maga (maksymalnie 3k4). Eksplozja mo¿e zraniæ tylko jedn¹ wybran¹ istotê. Tym, którym uda siê rzut obronny przeciwko magii, otrzymuj¹ tylko po³owê obra¿eñ.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 5% przez kolejne 10 sekund.~ 
+@22      = ~Cienista niewidzialnoœæ~ 
+@23      = ~Cienista niewidzialnoœæ (Magia Cienistego Splotu)
+Poziom: 2
+Zasiêg: dotyk
+Czas dzia³ania: specjalny
+Czas rzucania: 1
+Obszar dzia³ania: dotkniêta istota
+Rzut obronny: brak
+
+To zaklêcie powoduje, i¿ dotkniêta przez maga istota znika i staje siê niewykrywalna przy pomocy normalnego wzroku, a nawet infrawizji. Oczywiœcie dotkniêta istota nie zostaje magicznie uciszona, wiêc istniej¹ inne sposoby jej wykrycia. Nawet przyjaciele nie mog¹ widzieæ ani jej, ani jej ekwipunku, chyba ¿e w sposób "naturalny" widz¹ rzeczy niewidzialne lub te¿ u¿ywaj¹ odpowiedniej magii. Przedmioty od³o¿one lub upuszczone przez znajduj¹c¹ siê pod wp³ywem tego czaru istotê staj¹ siê z powrotem widzialne, zaœ podniesione – znikaj¹, pod warunkiem jednak, ¿e zostan¹ schowane pod ubraniem niewidzialnego lub w inny sposób ukryte. Zaklêcia dzia³a do czasu, a¿ zostanie magicznie przerwane lub rozproszone; dopóki mag lub istota objêta tym czarem sobie tego ¿ycz¹ lub a¿ istota nim objêta wykona jakikolwiek atak. Jeœli nic takiego siê nie zdarzy, czar samoistnie przestaje dzia³aæ po up³ywie 24 godzin. Tak wiêc niewidzialna istota nie mo¿e otwieraæ drzwi, rozmawiaæ, jeœæ, wchodziæ na schody itd. Jeœli zaatakuje kogo- lub cokolwiek, natychmiast staje siê widzialna, chocia¿ dziêki temu czarowi bêdzie atakowa³a jako pierwsza.
+Niewidzialnoœæ pochodz¹ca z magii cienia dodatkowo zwiêksza szybkoœæ poruszania siê o 2.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 5% przez kolejne 10 sekund.~
+@24      = ~Ponure szczêœcie~ 
+@25      = ~Ponure szczêœcie (Magia Cienistego Splotu)
+Poziom: 2
+Zasiêg: 10 metrów
+Czas dzia³ania: 3 rundy
+Czas rzucania: 2
+Obszar dzia³ania: 1 istota
+Rzut obronny: brak
+
+Osoba, na któr¹ rzucono to zaklêcie, przez najbli¿sze trzy rundy ma nies³ychane szczêœcie we wszystkim, co robi. Innymi s³owy, uzyskuje modyfikator +5% do wszystkich swych akcji, wliczaj¹c w to rzuty obronne, szanse trafienia przeciwników, zdolnoœci z³odziejskie itd.
+Mroczna wersja zaklêcia Szczêœcia zapewnia 45% szansê na zwiêkszenie klasy pancerza o 1 oraz na zwiêkszenie odpornoœci na magiê o 2%.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 5% przez kolejne 10 sekund.~
+@26      = ~Mroczny bliŸniak~
+@27      = ~Mroczny bliŸniak (Magia Cienistego Splotu)
+Poziom: 2
+Zasiêg: 0
+Czas dzia³ania: 3 rundy + 1 runda/poziom
+Czas rzucania: 1
+Obszar dzia³ania: rzucaj¹cy czar
+Rzut obronny: brak
+
+Po rzuceniu tego czaru, czarodziej tworzy jeden obraz siebie samego, który bêdzie podró¿owa³ obok niego. Obraz bêdzie wykonywa³ wszystkie czynnoœci czarodzieja, tak wiêc jeœli jacyœ wrogowie zechc¹ zaatakowaæ maga, nie bêd¹ wiedzieæ, który jest prawdziwy. Istnieje 50% szansa na to, ¿e przeciwnik zaatakuje obraz i 50% szansa na to, ¿e zaatakuje czarodzieja. Obraz zniknie po udanym rozproszeniu magii, kiedy zostanie zaatakowany lub gdy czas trwania czaru siê skoñczy.
+Tak jak zaklêcie Odbity obraz, Mroczny bliŸniak zwiêksza odpornoœæ na obra¿enia fizyczne o 5% (jedynym wyj¹tkiem s¹ obra¿enia obuchowe, gdy¿ mog¹ "st³uc" lustrzan¹ naturê zaklêcia), a tak¿e zwiêksza rzut obronny przeciw œmierci o 2. Co wiêcej, istnieje 30% szansa na to, ¿e zaklêcie bêdzie dzia³aæ jak Lustrzane odbicie. Odbity obraz (lub Lustrzane odbicie) wraz z czarodziejem ukrywa siê pod ciemnoszar¹ zas³on¹. 
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 5% przez kolejne 10 sekund.~
+@28      = ~Cienista b³yskawica~
+@29      = ~Cienista b³yskawica (Magia Cienistego Splotu)
+Poziom: 3
+Zasiêg: pole widzenia
+Czas dzia³ania: natychmiastowy
+Czas rzucania: 2
+Obszar dzia³ania: 1 istota
+Rzut obronny: 1/2
+
+Za pomoc¹ tego czaru mag uwalnia potê¿ne wy³adowanie energii cienia, która zadaje wybranej istocie 1k6 obra¿eñ od elektrycznoœci na jego poziom (do maksimum 10k6), a tak¿e 1k12 obra¿eñ k³utych i 2 pkt obra¿eñ od zimna. Udany rzut obronny przeciw czarom zmniejsza obra¿enia o po³owê (zaokr¹glaj¹c w dó³).
+Jest ró¿nica miêdzy Cienist¹ b³yskawic¹, a jej popularniejsz¹ odpowiedniczk¹ B³yskawic¹. Pierwszy czar uderza cel z ca³¹ swoj¹ moc¹, co oznacza, ¿e piorun nie przejdzie przez wroga, ani nie odbije siê od ¿adnej powierzchni. Jednak istnieje 15% szansa na to, ¿e cel i znajduj¹cy siê w jego pobli¿u wrogowie zostan¹ spowolnieni na 10 sekund. 
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 8% przez kolejne 10 sekund.~
+@30      = ~Czarne meteory~
+@31      = ~Czarne meteory (Magia Cienistego Splotu)
+Poziom: 3
+Zasiêg: 70 metrów
+Czas trwania: specjalny
+Czas rzucania: 3
+Obszar dzia³ania: 1 cel na meteor
+Rzut obronny: brak
+
+Czar ten pozwala czarodziejowi stworzyæ ma³e kule czarnego ognia (jedn¹ na poziom doœwiadczenia). Ka¿da z nich po uderzeniu wybucha p³omieniami o promieniu 30 centymetrów, zadaj¹c 1k4 obra¿eñ magicznych. Mo¿e tak¿e zapaliæ ³atwopalne materia³y (nawet twarde drewno). Meteory traktuje siê jak pociski, czarodziej rzuca nimi z premi¹ +5 do trafienia i bez minusów za zasiêg. Ka¿dy meteor zadaje +3 pkt. obra¿eñ i dodatkowy +1 pkt. obra¿eñ od ognia (mniej ni¿ Miniaturowe meteory, gdy¿ ogieñ nie jest taki gor¹cy), a tak¿e ma umagicznienie +6. Istnieje 10% szansa na to, ¿e meteory przestrasz¹ cel. Czarodziej mo¿e rzuciæ do piêciu pocisków na rundê.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 8% przez kolejne 10 sekund.~
+@32      = ~Zaciemnienie~
+@33      = ~Zaciemnienie (Magia Cienistego Splotu)
+Poziom: 3
+Zasiêg: 0
+Czas trwania: specjalny
+Czas rzucania: 1 runda
+Obszar dzia³ania: w promieniu 3 metrów
+Rzut obronny: brak
+
+Ten czar podobny jest do zaklêcia ze Splotu Mystry o nazwie "Niewidzialnoœæ, promieñ 3 metry". To zaklêcie powoduje, ¿e wszystkie istoty w promieniu 3 m od rzucaj¹cego czar znikaj¹ z pola widzenia i s¹ niewykrywalne wzrokiem i w podczerwieni. Czar dzia³a a¿ do momentu, gdy zostanie z³amany lub rozproszony przez magiê, odwo³any przez maga lub gdy istota znajduj¹ca siê pod jego wp³ywem podejmie tak¹ decyzjê, po up³ywie 24 godzin, a tak¿e gdy istota niewidzialna kogoœ zaatakuje. Tak wiêc istota niewidzialna nie mo¿e otwieraæ drzwi, rozmawiaæ, jeœæ, wchodziæ na schody itp. ale gdy atakuje, traci niewidzialnoœæ, chocia¿ dziêki niewidzialnoœci mo¿e atakowaæ pierwsza.
+Jednak zaklêcie z Cienistego Splotu zwiêksza szybkoœæ poruszania siê o 3 wszystkim istotom znajduj¹cym siê w obszarze dzia³ania tego czaru.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 8% przez kolejne 10 sekund.~
+@34      = ~Przyæmione przyœpieszenie ruchów~
+@35      = ~Przyæmione przyœpieszenie ruchów (Magia z Cienistego Splotu)
+Poziom: 3
+Zasiêg: pole widzenia
+Czas dzia³ania: 3 rundy + 1 runda/poziom 
+Czas rzucania: 3
+Obszar dzia³ania: szeœcian o boku 10 m, 1 istota/poziom
+Rzut obronny: brak
+
+Ka¿da istota, która znajdzie siê pod wp³ywem tego zaklêcia, porusza siê dwa razy szybciej i dostaje dodatkowy atak na rundê. Przyspieszone osoby uzyskuj¹ równie¿ modyfikator -2 do rzutu na inicjatywê. Tak wiêc istoty posiadaj¹ce 6 punktów ruchu i atakuj¹ce raz w rundzie, bêd¹ poruszaæ siê z prêdkoœci¹ 12 i atakowaæ dwa razy. Wszyscy objêci tym zaklêciem musz¹ znajdowaæ siê w obszarze, w którym rzuca je czarodziej (dlatego te¿, istoty opuszczaj¹ce obszar nadal podlegaj¹ efektowi zaklêcia, ale ci którzy wejd¹ na obszar po rzuceniu zaklêcia ju¿ nie). Istoty pod wp³ywem tego zaklêcia spalaj¹ tyle samo energii, co przez ca³y dzieñ, co prowadzi do szybszego zmêczenia. Warto zwróciæ uwagê, ¿e ten czar neguje dzia³anie Spowolnienia ruchów. Zaklêcie nie kumuluje siê z samym sob¹ lub inn¹ podobn¹ magi¹. Rzucanie czarów i ich efekty nie ulegaj¹ przyspieszeniu.
+Istnieje 5% szansa na to, ¿e znajduj¹cy siê na obszarze wrogowie ulegn¹ efektowi zamêtu.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 8% przez kolejne 10 sekund.~
+@36      = ~Ostrze mroku~
+@37      = ~Ostrze mroku (Magia Cienistego Splotu)
+Poziom: 3
+Zasiêg: 0
+Czas dzia³ania: 4 rundy + 1 runda/2 poziomy
+Czas rzucania: 3
+Obszar dzia³ania: specjalny
+Rzut obronny: brak
+
+Czar ten to dar od Shar, mroczna wersja zaklêcia boskiego P³omiennego ostrza. Po rzuceniu tego czaru, z rêki czarodzieja strzela d³ugi na metr czarny p³omieñ, którym mo¿e walczyæ jak mieczem, bez modyfikatorów ujemnych. Udane trafienie w walce wrêcz zadaje 1k4 obra¿eñ siecznych oraz 1k2+4 obra¿eñ od magii i ma 2% szansê na zadanie dodatkowych 3 pkt. obra¿eñ od zimna. Trzeba jednak pamiêtaæ, ¿e Ostrze mroku nie jest magiczn¹ broni¹ w zwyk³ym tego s³owa znaczeniu, tak wiêc nie mo¿na nim zraniæ przeciwników odpornych na zwyk³¹ broñ.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 8% przez kolejne 10 sekund.~
+@38      = ~Rytua³ cieni~
+@39      = ~Rytua³ cieni (Magia Cienistego Splotu)
+Poziom: 4
+Zasiêg: pole widzenia
+Czas dzia³ania: natychmiastowy
+Czas rzucania: 3
+Obszar dzia³ania: w promieniu 3 metrów
+Rzut obronny: 1/2
+
+Czar ten jest po³¹czeniem magii Cienistego Splotu z magi¹ cienia, czyni¹c go o wiele potê¿niejszym zaklêciem od innych czarów na 4 poziomie. Dziêki temu zaklêciu, czarodziej mo¿e rozpocz¹æ rytua³ cieni, który mo¿e okazaæ siê zabójczy dla niektórych przeciwników. Zadaje 3k10+5 obra¿eñ od magii (+1k10 na ka¿de 3 poziomy doœwiadczenia, maksymalnie 6k10+5). Jeœli przeciwnikowi uda siê wykonaæ udany rzut obronny przeciw magii (z modyfikatorem -3), to otrzymuje tylko po³owê obra¿eñ. Istnieje 20% szansa na to, ¿e wrogowie z mniejsz¹ iloœci¹ punktów ¿ycia ni¿ 60 zgin¹ natychmiast. Oprócz zadanych obra¿eñ, czar ten ma równie¿ 10% szansê na przyzwanie Cienia, który znajdzie siê pod kontrol¹ czarodzieja.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 10% przez kolejne 10 sekund.~
+@40      = ~Ognista Tarcza (Czarna)~
+@41      = ~Ognista Tarcza (Czarna) (Magia Cienistego Splotu)
+Poziom: 4
+Zasiêg: 0
+Czas dzia³ania: 3 rundy + 1 runda/poziom
+Czas rzucania: 4
+Obszar dzia³ania: rzucaj¹cy czas
+Rzut obronny: brak
+
+Czarna ognista tarcza chroni maga przed obra¿eniami od magii, otaczaj¹c go tarcz¹ czarnych p³omieni. Nie tylko zapewnia ona 15% odpornoœci na magiê, ale te¿ chroni przed atakami w promieniu 1,5 metra. Przeciwnik, który bêd¹c na tym obszarze trafi czarodzieja jak¹œ broni¹ lub zaklêciem, otrzyma 1k8 obra¿eñ k³utych, a tak¿e 2 pkt obra¿eñ od magii.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 10% przez kolejne 10 sekund.~
+@42      = ~Mroczne oko~
+@43      = ~Mroczne oko (Magia Cienistego Splotu)
+Poziom: 4
+Zasiêg: 0
+Czas dzia³ania: 1 runda/poziom
+Czas rzucania: 1 runda
+Obszar dzia³ania: specjalny
+Rzut obronny: brak
+
+Poprzez rzucenie tego czaru czarodziej tworzy niewidzialny organ wzroku, który przesy³a mu obraz. Czarodziejskie oko widzi w normalny sposób na odleg³oœæ do 20 metrów w jasno oœwietlonym terenie. Jest materialne i mo¿na je wykryæ (na przyk³ad poprzez u¿ycie czaru wykrycie niewidzialnoœci). Oko nie mo¿e przenikaæ przez fizyczne bariery. Nie mo¿na wzmacniaæ zdolnoœci oka poprzez inne czary lub przedmioty. Czarodziej który rzuci³ ten czar jest podatny na wszelkie ataki wzrokowe, którym poddane zostanie oko. Udane rzucenie rozproszenia magii przerywa dzia³anie tego czaru.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 10% przez kolejne 10 sekund.~
+@44      = ~Cienista skóra~
+@45      = ~Cienista skóra (Magia Cienistego Splotu)
+Poziom: 4
+Zasiêg: 0
+Czas dzia³ania: 12 godzin
+Czas rzucania: 1
+Obszar dzia³ania: rzucaj¹cy czas
+Rzut obronny: brak
+
+Kiedy czarodziej rzuca na siebie ten potê¿ny czar, z ziemi unosi siê cienista skóra i ca³kowicie go okrywa. Ta skóra jest oczywiœcie magiczna i w ¿aden sposób nie przeszkadza czarodziejowi. Czar ten ma chroniæ czarodzieja przed fizycznymi atakami, takimi jak ciosy broni¹ czy pociski. Przy rzuceniu czaru zjawia siê jedna skóra na 2 poziomy, na przyk³ad czarodziej 10 poziomu uzyskuje 5 skór, a 20 poziomu 10. Ka¿da magiczna skóra jest w stanie zatrzymaæ jeden atak, wiêc czarodziej 10 poziomu zyskuje ochronê na 5 najbli¿szych ataków, ale szósty trafi go normalnie. Skóry pozostan¹ na czarodzieju dopóki nie zostanie poddany dzia³aniu rozproszenia magii, dopóki wszystkie skóry nie zostan¹ zniszczone przez ataki, lub minie czas dzia³ania czaru. Nie nale¿y zapominaæ, ¿e czar ten nie chroni w ogóle przed atakami magicznymi takimi jak kula ognia, ale chroni przed fizycznymi atakami magicznymi, takimi jak Magiczny pocisk.
+Kamienna skóra okrywa czarodzieja szar¹ skór¹, a Cienista skóra okrywa go czarn¹ skór¹.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 10% przez kolejne 10 sekund.~
+@46      = ~Chód cienia~
+@47      = ~Chód cienia (Magia Cienistego Splotu)
+Poziom: 4
+Zasiêg: 0
+Czas dzia³ania: natychmiastowy
+Czas rzucania: 0
+Obszar dzia³ania: rzucaj¹cy czas
+Rzut obronny: brak
+
+Czar ten umo¿liwia czarodziejowi przenieœæ siê w ka¿de miejsce w zasiêgu pola widzenia. Kiedy zaklêcie zostanie rzucone, przed magiem pojawiaj¹ siê drzwi przez wymiary, do których wchodzi bez chwili zw³oki. Po przejœciu przez drzwi, czarodziej trafia do wybranego przed siebie miejsca.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 10% przez kolejne 10 sekund.~
+@48      = ~Cienisty wy³om~
+@49      = ~Cienisty wy³om (Magia Cienistego Splotu)
+Poziom: 5
+Zasiêg: pole widzenia
+Czas dzia³ania: natychmiastowy
+Czas rzucania: 5
+Obszar dzia³ania: 1 istota
+Rzut obronny: brak
+
+Kiedy zaklêcie to zostaje rzucone na jak¹œ istotê, rozprasza i pozbawia j¹ wszelkiej specjalnej oraz bojowej ochrony. Oto lista wszystkich specjalnych czarów ochronnych, które zostaj¹ anulowane w wyniku rozproszenia: Chaotyczne rozkazy, Odpornoœæ na strach, Ochrona przed ogniem/zimnem, Os³ona przed œmierci¹, Ognista tarcza, Swoboda dzia³ania, Ochrona przed kwasem, Ochrona przed elektrycznoœci¹, Ochrona przez z³em, Ochrona przed z³em, promieñ 3 metry, Ochrona przed b³yskawicami, Ochrona przed energi¹ magiczn¹, Ochrona przed ¿ywio³ami oraz Ochrona przed energi¹. 
+Oto lista bojowych czarów ochronnych, które zostaj¹ anulowane w wyniku rozproszenia: Bariera ostrzy, Lustro materii, Tarcza, Ochrona przez zwyk³ymi pociskami, Ochrona przed normalnymi broniami, Ochrona przed magicznymi broniami, Korowa skóra, Kamienna skóra, Zbroja, Zbroja wiary, Duchowy pancerz, Eteralny pancerz, Ca³kowita niewra¿liwoœæ, Opoñcza, oraz Ulepszona opoñcza. Nawet jeœli cel jest odporny na magiê, nie ma to ¿adnego wp³ywu na dzia³anie Cienistego wy³omu. Nie rozprasza ¯elaznej skóry.
+
+Mroczniejsza wersja tego zaklêcia sprawia, ¿e cel jest mniej odporny na zimno. Obni¿a tê odpornoœæ o 25%.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 12% przez kolejne 10 sekund.~
+@50      = ~Nienaruszalna ciemnoœæ~
+@51      = ~Nienaruszalna ciemnoœæ (Magia Cienistego Splotu)
+Poziom: 5
+Zasiêg: dotyk
+Czas dzia³ania: 1 runda/poziom
+Czas rzucania: 2
+Obszar dzia³ania: rzucaj¹cy czar
+Rzut obronny: brak
+
+Czar ten zapewnia ca³kowit¹ odpornoœæ na ataki broni¹ niemagiczn¹. Nie chroni przed broni¹ pob³ogos³awion¹ lub zaklêt¹. Tego czaru nie mo¿na rzuciæ na kogoœ odpornego na ataki broni¹ magiczn¹. Zaklêcie to równie¿ zwiêksza klasê pancerza o 2. Ochrona utrzymuje siê przez czas dzia³ania czaru lub do chwili jego rozproszenia.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 12% przez kolejne 10 sekund.~
+@52      = ~Ponury los~
+@53      = ~Ponury los (Magia Cienistego Splotu)
+Poziom: 5
+Zasiêg: rzucaj¹cy czar
+Czas dzia³ania: 1 runda/poziom
+Czas rzucania: 1
+Obszar dzia³ania: rzucaj¹cy czar
+Rzut obronny: brak
+
+ród³em tego zaklêcia jest energia ponurego szczêœcia. Zapewnia ochronê przed trucizn¹ i ciosem w plecy, co czyni je bardzo u¿ytecznym przeciw zabójcom. Jeden z trzech wymienionych efektów równie¿ zostanie na³o¿ony: 20% odpornoœci na magiê, ochrona przed wysysaniem poziomów albo zwiêkszenie punktów ¿ycia o 30.
+Istnieje 20% szansa na to, ¿e z trzech efektów dwa zostan¹ na³o¿one.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 12% przez kolejne 10 sekund.~
+@54      = ~+20% odpornoœci na magiê~
+@55      = ~+30 punktów ¿ycia~
+@56      = ~Ochrona przed wyssaniem poziomów~
+@57      = ~Czarny deszcz~
+@58      = ~Czarny deszcz (Magia Cienistego Splotu)
+Poziom: 5
+Zasiêg: rzucaj¹cy czar
+Czas dzia³ania: 1 runda/poziom
+Czas rzucania: 1
+Obszar dzia³ania: w promieniu 5 metrów
+Rzut obronny: 1/2
+
+Czar ten przywo³uje deszcz czarnych od³amków, które przebijaj¹ istoty na obszarze dzia³ania czaru, zadaj¹c im 5k8+6 obra¿eñ. Kiedy czarne od³amki wbij¹ siê w cia³a wrogów, zaczynaj¹ one topnieæ, zadaj¹c 1k4 obra¿enia od kwasu na 3 poziomy doœwiadczenia maga (maksymalnie 5k4). Ci, którzy znajd¹ siê pod wp³ywem zaklêcia, bêd¹ mieæ zmniejszon¹ szybkoœæ poruszania siê o 1.  
+
+Udany rzut obronny neguje karê do szybkoœci poruszania siê.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 12% przez kolejne 10 sekund.~
+@59      = ~Czarna œmieræ~
+@60      = ~Czarna œmieræ (Magia Cienistego Splotu)
+Poziom: 6
+Zasiêg: pole widzenia
+Czas dzia³ania: natychmiastowy
+Czas rzucania: 6
+Obszar dzia³ania: w promieniu 10 metrów
+Rzut obronny: brak
+
+Po rzuceniu, zaklêcie to natychmiast i nieodwo³alnie wysysa si³y ¿yciowe ze wszystkich istot na obszarze jego dzia³ania. Ofiar zaklêcia nie mo¿na wskrzesiæ lub o¿ywiæ, ale osoba zabita w ten sposób mo¿e zostaæ przywrócona do ¿ycia za pomoc¹ ¯yczenia. Stworzenia o wiêcej ni¿ 8 kostkach s¹ odporne na dzia³anie tego czaru, za wyj¹tkiem istot przyzwanych, które gin¹ automatycznie. Wrogowie, którzy znaleŸli siê na obszarze dzia³ania zaklêcia i nie zginêli, otrzymuj¹ 2k10 obra¿eñ obuchowych.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 14% przez kolejne 10 sekund.~
+@61      = ~Niezniszczalna ciemnoœæ~
+@62      = ~Niezniszczalna ciemnoœæ (Magia Cienistego Splotu)
+Poziom: 6
+Zasiêg: rzucaj¹cy czar
+Czas dzia³ania: 4 rundy
+Czas rzucania: 1
+Obszar dzia³ania: rzucaj¹cy czar
+Rzut obronny: brak
+
+To szczególne zaklêcie dzia³a na podobnej zasadzie co jej bardzo znany odpowiednik, jakim jest Ochrona przed magicznymi broniami. Czar ten zapewnia ca³kowit¹ odpornoœæ na ataki broni¹ magiczn¹. Wlicza siê w to tak¿e broñ pob³ogos³awion¹ lub zaklêt¹. Tego czaru nie mo¿na rzuciæ na kogoœ odpornego na ataki zwyk³¹ broni¹, ani te¿ chronionego Opoñcz¹, Ulepszon¹ opoñcz¹ lub Ca³kowit¹ niewra¿liwoœci¹. Z powodu krótkiego czasu rzucenia i dzia³ania tego czaru, czarodzieje zazwyczaj stosuj¹ go ju¿ w czasie walki by zapewniæ sobie kilka rund bezpieczeñstwa. Ochrona utrzymuje siê przez czas dzia³ania czaru lub do chwili jego rozproszenia.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 14% przez kolejne 10 sekund.~
+@63      = ~Uczta z cieni~
+@64      = ~Uczta z cieni (Magia Cienistego Splotu)
+Poziom: 6
+Zasiêg: 0
+Czas dzia³ania: natychmiastowy/5 rund
+Czas rzucania: 2
+Obszar dzia³ania: pole widzenia/rzucaj¹cy czar
+Rzut obronny: brak
+
+Ten ma³o znany czar jest u¿ywany g³ównie przez tych, którzy s³u¿¹ Shar. Pozwala on czarodziejowi spo¿ywaæ cienie rzucane przez zwyk³e obiekty. Jeœli w polu widzenia maga znajd¹ siê jakiekolwiek istoty cienia, zgin¹ natychmiastowo bez wykonywania rzutu obronnego. Kiedy g³ód zostanie zaspokojony, czarodziej bêdzie odzyskiwa³ 1 punkt ¿ycia na sekundê przez 5 rund.
+Istnieje równie¿ 20% (+5% na ka¿de 6 poziomów doœwiadczenia, maksymalnie 40%) szansa na to, ¿e istota pod wp³ywem czaru zostanie w pe³ni uleczona.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 14% przez kolejne 10 sekund.~
+@65      = ~Zwodniczy sobowtór z cienia~
+@66      = ~Zwodniczy sobowtór z cienia (Magia Cienistego Splotu)
+Poziom: 6
+Zasiêg: 0
+Czas dzia³ania: 1 runda/poziom
+Czas rzucania: 1
+Obszar dzia³ania: specjalny
+Rzut obronny: brak
+
+Po rzuceniu tego zaklêcia na czarodzieja zaczyna dzia³aæ Ulepszona niewidzialnoœæ i zostaje teleportowany w pobli¿e miejsca, w którym rzuca³ czar. W tym samym momencie w miejscu gdzie sta³ powstaje dok³adne odzwierciedlenie czarodzieja, które ma tyle samo Punktów ¯ycia co on. Obraz czarodzieja nie mo¿e wykonywaæ ¿adnych czynnoœci w rodzaju atakowania czy rzucania czarów. Mo¿e jednak siê przemieszczaæ i na przyk³ad odci¹gaæ wroga od prawdziwego czarodzieja. Obraz pozostaje pod kontrol¹ czarodzieja, który go stworzy³, dopóki nie straci wszystkich Punktów ¯ycia, dopóki nie zostanie rozproszony przy u¿yciu rozproszenia magii lub czaru niszcz¹cego iluzje (jak na przyk³ad Prawdziwe widzenie), lub nie minie czas dzia³ania czaru.
+
+Choæ zaklêcie dzia³a na podobnej zasadzie co Zwodniczy sobowtór, to dodaje jeszcze jeden efekt. Stworzony sobowtór wygl¹da groŸniej i bardziej demonicznie. Istnieje 20% szansa na to, ¿e wywo³a strach u istot znajduj¹cych siê w jego pobli¿u.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 14% przez kolejne 10 sekund.~
+@67      = ~Sfera czarnego chaosu~
+@68      = ~Sfera czarnego chaosu (Magia Cienistego Splotu)
+Poziom: 7
+Zasiêg: pole widzenia
+Czas dzia³ania: 1 tura
+Czas rzucania: 3
+Obszar dzia³ania: w promieniu 10 metrów
+Rzut obronny: specjalny
+
+Wszyscy w obszarze dzia³ania zaklêcia musz¹ wykonywaæ rzuty obronne przeciwko czarom w ka¿dej rundzie gdy pozostaj¹ w sferze. Jeœli rzut obronny nie powiedzie siê, wystêpuj¹ nastêpuj¹ce, losowe efekty – ofiara mo¿e: zamieniæ siê w wiewiórkê, ulec Zamêtowi, wybuchn¹æ p³omieniami, ulec Parali¿owi, ulec dezintegracji, uleczyæ 20 punktów ¿ycia, teleportowaæ siê w losowe miejsce, straciæ przytomnoœæ lub ulec Przyspieszeniu ruchów.
+
+Czas rzucania Sfery chaosu w wersji z Cienistego Splotu jest znacznie szybszy ni¿ jej bardziej znany odpowiednik i zapewnia 10% odpornoœci na magiê. Ochrona trwa do momentu dzia³ania sfery.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 15% przez kolejne 10 sekund.~
+@69      = ~Mroczny kokon~
+@70      = ~Mroczny kokon (Magia Cienistego Splotu)
+Poziom: 7
+Zasiêg: rzucaj¹cy czas
+Czas dzia³ania: 1 tura
+Czas rzucania: 2
+Obszar dzia³ania: rzucaj¹cy czar
+Rzut obronny: brak
+
+Czar ten tworzy ochronn¹ sferê wokó³ czarodzieja. Istota wewn¹trz kokonu jest ca³kowicie bezpieczna od wszelkich ataków, ale jednoczeœnie nie mo¿e w ¿aden sposób wp³ywaæ na œwiat zewnêtrzny. Zaklêcie dzia³a na podobnej zasadzie co Nienaruszalna sfera Otiluka.
+Z t¹ ró¿nic¹, ¿e istota wewn¹trz kokonu podlega dzia³aniu regeneracji (odzyskuje 3 punkty ¿ycia na sekundê).
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 15% przez kolejne 10 sekund.~
+@71      = ~Nieuchronne k³y~
+@72      = ~Nieuchronne k³y (Magia Cienistego Splotu)
+Poziom: 7
+Zasiêg: pole widzenia
+Czas dzia³ania: natychmiastowy
+Czas rzucania: 2
+Obszar dzia³ania: 1 istota
+Rzut obronny: 1/2
+
+Czar ten tworzy magiczne k³y i kolce, których wiêkszoœæ znajduje siê na mia¿d¿¹cych mackach. Staraj¹ siê z³apaæ przeciwnika, wywo³uj¹c przy tym ró¿ne efekty:
+Po pierwsze, kolce i k³y zadaj¹ 2k10+5 obra¿eñ k³utych.
+Macki ³api¹ przeciwników i staraj¹ siê ich zmia¿d¿yæ, zadaj¹c 2k10+5 obra¿eñ obuchowych.
+Krótsze i d³u¿sze k³y mog¹ zadaæ 2k10+5 obra¿eñ siecznych.
+Istnieje 25% szansa na to, ¿e cel bêdzie krwawi³, otrzymuj¹c 2 punkty obra¿eñ na sekundê (dzia³a przez 12 sekund).
+Istnieje 10% szansa na to, ze cel zostanie og³uszony. 
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 15% przez kolejne 10 sekund.~
+@73      = ~Cienista krew~
+@74      = ~Cienista krew (Magia Splotu Cienistego)
+Poziom: 8
+Zasiêg: rzucaj¹cy czas
+Czas dzia³ania: natychmiastowy
+Czas rzucania: 2
+Obszar dzia³ania: cz³onkowie dru¿yny
+Rzut obronny: brak
+
+Czar ten pozwala czarodziejowi poœwiêciæ 2 pkt kondycji na 6 rund w zamian za uleczenie wszystkich cz³onków dru¿yny.
+Istnieje 30% szansa na to, ¿e zaklêcie przywróci wyssane poziomy.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego czaru, mag ma obni¿on¹ odpornoœæ na zimno o 15% przez kolejne 10 sekund. Poniewa¿ to zaklêcie jest potê¿niejsze, istnieje 10% szansa na to, ¿e maga owieje wiêkszy ch³ód, zadaj¹c mu w ten sposób 1k6 obra¿eñ od zimna.~
+@75      = ~Piekielne cienie~
+@76      = ~Piekielne cienie (Magia Cienistego Splotu)
+Poziom: 8
+Zasiêg: rzucaj¹cy czar
+Czas dzia³ania: natychmiastowy
+Czas rzucania: 2
+Obszar dzia³ania: 1 istota
+Rzut obronny: brak
+
+Zaklêcie to przywo³uje czarne p³omienie wokó³ wroga i nie tylko zadaje 6k10 obra¿eñ od magii, ale równie¿ 10 pkt obra¿eñ od ognia. Co wiêcej, rozprasza zaklêcia w ten sam sposób co Wy³om.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego czaru, mag ma obni¿on¹ odpornoœæ na zimno o 15% przez kolejne 10 sekund. Poniewa¿ to zaklêcie jest potê¿niejsze, istnieje 10% szansa na to, ¿e maga owieje wiêkszy ch³ód, zadaj¹c mu w ten sposób 1k6 obra¿eñ od zimna.~
+@77      = ~Czarne ostrze klêski~
+@78      = ~Czarne ostrze klêski (Magia Cienistego Splotu)
+Poziom: 8
+Zasiêg: 0
+Czas dzia³ania: 18 rund
+Czas rzucania: 4
+Obszar dzia³ania: specjalny
+Rzut obronny: brak
+
+Czar ten pozwala stworzyæ czarn¹ szczelinê miêdzysferow¹ o kszta³cie ostrza i d³ugoœci oko³o 1 metra. Pojawia siê ona w rêce rzucaj¹cego, który mo¿e jej u¿ywaæ jak normalnego miecza a¿ do momentu wygaœniêcia dzia³ania zaklêcia. Rzucaj¹cy jest traktowany jako wielki mistrz w u¿ywaniu tej broni. Miecz dzia³a jak broñ +6 i zadaje ofiarom od 2 do 24 punktów obra¿eñ. Przy ka¿dym udanym trafieniu ofiara musi wykonaæ rzut przeciwko œmierci z modyfikatorem +4 lub zostanie zdezintegrowana. Za ka¿dym uderzeniem istnieje te¿ 10% prawdopodobieñstwa, ¿e trafienie odbierze ofierze 4 poziomy i przywróci fechmistrzowi 20 punktów ¿ycia.
+Czar ten dostêpny jest szybciej dla u¿ytkowników Cienistego Splotu (zaklêcie 8 poziomu zamiast 9 poziomu)
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego czaru, mag ma obni¿on¹ odpornoœæ na zimno o 15% przez kolejne 10 sekund. Poniewa¿ to zaklêcie jest potê¿niejsze, istnieje 10% szansa na to, ¿e maga owieje wiêkszy ch³ód, zadaj¹c mu w ten sposób 1k6 obra¿eñ od zimna.~
+@79      = ~Nieprzemijaj¹cy cieñ~
+@80      = ~Nieprzemijaj¹cy cieñ (Magia Cienistego Splotu)
+Poziom: 9
+Zasiêg: 0
+Czas dzia³ania: 2 rundy
+Czas rzucania: 3
+Obszar dzia³ania: rzucaj¹cy czar
+Rzut obronny: brak
+
+Ten czar czyni czarodzieja odpornym na manipulacje czasu. Nie mo¿na go wtedy spowolniæ i zapewnia mu odpornoœæ na Zatrzymanie Czasu. Istnieje 15% szansa na to, ¿e odpornoœæ na magiê u maga zwiêkszy siê o 50%.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego czaru, mag ma obni¿on¹ odpornoœæ na zimno o 16% przez kolejne 10 sekund. Poniewa¿ to zaklêcie jest potê¿niejsze, istnieje 10% szansa na to, ¿e maga owieje wiêkszy ch³ód, zadaj¹c mu w ten sposób 1k6 obra¿eñ od zimna.~
+@81      = ~Pole ca³kowitego cienia~
+@82      = ~Pole ca³kowitego cienia (Magia Cienistego Splotu)
+Poziom: 9
+Zasiêg: rzucaj¹cy czar
+Czas dzia³ania: natychmiastowy/2 rundy
+Czas rzucania: 2
+Obszar dzia³ania: w promieniu 3 metrów
+Rzut obronny: 1/2
+
+Pole ca³kowitego cienia czêœciowo chroni czarodzieja przed obra¿enia od magii poprzez otoczenie maga tarcz¹ sk³adaj¹c¹ siê z ciemnych cz¹steczek. Tarcza ta nie tylko zwiêksza czaruj¹cemu odpornoœæ na magiê o 15%, ale tak¿e ochrania go przed atakami wykonanymi z odleg³oœci 3 metrów wokó³ niego. Przeciwnik, który trafi czarodzieja za pomoc¹ broni albo czarów, sam otrzyma 6k10 obra¿eñ k³utych, a tak¿e 1 pkt obra¿eñ od magii z szans¹ 10% na to, ¿e przeciwnik wpadnie w berserk na 10 sekund.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego czaru, mag ma obni¿on¹ odpornoœæ na zimno o 16% przez kolejne 10 sekund. Poniewa¿ to zaklêcie jest potê¿niejsze, istnieje 10% szansa na to, ¿e maga owieje wiêkszy ch³ód, zadaj¹c mu w ten sposób 1k6 obra¿eñ od zimna.~
+@83      = ~Przywo³anie Pomiotu Cienia~
+@84      = ~Przywo³anie Pomiotu Cienia (Magia Cienistego Splotu)
+Poziom: 9
+Zasiêg: rzucaj¹cy czar
+Czas dzia³ania: 7 rund
+Czas rzucania: 2
+Obszar dzia³ania: specjalny
+Rzut obronny: brak
+
+Ten czar pozwala czarodziejowi przyzwaæ wyj¹tkow¹ istotê ze Sfery Cienia. Istota ta przechodzi przez portal, ¿eby wspomóc maga. Jest odporna na cios w plecy, strach, og³uszenie, sen, berserk, wyssanie poziomów, truciznê, chorobê, œlepotê i uciszenie. Jest równie¿ czêœciowo odporna na wszelkie obra¿enia od ¿ywio³ów oraz magii. Pomiot walczy dwoma magicznymi sztyletami traktowanymi jako broñ +5, i trudno go trafiæ. Jednak¿e, sama istota jest w¹t³a. Zatem gdy siê j¹ trafi, mo¿na ³atwo j¹ zabiæ. Ka¿dy kolejne udane trafienie przez Pomiot ma 5% szansê na zabicie przeciwnika.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu tego czaru, mag ma obni¿on¹ odpornoœæ na zimno o 16% przez kolejne 10 sekund. Poniewa¿ to zaklêcie jest potê¿niejsze, istnieje 10% szansa na to, ¿e maga owieje wiêkszy ch³ód, zadaj¹c mu w ten sposób 1k6 obra¿eñ od zimna.~
+@85      = ~Sztylet cienia~
+@86      = ~Uczeñ cienistego smoka~
+@87      = ~Po latach spêdzonych na s³u¿bie u cienistego smoka, niektórzy mog¹ staæ siê kimœ wiêcej... mog¹ zostaæ uczniem cienistego smoka. Przyjmuj¹c mroczn¹ energiê, klasa pancerza zwiêksza siê o 2, a kondycja o 1. Co wiêcej, uczeñ ma dostêp do zdolnoœci Oddech cienistego smoka.~
+@88      = ~Oddech cienistego smoka~
+@89      = ~Trening cienia~
+@90      = ~Dziêki tej umiejêtnoœci, postaæ otrzymuje dodatkowe premie w walce: zwiêksza TraK0 i rzuty obronne o 1 punkt.~
+@91      = ~Dodatkowy trening cienia~
+@92      = ~Dziêki tej umiejêtnoœci, postaæ otrzymuje jeszcze wiêksze premie w walce: zwiêksza TraK0 i rzuty obronne o 2 punkty.~
+@93      = ~M³yniec cienia~
+@94      = ~Po wybraniu tej zdolnoœci, postaæ otrzymujê mroczn¹ wersjê umiejêtnoœci, jak¹ jest M³yniec. Dziêki temu, postaæ zostaje przyœpieszona i otrzymuje wiêcej ataków na rundê.~
+@95      = ~Krewny Cienia~
+@96      = ~Po latach spêdzonych na walce u boku cieni i korzystaniu z magii Cienistego Splotu, postaæ mo¿e zostaæ Krewnym Cienia. Dziêki temu tytu³owi, postaæ zostanie na zawsze uznana za krewniaka przez wszystkie typy cieni.~
+@97      = ~Przemiana w Spêtanego Cienia~
+@98      = ~Przemiana w Spêtanego Cienia (Magia Cienistego Splotu)
+Wrodzona umiejêtnoœæ
+Zasiêg: 0
+Czas dzia³ania: 5 rund
+Czas rzucania: 2
+Obszar dzia³ania: rzucaj¹cy czar
+Rzut obronny: brak
+
+Czar ten pozwala czarodziejowi przemieniæ siê w monstrualn¹ istotê zwan¹ Spêtanym Cieniem. W tej formie czarodziej jest odporny na: cios w plecy, strach, wyssanie poziomów, zamêt, og³uszenie, sen, uwiêzienie, labirynt i uderzenie skrzyde³. Istota jest równie¿ odporna na wiêkszoœæ obra¿eñ od ¿ywio³ów: 90% na ogieñ i kwas, ale tylko 25% na zimno. Ta postaæ korzysta ze specjalnej broni, która zadaje 1k10+5 obra¿eñ, a tak¿e 1k4 obra¿eñ od zimna. TraK0 zwiêkszone o 6 punktów oraz 3 ataki na rundê.
+
+W tej postaci mag nie mo¿e rzucaæ czarów.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Przez d³u¿szy czas czarodziej ma zwiêkszon¹ odpornoœæ na zimno o 25%, ale przez pierwsze 10 sekund po rzuceniu zaklêcia mag otrzymujê *karê* i jego odpornoœæ na zimno jest zmniejszona o 16%. Poniewa¿ to zaklêcie jest potê¿niejsze, istnieje 10% szansa na to, ¿e maga owieje wiêkszy ch³ód, zadaj¹c mu w ten sposób 1k6 obra¿eñ od zimna.~
+@99      = ~Ludzkie dziedzictwo~
+@100     = ~Po latach spêdzonych na s³u¿bie u cienistego smoka, znowu mo¿esz odzyskaæ swoje cz³owieczeñstwo. Pamiêtaj¹c o swoim prawdziwym i jedynym dziedzictwie, zwiêksza siê twoja si³a i kondycja o 1 punkt, a tak¿e otrzymujesz na sta³e dodatkowe 15 punktów ¿ycia.~
+@101     = ~Dodatkowe zaklêcia cienia~
+@102     = ~Po wybraniu tej zdolnoœci, adept cienia otrzymuje 5 nowych czarów: Wygnanie do cienia, MroŸny podmuch, Mroczna regeneracja, Miazga oraz Mroczna akceleracja.~
+@103     = ~Wygnanie do cienia~
+@104     = ~Wygnanie do cienia (Magia Cienistego Splotu)
+Poziom: 5
+Zasiêg: 10 metrów
+Czas dzia³ania: natychmiastowy
+Czas rzucania: 4
+Obszar dzia³ania: 1 istota
+Rzut obronny: brak
+
+Czar ten otwiera bramê i skazuje na wygnanie jedn¹ istotê, która zosta³a przyzwana przez innego czarodzieja. Po rzuceniu tego zaklêcia, istota zostaje odes³ana do swojej ojczystej sfery.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 12% przez kolejne 10 sekund.~
+@105     = ~MroŸny podmuch~
+@106     = ~MroŸny podmuch (Magia Cienistego Splotu)
+Poziom: 6
+Zasiêg: 12 metrów
+Czas dzia³ania: natychmiastowy
+Czas rzucania: 3
+Obszar dzia³ania: w promieniu 10 metrów
+Rzut obronny: 1/2
+
+Dziêki temu zaklêciu, mag mo¿e przywo³aæ lodow¹ wersjê zaklêcia kuli ognia, zamra¿aj¹cej wszystko, co znajdzie siê w jej obszarze dzia³ania i zadaj¹cej 10k6+16 obra¿eñ (po³owa przy udanym rzucie obronnym). Czar ten mo¿e równie¿ raniæ sojuszników.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 14% przez kolejne 10 sekund.~
+@107     = ~Mroczna regeneracja~
+@108     = ~Mroczna regeneracja (Magia Cienistego Splotu)
+Poziom: 7
+Zasiêg: dotyk
+Czas dzia³ania: 1 runda/poziom
+Czas rzucania: 9
+Obszar dzia³ania: 1 istota
+Rzut obronny: brak
+
+Ten potê¿ny czar umo¿liwia nadanie wybranej istocie zdolnoœci regeneracyjnych. Kiedy tylko cienie okryj¹ wszystkie rany, po jakimœ czasie zaczn¹ znikaæ. Istota pod wp³ywem zaklêcia odzyskuje 3 punkty ¿ycia na sekundê w czasie ca³ego jej dzia³ania.
+ 
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 16% przez kolejne 10 sekund.~
+@109     = ~Miazga~
+@110     = ~Miazga (Magia Cienistego Splotu)
+Poziom: 8
+Zasiêg: 10 metrów
+Czas dzia³ania: 2 rundy
+Czas rzucania: 3
+Obszar dzia³ania: w promieniu 10 metrów
+Rzut obronny: neguje
+
+Dziêki temu zaklêciu, adept cienia mo¿e zmia¿d¿yæ umys³y przeciwników i og³uszyæ ca³¹ grupê nieprzyjació³, ¿eby daæ sobie i swoim sojuszników czas na dobicie swoich wrogów. Przeciwnicy mog¹ jedynie patrzeæ i cierpieæ.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 16% przez kolejne 10 sekund.~
+@111     = ~Mroczna akceleracja~
+@112     = ~Mroczna akceleracja (Magia Cienistego Splotu)
+Poziom: 9
+Zasiêg: rzucaj¹cy czar
+Czas dzia³ania: 2 rundy
+Czas rzucania: 9
+Obszar dzia³ania: rzucaj¹cy czar
+Rzut obronny: brak
+
+To jest mroczna wersja zaklêcia Akceleracji. Po rzuceniu tego czaru, mag mo¿e rozpocz¹æ rzucanie nowego zaklêcia natychmiast po zakoñczeniu poprzedniego.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 25% przez kolejne 10 sekund.~
+@113     = ~ZNAJDA niewiele wie o swojej przesz³oœci. Jego wspomnienia s¹ zaledwie mglistymi fragmentami. Zosta³ znaleziony przez cienistego smoka w Sferze Cienia, kiedy by³ jeszcze dzieckiem. Niewiele pamiêta z tamtego okresu. Jedynie strach, dezorientacjê i poczucie niskiej wartoœci. Pamiêta równie¿, jak jego nowy "pan" bada³ niewidzialne znaki, dziêki którym zrozumia³, ¿e Znajda móg³ czerpaæ moc z Cienistego Splotu. W póŸniejszym czasie cienisty smok odkry³ powód tego stanu rzeczy. Znajda by³ ofiar¹ z³o¿on¹ Shar. Ofiar¹ z³o¿on¹ po to, by "bestie" po zabiciu dziecka zosta³y obdarowane moc¹ Cienistego Splotu. Znajda nie zna swoich prawdziwych rodziców i nie przejmujê siê zbytnio ich losem.
+Zarówno cienisty smok jak i Pan Cienia uczyli Znajdê szczególnego rodzaju magiê, gdy¿ chcieli uczyniæ go przydatnym pionkiem w swojej grze. Ich motywy by³y oczywiste od samego pocz¹tku, ale ich nauki mia³y swoje granice. S³uga nie powinien wiedzieæ zbyt du¿o.~
+@114     = ~Myœl rozs¹dnie. Musimy odejœæ. Martwi na nie wiele siê zdadz¹.~ [L#Fo01]
+@115     = ~Myœlisz roztropnie.~ [L#Fo02]
+@116     = ~Hmm?~ [L#Fo03]
+@117     = ~To niem¹dre.~ [L#Fo04]
+@118     = ~Trzeba by³o to sobie przemyœleæ.~ [L#Fo05]
+@119     = ~S¹dzê, ¿e znajd¹ siê bardziej odpowiedni na to stanowisko.~ [L#Fo06]
+@120     = ~Mo¿e przyda³by siê nam odpoczynek, ¿ebyœmy zregenerowali nasze si³y.~ [L#Fo07]
+@121     = ~Dobrze jest z³apaæ oddech, kiedy mój pan nie wyznacza mi ¿adnych zadañ.~ [L#Fo08]
+@122     = ~Przygotuj siê.~ [L#Fo09]
+@123     = ~To koniec.~ [L#Fo10]
+@124     = ~To twój ostatni dzieñ.~ [L#Fo11]
+@125     = ~Giñ.~ [L#Fo12]
+@126     = ~Niech opadn¹ z si³, to moja magia ich dobije.~ [L#Fo13]
+@127     = ~Ach!~ [L#Fo14]
+@128     = ~Proszê, wybacz mi... ja...~ [L#Fo15]
+@129     = ~Potrzebujê pomocy!~ [L#Fo16]
+@130     = ~Dziwne miejsce.~ [L#Fo17]
+@131     = ~Za du¿o tu ludzi. Ktoœ powinien zrobiæ z tym porz¹dek.~ [L#Fo18]
+@132     = ~Moje oczy wreszcie mog¹ odpocz¹æ od s³oñca.~ [L#Fo19]
+@133     = ~Za du¿o tu œwiat³a. Nie mogê siê skupiæ.~ [L#Fo20]
+@134     = ~Nie ma p³on¹cej kuli na niebie. Tak jest o wiele lepiej.~ [L#Fo21]
+@135     = ~Tak?~ [L#Fo22]
+@136     = ~Czekam.~ [L#Fo23]
+@137     = ~S³ucham.~ [L#Fo24]
+@138     = ~Masz jakiœ plan?~ [L#Fo25]
+@139     = ~O co chodzi?~ [L#Fo26]
+@140     = ~Hmm?~ [L#Fo27]
+@141     = ~M¹drze.~ [L#Fo28]
+@142     = ~Myœlê, ¿e mogê to zrobiæ.~ [L#Fo29]
+@143     = ~Roztropnie.~ [L#Fo30]
+@144     = ~Do przyjêcia.~ [L#Fo31]
+@145     = ~Postaram siê.~ [L#Fo32]
+@146     = ~Bywa³o gorzej.~ [L#Fo33]
+@147     = ~W porz¹dku.~ [L#Fo34]
+@148     = ~Zrobiê, co ka¿esz, ale nie zapominaj, ¿e nie jestem ju¿ niewolnikiem.~ [L#Fo35]
+@149     = ~Za du¿o tu s³oñca. Ta sfera bardzo ró¿ni siê od Sfery Cienia.~ [L#Fo36]
+@150     = ~Nie dam siê zniewoliæ ponownie.~ [L#Fo37]
+@151     = ~Pud³o.~ [L#Fo38]
+@152     = ~Magia mo¿e okazaæ siê skuteczniejsza.~ [L#Fo39]
+@153     = ~Nie mogê tyle dŸwigaæ.~ [L#Fo40]
+@154     = ~Zabierz to ze mnie!~ [L#Fo41]
+@155     = ~To siê mo¿e przydaæ.~ [L#Fo42]
+@156     = ~Nikt mnie nie zobaczy.~ [L#Fo43]
+@157     = ~Mo¿e zrobisz z tego jakiœ u¿ytek.~ [L#Fo44]
+@158     = ~Proszê, wybacz mi... ja...~ [L#Fo15]
+@159     = ~Pomiot Cienia~
+@160     = ~Spêtany Cieñ~
+@161     = ~Cieñ~
+@162     = ~Gloria D'Orlaux~
+@163     = ~Toracz~
+@164     = ~Joah~
+@165     = ~Sonya~
+@166     = ~Blakn¹cy w Szaroœci~
+@167     = ~Per³owa Mg³a~
+@168     = ~Stra¿nik Mgie³~
+@169     = ~Kl¹twa~
+@170     = ~Chowaniec~
+@171     = ~Thaxll'ssillyia~
+@172     = ~Be¿owa WiedŸma~
+@173     = ~(Œpiewa.)~ [L#foivo]
+@174     = ~Szare Widmo~
+@175     = ~Szara Czarownica~
+@176     = ~Kara w œwietle dnia (poziom czarów zmniejszony o 2 poziomy)~
+@177     = ~Ukryty przed œwiat³em dnia (kara zniesiona).~
+@178     = ~Kara w œwietle dnia zniesiona ca³kowicie. Zwiêkszone umiejêtnoœci bojowe.~
+@179     = ~Zwiêkszone umiejêtnoœci bojowe.~
+@180     = ~Stwórz ostrze~
+@181     = ~Podarty p³aszcz~
+@182     = ~Ten podarty p³aszcz zrobiony jest z pewnego rodzaju szarego materia³u. Nie jest ani trochê miêkki, ani przyjemny w dotyku. Tkanina na dolnej krawêdzi rozdar³a siê. Ma przynajmniej piêæ ma³ych dziur.
+Trudno powiedzieæ, dlaczego Znajda wci¹¿ korzysta z tego p³aszcza. Musi mieæ do niego sentyment, poniewa¿ sam p³aszcza wydaje siê kompletnie bezwartoœciowy.~
+@183     = ~Ten podarty p³aszcz zrobiony jest z pewnego rodzaju szarego materia³u. Jest szorstki i nieprzyjemny w dotyku. Tkanina na dolnej krawêdzi rozdar³a siê. Ma przynajmniej piêæ ma³ych dziur.
+Trudno powiedzieæ, dlaczego Znajda wci¹¿ korzysta z tego p³aszcza. Musi mieæ do niego sentyment, poniewa¿ sam p³aszcza wydaje siê kompletnie bezwartoœciowy.~
+@184     = ~Ten podarty p³aszcz zrobiony jest z pewnego rodzaju szarego materia³u. Nie jest ani trochê miêkki, ani przyjemny w dotyku. Tkanina na dolnej krawêdzi rozdar³a siê. Ma przynajmniej piêæ ma³ych dziur.
+Trudno powiedzieæ, dlaczego Znajda wci¹¿ korzysta z tego p³aszcza. Musi mieæ do niego sentyment, poniewa¿ sam p³aszcza wydaje siê kompletnie bezwartoœciowy.~
+@185     = ~Czarna figurka~
+@186     = ~Ta czarna figurka wygl¹da na doœæ osobliw¹.~
+@187     = ~Lewe kamienne oko~
+@188     = ~To oko wyrzeŸbiono z kamienia. Wygl¹da na lewe oko.~
+@189     = ~Prawe kamienne oko~
+@190     = ~To oko wyrzeŸbiono z kamienia. Wygl¹da na prawe oko.~
+@191     = ~Czarny miecz~
+@192     = ~Rytualny miecz: 'K³amstwo Leiry'~
+@193     = ~Widaæ wyraŸnie, ¿e ten miecz zosta³ stworzony do rytua³ów. Wygl¹da na solidn¹, dobrze wykonan¹ broñ. Nie tyle s³u¿¹c¹ za dekoracjê, co za ulubiony orê¿. Wydaje siê, ¿e jest zrobiona ze z³ota i jakiegoœ ciemnego metalu. Na rêkojeœci i klindze widniej¹ pewne znaki, ale nie wiesz, co one mog¹ oznaczaæ.
+Kr¹¿y pog³oska, ¿e ten miecz potrafi sprawiæ, ¿eby lekkie rany sta³y siê powa¿ne, a prawdê przemieniæ w mistyfikacjê. Przez d³ugi czas by³ trzymany w tej dziwnej jaskini.
+  
+PARAMETRY:
+
+Ostrze to powinno ujawniæ kl¹twê rzucon¹ na Znajdê
+Osoba korzystaj¹ca z tej broni staje siê mistrzem w bieg³oœci d³ugimi mieczami
+Ostrze uznaje siê za broñ o umagicznieniu +5
+
+Obra¿enia: 1K8 +3
+TraK0: +3
+Typ obra¿eñ: sieczne
+Specjalne:
+5% szansa na rzucenie na przeciwnika kl¹twy dzikiej magii na 10 sekund
+2% szansa na odzyskanie wykorzystanych zaklêæ
+1% szansa na zabicie przeciwnika, który ma mniej ni¿ 60 punktów ¿ycia
+Waga: 3
+Rodzaj bieg³oœci: d³ugi miecz
+Typ broni: 1-rêczna
+
+Mo¿e u¿ywaæ:
+Znajda~
+@194     = ~Kolczuga solara~
+@195     = ~Zbroja ta jest wyj¹tkowego rodzaju broni¹, któr¹ ponoæ nosz¹ sami solarowie, planetarowie jak równie¿ devy. W rzeczywistoœci jest to tylko mit. Zbroja ta zosta³a pob³ogos³awiona boskimi mocami, które chroni¹ w³aœciciela nie tylko przed typow¹ broni¹, ale równie¿ obdarowuj¹ go specjaln¹ ochron¹ przeciw nieumar³ym istotom. W³aœciciel tej kolczugi bêdzie ignorowany przez wiêkszoœæ nieumar³ych za wyj¹tkiem tych o niewyobra¿alnej mocy jak lisze czy drakolisze. 
+
+PARAMETRY:
+
+Posiadacz zostaje zignorowany przez szkielety, zombie oraz ghoule
+
+Klasa Pancerza: 3
+Specjalne:
++25% odpornoœci na ogieñ
+Waga: 10
+
+Mo¿e u¿ywaæ:
+Bard
+Kap³an
+Paladyn
+Postaæ o dobrym charakterze~
+@196     = ~Zakurzona skóra~
+@197     = ~Ta stara zbroja jest zrobiona z ciemnoszarej skóry. Nie wygl¹da na zbyt solidn¹ i nie daje ¿adnej niesamowitej ochrony, ale jest na tyle elastyczna, ¿e nie ograniczania rzucania zaklêæ.
+To ulubiona zbroja Znajdy.
+
+PARAMETRY:
+
+Klasa Pancerza: 7
+Specjalne:
++3 do rzutów obronnych przeciw polimorfii
+Waga: 8
+
+Mo¿e u¿ywaæ:
+Znajda~
+@198     = ~Kurczak~
+@199     = ~Ten kurczak by³ zamkniêty w skrzyni wraz z kilkoma... czaszkami. Nie masz pewnoœci, czy chcesz wiedzieæ, jak temu drobiu uda³o siê do tej pory prze¿yæ.~
+@200     = ~Cienisty kamieñ Ioun~
+@201     = ~Ten kamieñ Ioun jest podobny do kamienia stra¿niczego cienistego smoka znalezionego w ruinach œwi¹tyni. Ten jednak zosta³ zaklêty szczególn¹ magi¹, która uwolni³a siê po walce ze wskrzeszonym cienistym smokiem, kiedy ten przej¹³ kontrolê nad cia³em Znajdy.
+
+PARAMETRY:
+
+Klasa Pancerza: +2, +2 przeciw nieumar³ym
+Specjalne:
+Ochrona przed uderzeniem skrzyde³
+
+Nie mo¿e u¿ywaæ:
+Postaæ o dobrym charakterze~
+@202     = ~Miecz cienia~
+@203     = ~Ten miecz zosta³ stworzony przez adepta cienia i tylko oni mog¹ w³adaæ tym orê¿em bez doznawania obra¿eñ od magicznego zimna. Samo ostrze wygl¹da tak, jakby powsta³o z czarnego metalu i ciemnego kryszta³u. Kr¹¿y pog³oska, ¿e im potê¿niejszy jest adept cienia w momencie jego stworzenia, tym bardziej œmiercionoœne staje siê jego ostrze.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +1 obra¿eñ od zimna
+TraK0: +1, +1 przeciw humanoidom
+Typ obra¿eñ: sieczne
+Specjalne:
+Traktowana jako broñ o umagicznieniu +1
+Waga: 8
+Rodzaj bieg³oœci: d³ugi miecz
+Typ broni: 1-rêczna
+
+Mo¿e u¿ywaæ:
+Znajda
+
+Jeœli ktoœ inny u¿yje ten broni, to dozna obra¿eñ od czarnego zimna.~
+@204     = ~Miecz cienia +2~
+@205     = ~Ten miecz zosta³ stworzony przez adepta cienia i tylko oni mog¹ w³adaæ tym orê¿em bez doznawania obra¿eñ od magicznego zimna. Samo ostrze wygl¹da tak, jakby powsta³o z czarnego metalu i ciemnego kryszta³u. Kr¹¿y pog³oska, ¿e im potê¿niejszy jest adept cienia w momencie jego stworzenia, tym bardziej œmiercionoœne staje siê jego ostrze.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +1K4 obra¿eñ od zimna
+TraK0: +2, +1 przeciw humanoidom
+Typ obra¿eñ: sieczne
+Specjalne:
+Traktowana jako broñ o umagicznieniu +2
+Waga: 8
+Rodzaj bieg³oœci: d³ugi miecz
+Typ broni: 1-rêczna
+
+Mo¿e u¿ywaæ:
+Znajda
+
+Jeœli ktoœ inny u¿yje ten broni, to dozna obra¿eñ od czarnego zimna.~
+@206     = ~Miecz cienia +3~
+@207     = ~Ten miecz zosta³ stworzony przez adepta cienia i tylko oni mog¹ w³adaæ tym orê¿em bez doznawania obra¿eñ od magicznego zimna. Samo ostrze wygl¹da tak, jakby powsta³o z czarnego metalu i ciemnego kryszta³u. Kr¹¿y pog³oska, ¿e im potê¿niejszy jest adept cienia w momencie jego stworzenia, tym bardziej œmiercionoœne staje siê jego ostrze.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +1K6 obra¿eñ od zimna
+TraK0: +3, +2 przeciw humanoidom
+Typ obra¿eñ: sieczne
+Specjalne:
+Traktowana jako broñ o umagicznieniu +3
+10% szansa na spowolnienie przeciwnika
+Waga: 8
+Rodzaj bieg³oœci: d³ugi miecz
+Typ broni: 1-rêczna
+
+Mo¿e u¿ywaæ:
+Znajda
+
+Jeœli ktoœ inny u¿yje ten broni, to dozna obra¿eñ od czarnego zimna.~
+@208     = ~Miecz cienia +4~
+@209     = ~Miecz ten zosta³ stworzony przez adepta cienia i tylko oni mog¹ w³adaæ tym orê¿em bez doznawania obra¿eñ od magicznego zimna. Samo ostrze wygl¹da tak, jakby powsta³o z czarnego metalu i ciemnego kryszta³u. Kr¹¿y pog³oska, ¿e im potê¿niejszy jest adept cienia w momencie jego stworzenia, tym bardziej œmiercionoœne staje siê jego ostrze.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +1K8 obra¿eñ od zimna
+TraK0: +4, +2 przeciw humanoidom
+Typ obra¿eñ: sieczne
+Specjalne:
+Traktowana jako broñ o umagicznieniu +4
+20% szansa na spowolnienie przeciwnika
+Waga: 8
+Rodzaj bieg³oœci: d³ugi miecz
+Typ broni: 1-rêczna
+
+Mo¿e u¿ywaæ:
+Znajda
+
+Uwaga: Jeœli ktoœ inny u¿yje ten broni, to dozna obra¿eñ od czarnego zimna~
+@210     = ~Miecz cienia +5~
+@211     = ~Ten miecz zosta³ stworzony przez adepta cienia i tylko oni mog¹ w³adaæ tym orê¿em bez doznawania obra¿eñ od magicznego zimna. Samo ostrze wygl¹da tak, jakby powsta³o z czarnego metalu i ciemnego kryszta³u. Kr¹¿y pog³oska, ¿e im potê¿niejszy jest adept cienia w momencie jego stworzenia, tym bardziej œmiercionoœne staje siê jego ostrze.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +1K10 obra¿eñ od zimna
+TraK0: +5, +2 przeciw humanoidom
+Typ obra¿eñ: sieczne
+Specjalne:
+Traktowana jako broñ o umagicznieniu +5
+40% szansa na spowolnienie przeciwnika
+10% szansa na wyssanie z wroga 1 punktu zrêcznoœci
+Waga: 8
+Rodzaj bieg³oœci: d³ugi miecz
+Typ broni: 1-rêczna
+
+Mo¿e u¿ywaæ:
+Znajda
+
+Jeœli ktoœ inny u¿yje ten broni, to dozna obra¿eñ od czarnego zimna.~
+@212     = ~P³on¹cy miecz cienia +5~
+@213     = ~Ten miecz zosta³ stworzony przez adepta cienia i tylko oni mog¹ w³adaæ tym orê¿em bez doznawania obra¿eñ od magicznego zimna. Samo ostrze wygl¹da tak, jakby powsta³o z czarnego metalu i ciemnego kryszta³u. Kr¹¿y pog³oska, ¿e im potê¿niejszy jest adept cienia w momencie jego stworzenia, tym bardziej œmiercionoœne staje siê jego ostrze.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +1K12 obra¿eñ od zimna
+TraK0: +5, +3 przeciw humanoidom
+Typ obra¿eñ: sieczne
+Specjalne:
+Traktowana jako broñ o umagicznieniu +5
+40% szansa na spowolnienie przeciwnika
+10% szansa na wyssanie z wroga 1 punktu zrêcznoœci
+Waga: 8
+Rodzaj bieg³oœci: d³ugi miecz
+Typ broni: 1-rêczna
+
+Mo¿e u¿ywaæ:
+Znajda
+
+Jeœli ktoœ inny u¿yje ten broni, to dozna obra¿eñ od czarnego zimna.~
+@214     = ~Ciemnoniebieski kamieñ szlachetny~
+@215     = ~Ten okr¹g³y kamieñ ma ciemnoniebieski kolor. Wygl¹da tak, jakby by³ ciemniejszy w samym œrodku tej ma³ej kuli.~
+@216     = ~Ciemne rêkawice~
+@217     = ~Te rêkawice o ciemnym kolorze nie wydaj¹ siê byæ w ¿aden sposób magiczne, ale wygl¹daj¹ na dobrze wykonane i maj¹ szczególny wygl¹d. Z pewnoœci¹ dostaniesz za nie trochê z³ota.~
+@218     = ~Czarnoszramy~
+@219     = ~Oto Czarnoszramy, rêkawice o wielkiej mocy, które mog¹ wzmocniæ magiê Cienistego Splotu. Wydaj¹ siê byæ wyj¹tkowe i intryguj¹ce. S¹ trójkolorowe, czarno-niebiesko-szare i wygl¹daj¹ na bardzo solidne. Umieszczono w nich ciemnoniebieskie kamienie szlachetne.
+Niestety, tylko cienie i adepci cienia mog¹ ich u¿ywaæ.
+
+PARAMETRY:
+
+Specjalne:
++1 poziom zaklêæ
+Pozwala adeptowi cienia wkroczyæ do w³asnej sfery na wzór Sfery Kieszeniowej
+
+Mo¿e u¿ywaæ:
+Znajda~
+@220     = ~Oto Czarnoszramy, rêkawice o wielkiej mocy, które mog¹ wzmocniæ magiê Cienistego Splotu. Wydaj¹ siê byæ wyj¹tkowe i intryguj¹ce. S¹ trójkolorowe, czarno-niebiesko-szare i wygl¹daj¹ na bardzo solidne. Umieszczono w nich ciemnoniebieskie kamienie szlachetne.
+Niestety, tylko cienie i adepci cienia mog¹ ich u¿ywaæ.
+
+PARAMETRY:
+
+Specjalne:
++1 poziom zaklêæ
+Pozwala adeptowi cienia wkroczyæ do w³asnej sfery na wzór Sfery Kieszeniowej
+
+Mo¿e u¿ywaæ:
+Znajda
+
+Uwaga: U¿yj tych rêkawic, ¿eby opuœciæ sferê Czarnoszram.~
+@221     = ~Oto Czarnoszramy, rêkawice o wielkiej mocy, któr¹ mog¹ wzmocniæ magiê Cienistego Splotu. Wydaj¹ siê byæ wyj¹tkowe i intryguj¹ce. S¹ trójkolorowe, czarno-niebiesko-szare i wygl¹daj¹ na bardzo solidne. Umieszczono w nich ciemnoniebieskie kamienie szlachetne.
+Niestety, tylko cienie i adepci cienia mog¹ ich u¿ywaæ.
+
+PARAMETRY:
+
+Specjalne:
++1 poziom zaklêæ
+Te rêkawice pozwalaj¹ adeptowi cienia ukryæ siê w swojej w³asnej sferze, gdzie jego czary ulegaj¹ odnowieniu. Czas w osobistej sferze dzia³a na innych zasadach. 8-godzinny odpoczynek trwa 30 sekund w Pierwszej Sferze Materialnej.
+
+Mo¿e u¿ywaæ:
+Znajda~
+@222     = ~Szpon~
+@223     = ~Be¿owe nasionko~
+@224     = ~To nasionko powinno zostaæ umieszczone w zamarzniêtym stawie, o którym wspomina³a Be¿owa WiedŸma.~
+@225     = ~Nieprzemijaj¹ca lodowa strza³a~
+@226     = ~Ta magiczna strza³a zrobiona jest z trwa³ego lodu. Nie tylko zadaje dodatkowe obra¿enia od zimna, ale równie¿ wraca do w³aœciciela. Dziêki tej strzale, nigdy nie opuœci ciê szczêœcie.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 + 1K2 obra¿eñ od zimna
+Typ obra¿eñ: pocisk (k³ute)
+Waga: 0
+Wyrzutnia: ³uk
+
+Nie mo¿e u¿ywaæ:
+Druid
+Kap³an
+Mag~
+@227     = ~Po wielu prze¿ytych przygodach w towarzystwie potomka Bhaala, Znajda próbowa³ podró¿owaæ po Faerunie na w³asn¹ rêkê, ale okaza³o siê to dla niego trudne bez wsparcia towarzyszy. Nigdy nie próbowa³ dotrzeæ do odleg³ych krain. Trzyma³ siê blisko ziem, które niegdyœ odwiedzi³ wraz ze swoim dawnym przywódc¹, ale dok¹dkolwiek by siê nie uda³, czu³ siê wyobcowany. Jakiœ czas póŸniej mia³ konflikt z wyznawcami Sune, którzy uwa¿ali go za szkaradê stworzon¹ przez Shar z pomoc¹ swoich mrocznych mocy. Próbowa³ uciec, gdy¿ uwa¿a³ tê walkê za bezcelow¹, ale grupa Sunitów uda³a siê jego œladem i w koñcu dopad³a samotnego adepta cienia. W walce, która siê wywi¹za³a, straci³ rêkê, co uniemo¿liwi³o mu korzystanie z wiêkszoœci zaklêæ pochodz¹cych z Cienistego Splotu.
+W koñcu Znajdzie uda³o siê przezwyciê¿yæ swoje kalectwo. Ponownie nauczy³ siê korzystania z potê¿nej magii przy pomocy tylko jednej d³oni i odnalaz³ grupê poszukiwaczy przygód, z któr¹ móg³ walczyæ ramiê w ramiê. Kiedy jego nowa dru¿yna przedziera³a siê przez Podmrok, natkn¹³ siê na osadê Podziemnych Imaskari, którzy zaproponowali mu azyl. By³ to przywilej, którego nie otrzyma³ ¿aden z pozosta³ych poszukiwaczy przygód. Opuœci³ dru¿ynê, ¿eby odnaleŸæ swoje w³asne przeznaczenie, a na powierzchni œwiata nic nie wiadomo o jego ostatnich dniach ¿ycia.~
+@228     = ~Po wielu przygodach prze¿ytych w towarzystwie potomka Bhaala, Znajda zdecydowa³, ¿e zwiedzi wiêksz¹ czêœæ Faerunu, a¿ w koñcu powróci³ do miejsc, które on i <CHARNAME> niegdyœ wspólnie zwiedzili - do Wzgórz Wichrowej W³óczni, Wzgórz Umar, ruin œwi¹tyni Amaunatora, a nawet do Athkatli. Któregoœ dnia, niedaleko Targowa, spotka³ grupê rycerzy, która œciga³a go przez pewien czas, uznaj¹c go za potwora, który by³ niczym wiêcej jak okrutnym stworzeniem cienia. Poœcig by³ d³ugi i zaciek³y, ale po dziesiêciu dniach wspó³pracy, grupa rycerzy dopad³a samotnego adepta cienia.
+Wtedy w³aœnie pojawi³a siê Mazzy Fentan, która powstrzyma³a rycerzy. Znajda, bêd¹c wielce zaskoczony takim gestem, podziêkowa³ pani nizio³ce. Kiedy zapyta³ jej, dlaczego to zrobi³a, ta odpar³a, ¿e "bez cienia nie ma œwiat³a", sugeruj¹c przy tym rycerzom, ¿e na œwiecie grasuj¹ o wiele groŸniejsze istoty ni¿ ten obecny tutaj adept cienia. Kiedy odesz³a, przez pewien czas Znajda w tajemnicy œledzi³ j¹, choæ wnioski, jakie wyci¹gn¹³ ze swoich obserwacji nie s¹ nikomu znane.
+Kiedy zaniecha³ tego postêpowania, po kilku dniach samotnej tu³aczki spotka³ na swojej drodze cz³owieka o imieniu Si'iliatrias. Ten cz³owiek nale¿a³ do Podziemnych Iskari i zabra³ Znajdê do swojej ojczyzny znajduj¹cej siê pod powierzchni¹. Nikt wiêcej ju¿ nie us³ysza³ o adepcie cienia. Mo¿e byæ ¿ywy, a jednoczeœnie martwy gdzieœ tam w tunelach znajduj¹cych siê w Podmroku.~
+@229     = ~Kiedy przygody w towarzystwie potomka Bhaala dobieg³y koñca, Znajda wci¹¿ pamiêta³ o tym, co zasugerowa³<PRO_HESHE> mu <CHARNAME>. Ta jedna myœl odbija³a siê echem w jego umyœle: "Powinieneœ wróciæ do Sfery Cienia." Ta myœl wci¹¿ wraca³a i wraca³a, dopóki nie mia³ ju¿ si³, ¿eby siê jej oprzeæ. Wróci³ do ruin œwi¹tyni w poszukiwaniu starej ksiêgi, która nale¿a³a do jego dawnych panów, zwana Ksiêg¹ Drogi Cienia. Kiedy ju¿ j¹ odnalaz³, to studiowa³ j¹ dniami i nocami, a¿ wreszcie odkry³ drog¹ powrotn¹ do Sfery Cienia. W krainach ciemnoœci potrzebowa³ trochê czasu, ¿eby zapomnieæ o zasadach, których nauczy³ siê przestrzegaæ w Faerunie. Mówi siê, ¿e u¿y³ swoich nowo zdobytych, potê¿nych mocy, ¿eby stworzyæ kryjówkê, której próg tylko on móg³ bezpiecznie przekroczyæ. Niektórzy powiadaj¹, ¿e wnêtrze kryjówki potrafi ³amaæ prawa czasu, pozwalaj¹c mu ¿yæ wiecznie.
+Kr¹¿¹ pog³oski, ¿e choæ Znajda opuœci³ Faerun, to w ci¹gu nocy mroczna postaæ nadal przechadza siê w okolicy Wzgórz Umar, obserwuj¹c jej mieszkañców i zasiada obok pomnika Amaunatora, ¿eby przeœledziæ pismo zostawione przez Mazzy Fentan.~
+@230     = ~Kiedy przygody w towarzystwie potomka Bhaala dobieg³y koñca, Znajda wci¹¿ pamiêta³ o tym, co zasugerowa³<PRO_HESHE> mu <CHARNAME>. Ta jedna myœli odbija³a siê echem w jego umyœle: "Mo¿esz stworzyæ przedmioty takie jak swoje ostrze." Znajda wiedzia³, ¿e choæ jego ostrze cienia by³o stworzone tylko dziêki magii Cienistego Splotu, to jego dzie³o nadal mia³o znaczenie. Zdecydowa³ spróbowaæ i tak zacz¹³ uczyæ siê tworzenia magicznych przedmiotów i sztuki kowalstwa. Znajda by³ autorem wielu broni, które mog³y zarówno ocaliæ ¿ycie, jak i go pozbawiæ. Nigdy nie interesowa³o go z³oto, a jego ceny nie by³y wygórowane. Mówi¹, ¿e kiedy ju¿ sprzeda³ setkê ró¿nych broni, to œlad po nim zagin¹³. Jednak jego bronie nadal istnia³y w wielu zak¹tkach Faerunu. Niektórzy powiadaj¹, ¿e starzy towarzysze z dru¿yny potomka Bhaala u¿ywali sztyletów, które sam stworzy³. Nikt nie wiedzia³, ¿e w tym broniach by³a zaklêta cz¹stka energii Znajdy, co pozwoli³o mu ¿yæ tak d³ugo, jak d³ugo jego bronie by³y w u¿yciu.
+Kr¹¿¹ pog³oski, ¿e noc¹ od czasu do czasu mroczna postaæ nadal przechadza siê w pobli¿u Wzgórz Umar, obserwuj¹c jej mieszkañców i zasiadaj¹c obok pomnika Amaunatora. Nikt nie wie, czy to rzeczywiœcie jest Znajda, czy mo¿e kolejne zagro¿enie czyhaj¹ce w cieniu, którego nale¿a³o by siê baæ.~
+@231     = ~Rozkaz cienia~
+@232     = ~Rozkaz cienia (Magia Cienistego Splotu)
+  
+Poziom: 1
+Zasiêg: dotyk
+Czas dzia³ania: 20 tur
+Czas rzucania: 1
+Obszar dzia³ania: 1 istota
+Rzut obronny: specjalny
+
+To zaklêcie pozwala adeptowi cienia rozkazaæ istocie, by "umar³a" (usnê³a) na jedn¹ rundê, pod koniec której obudzi siê ona zupe³nie zdrowa. Stworzenia o wiêcej ni¿ 6 kostkach (lub poziomach doœwiadczenia) mog¹ wykonaæ rzut obronny przeciwko czarom, ¿eby zignorowaæ rozkaz.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 5% przez kolejne 10 sekund.~
+@233     = ~Rozkaz cienia (Magia Cienistego Splotu)
+Poziom: 1
+Zasiêg: dotyk
+Czas dzia³ania: 20 tur
+Czas rzucania: 1
+Obszar dzia³ania: 1 istota
+Rzut obronny: specjalny
+
+To zaklêcie pozwala adeptowi cienia rozkazaæ istocie, by "umar³a" (usnê³a) na jedn¹ rundê, pod koniec której obudzi siê ona zupe³nie zdrowa. Stworzenia o wiêcej ni¿ 6 kostkach (lub poziomach doœwiadczenia) mog¹ wykonaæ rzut obronny przeciwko czarom, ¿eby zignorowaæ rozkaz.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 5% przez kolejne 10 sekund.~
+@234     = ~Przywo³anie cienia I~
+@235     = ~Przywo³anie cienia I (Magia Cienistego Splotu)
+
+Poziom: 2
+Zasiêg: 40 metrów
+Czas dzia³ania: 6 rund
+Czas rzucania: 4
+Obszar dzia³ania: specjalny
+Rzut obronny: brak
+
+Po rzuceniu tego zaklêcia, adept cienia przywo³uje istotê cienia. Potwór pojawia siê w obszarze dzia³ania czaru i atakuje przeciwników rzucaj¹cego czar do momentu dzia³ania zaklêcia lub do momentu, gdy zostanie zabity.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 5% przez kolejne 10 sekund.~
+@236     = ~Przywo³anie cienia I (Magia Cienistego Splotu)
+
+Poziom: 2
+Zasiêg: 40 metrów
+Czas dzia³ania: 6 rund
+Czas rzucania: 4
+Obszar dzia³ania: specjalny
+Rzut obronny: brak
+
+Po rzuceniu tego zaklêcia, adept cienia przywo³uje istotê cienia. Potwór pojawia siê w obszarze dzia³ania czaru i atakuje przeciwników rzucaj¹cego czar do momentu dzia³ania zaklêcia lub do momentu, gdy zostanie zabity.
+Cieñ jest potê¿nym sojusznikiem w porównaniu z innymi przywo³anymi istotami na tym samym poziomie, jednak natychmiast umiera w zetkniêciu ze œwiat³em s³onecznym.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 5% przez kolejne 10 sekund.~
+@237     = ~Unieruchomienie cienia~
+@238     = ~Unieruchomienie cienia (Magia Cienistego Splotu)
+
+Poziom: 3
+Zasiêg: 10 metrów
+Czas dzia³ania: 1 tura
+Czas rzucania: 3
+Obszar dzia³ania: 1 istota i ka¿dy w promieniu 2 m
+Rzut obronny: neguje
+
+Ten czar unieruchamia 1 lub wiêcej osób – ludzi, nieludzi lub humanoidów – które sztywniej¹ i nie mog¹ siê poruszaæ przez 1 turê. Zaklêcie dzia³a na dwuno¿nych ludzi, nieludzi oraz humanoidy wielkoœci cz³owieka lub mniejsze. Mog¹ to byæ skrzaty, driady, krasnoludy, elfy, gnolle, gnomy, gobliny, pó³elfy, nizio³ki, pó³orkowie, hobgobliny, ludzie, koboldy, jaszczuroludzie, wodnice, orkowie, chochliki, leœne duszki i troglodyci. Tak wiêc wojownik z 10. poziomu mo¿e byæ ofiar¹ tego czaru, ale ogr nie. Centrum dzia³ania tego czaru znajduje siê w miejscu, gdzie stoi wybrana przez czaruj¹cego ofiara. Zaklêcie zadzia³a równie¿ na ka¿dego przeciwnika znajduj¹cego siê w odleg³oœci 2 metrów od niej. Czar nie dzia³a na istoty, którym powiedzie siê rzut obronny przeciw czarom z modyfikatorem -1. Nieumar³ych nie mo¿na unieruchomiæ za pomoc¹ tego zaklêcia.
+
+Unieruchomione istoty nie mog¹ siê poruszaæ ani mówiæ, s¹ jednak œwiadome tego, co dzieje siê wokó³ nich. Czar nie chroni przed ranami, chorobami lub truciznami, które mog¹ pogarszaæ stan jego ofiar.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 8% przez kolejne 10 sekund.~
+@239     = ~Unieruchomienie cienia (Magia Cienistego Splotu)
+
+Poziom: 3
+Zasiêg: 10 metrów
+Czas dzia³ania: 1 tura
+Czas rzucania: 3
+Obszar dzia³ania: 1 istota i ka¿dy w promieniu 2 m
+Rzut obronny: neguje
+
+Ten czar unieruchamia 1 lub wiêcej osób – ludzi, nieludzi lub humanoidów – które sztywniej¹ i nie mog¹ siê poruszaæ przez 1 turê. Zaklêcie dzia³a na dwuno¿nych ludzi, nieludzi oraz humanoidy wielkoœci cz³owieka lub mniejsze. Mog¹ to byæ skrzaty, driady, krasnoludy, elfy, gnolle, gnomy, gobliny, pó³elfy, nizio³ki, pó³orkowie, hobgobliny, ludzie, koboldy, jaszczuroludzie, wodnice, orkowie, chochliki, leœne duszki i troglodyci. Tak wiêc wojownik z 10. poziomu mo¿e byæ ofiar¹ tego czaru, ale ogr nie. Centrum dzia³ania tego czaru znajduje siê w miejscu, gdzie stoi wybrana przez czaruj¹cego ofiara. Zaklêcie zadzia³a równie¿ na ka¿dego przeciwnika znajduj¹cego siê w odleg³oœci 2 metrów od niej. Czar nie dzia³a na istoty, którym powiedzie siê rzut obronny przeciw czarom z modyfikatorem -1. Nieumar³ych nie mo¿na unieruchomiæ za pomoc¹ tego zaklêcia.
+
+Unieruchomione istoty nie mog¹ siê poruszaæ ani mówiæ, s¹ jednak œwiadome tego, co dzieje siê wokó³ nich. Czar nie chroni przed ranami, chorobami lub truciznami, które mog¹ pogarszaæ stan jego ofiar.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 8% przez kolejne 10 sekund.~
+@240     = ~Z³odziejstwo cienia~
+@241     = ~Z³odziejstwo cienia (Magia Cienistego Splotu)
+
+Poziom: 4
+Zasiêg: 3 metry
+Czas dzia³ania: 26 tur
+Czas rzucania: 2
+Obszar dzia³ania: 1 istota 
+Rzut obronny: brak
+
+Kiedy ten czas rzucony jest na z³odziei, bardów czy te¿ ³owców, sprawia, ¿e staj¹ siê oni potê¿niejsi. Wybrana istota otrzymuje premiê +40% do wszystkich umiejêtnoœci z³odziejskich, TraK0 zwiêkszone o 5 i modyfikator ciosu w plecy zwiêkszony o 1. Efekt utrzymuje siê przez 26 tur.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 8% przez kolejne 10 sekund.~
+@242     = ~Czarna przestrzeñ~
+@243     = ~Czarna przestrzeñ (Magia Cienistego Splotu)
+
+Poziom: 5
+Zasiêg: 6 metrów
+Czas rzucania: 1
+Obszar dzia³ania: 1 istota 
+Rzut obronny: brak 
+
+Ten czar wykorzystuje mroczn¹, telekinetyczn¹ energiê. Odpycha wybran¹ istotê z dala od czarodzieja, zadaj¹c jej 10k5+10 obra¿eñ obuchowych. Nie ma rzutu obronnego.
+
+Uwaga: To zaklêcie korzysta z magii Cienistego Splotu, która czyni czarodzieja bardziej podatnym na zimno. Po rzuceniu zaklêcia, mag ma obni¿on¹ odpornoœæ na zimno o 8% przez kolejne 10 sekund.~
+@244     = ~Wybor klasy dla Znajdy:
+Wcisnij 1 jesli chcesz zachowac oryginalna klase (mag jednoklasowiec: adept cienia)
+Wcisnij 2 jesli chcesz zainstalowac dodatkowa klase (wieloklasowiec: adept cienia/zlodziej)~
+@245     = ~Zachowaj oryginalna klase Znajdy.~
+@246     = ~Zmien klase Znajdy na adepta cienia/zlodzieja.~
+@249     = ~Znajda: Posrod cieni~
+
+@250     = ~ADEPT CIENI / Z£ODZIEJ~
+@251     = ~Adept Cieni / Z³odziej~ 
+@252     = ~ADEPT CIENI: Ci magowie tajemnej sztuki s¹ zwi¹zani ze Sfer¹ Cienia. Cienie s¹ dla nich zarówno b³ogos³awieñstwie, jak i przekleñstwem. Potrafi¹ korzystaæ z odmiennego Ÿród³a magii, Cienistego Splotu, na mocy kontraktu zawartego z Shar. Wiêkszoœæ z nich dokonuje nadzwyczajnego poœwiêcenia, które umo¿liwia im siêgniêcie do Cienistego Splotu, ale niektórzy z nich s¹ zmuszeni do s³u¿enia bogini wbrew swojej woli. Kr¹¿¹ pog³oski, ¿e istniej¹ potê¿ni magowie, którzy s¹ zdolni korzystaæ z tej¿e bez powierzania ¿ycia Shar.
+
+Zalety:
+- Premia +2 do TraK0. Na poziomie 14 i 21 uzyskuje dodatkowe +2 do TraK0 i 1/2 ataku na rundê
+- +10% odpornoœci na zimno. Odpornoœæ ta zwiêksza siê o 10% na ka¿de 10 poziomów
+- Na 5 poziomie uzyskuje sta³¹ Infrawizjê, wynikaj¹c¹ z kontaktu z energi¹ cienia
+- Posiada dostêp do zupe³nie nowych zaklêæ magii cienia. Wiêkszoœæ z nich jest zbli¿ona do odpowiadaj¹cym im czarów ze Splotu, ale poniewa¿ pochodz¹ z innego Ÿród³a, mog¹ mieæ odmienny charakter od zaklêæ ze Splotu Mystry.
+- Raz w swoim ¿yciu Adept Cienia mo¿e stworzyæ czarne ostrze, którym w³adaæ mo¿e jedynie jego stwórca. Moc ostrza zale¿na jest od poziomu maga w momencie jego stworzenia.
+
+Wady:
+- Nie mo¿e mieæ dobrego charakteru
+- Kara -20% odpornoœci na ogieñ i -5% odpornoœci na magiczny ogieñ
+- Nie mo¿e uczyæ siê nowych zaklêæ lub korzystaæ z magii pochodz¹cej ze Splotu Mystry w³¹czaj¹c w to zwoje z zaklêciami.
+- W œwietle dnia traci dwa poziomy zaklêæ maga. Na poziomie 14 kara ta zostaje zniesiona.
+
+
+MAGIA CIENISTEGO SPLOTU: z tego nowego rodzaju magii mog¹ korzystaæ jedynie Adepci Cienia, którzy w wiêkszoœci przypadków staj¹ siê s³ugami Shar. Ch³ód towarzyszy Magii Cienistego Splotu i z ka¿dym kolejnym rzuconym zaklêciem coraz trudniej magowi stawiæ mu czo³a. Wiêkszoœæ czarów z Cienistego Splotu jest potê¿niejsza i dzia³a nieco szybciej, jednak Adepci Cienia znaj¹ niewiele zaklêæ na poziom w porównaniu z ich rówieœnikami, korzystaj¹cymi ze Splotu Mystry.
+
+Z£ODZIEJ: Z³odziej to zrêczny ³otrzyk, który stara siê osi¹gn¹æ w³asne cele - dobre lub z³e. Jego znakami rozpoznawczymi s¹ spryt, zwinnoœæ i ci¹g³e krycie siê w cieniu. Tylko od z³odzieja zale¿y, czy wykorzysta swe talenty przeciw niewinnym wêdrowcom, bogatym kupcom, potworom lub gnêbi¹cej biedaków w³adzy.~
+
+@4000300 = ~Godziny~
+@4000301 = ~Niedostêpny~
+@768001  = ~Tak, ale nie dokonuj aktualizacji aktualnych zapisow gry~
+@768002  = ~Tak i dokonuj aktualizacji aktualnych zapisow gry~
+@500     = ~Znajda... Tajemnicy towarzysz do³¹czy³ do twojej dru¿yny. Dawny s³uga cienistego smoka wci¹¿ jest pod wp³ywem kl¹twy, któr¹ na³o¿y³ jego pan. Wed³ug Glorii D'Orlaux, potrzebujemy bardzo wyj¹tkowego miecza, ¿eby z³amaæ zaklêcie. Miecz ten nazywa siê K³amstwo Leiry i mo¿na go znaleŸæ w starej œwi¹tyni w górach znajduj¹cych siê kilka godzin od Athkatli. Droga mo¿e okazaæ siê bardzo niebezpieczna, ale to mo¿e byæ jedynie wyjœcie, ¿eby uwolniæ Znajdê spod wp³ywu kl¹twy.~ [L#FouTxt]

@@ -1,0 +1,53 @@
+IF
+   Global("StartEndBios","AR6200",1)
+   Global("L#FouBIO","GLOBAL",0)
+   InParty("L#Fou")
+   !InParty("MAZZY")
+   Global("L#BLACKSMITH","GLOBAL",1)
+   !Global("L#BACKSHADOW","GLOBAL",1)
+THEN
+   RESPONSE #100
+      SetGlobal("L#FouBIO","GLOBAL",4)
+      TextScreen("L#FouEp4")
+END
+
+IF
+   Global("StartEndBios","AR6200",1)
+   Global("L#FouBIO","GLOBAL",0)
+   InParty("L#Fou")
+   !InParty("MAZZY")
+   !Global("L#BLACKSMITH","GLOBAL",1)
+   Global("L#BACKSHADOW","GLOBAL",1)
+THEN
+   RESPONSE #100
+      SetGlobal("L#FouBIO","GLOBAL",3)
+      TextScreen("L#FouEp3")
+END
+
+IF
+   Global("StartEndBios","AR6200",1)
+   Global("L#FouBIO","GLOBAL",0)
+   InParty("L#Fou")
+   InParty("MAZZY")
+   !Global("L#BLACKSMITH","GLOBAL",1)
+   !Global("L#BACKSHADOW","GLOBAL",1)
+THEN
+   RESPONSE #100
+      SetGlobal("L#FouBIO","GLOBAL",2)
+      TextScreen("L#FouEp2")
+END
+
+
+IF
+   Global("StartEndBios","AR6200",1)
+   Global("L#FouBIO","GLOBAL",0)
+   InParty("L#Fou")
+   !InParty("MAZZY")
+   !Global("L#BLACKSMITH","GLOBAL",1)
+   !Global("L#BACKSHADOW","GLOBAL",1)
+THEN
+   RESPONSE #100
+      SetGlobal("L#FouBIO","GLOBAL",1)
+      TextScreen("L#FouEp1")
+END
+

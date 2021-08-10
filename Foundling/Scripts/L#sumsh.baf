@@ -1,0 +1,16 @@
+IF
+  Exists(Myself)
+  TimeOfDay(DAY)
+  AreaType(DAYNIGHT)
+  AreaType(OUTDOOR)
+  !AreaType(DUNGEON)
+THEN
+  RESPONSE #100
+    Kill(Myself)
+END
+
+
+
+
+
+

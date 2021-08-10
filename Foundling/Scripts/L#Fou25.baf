@@ -1,0 +1,517 @@
+///first
+
+IF
+Global("TalkForTheFirstTime","LOCALS",0)
+THEN
+RESPONSE #100
+SetGlobal("TalkForTheFirstTime","LOCALS",1)
+StartDialogueNoSet(Player1)
+END
+
+////////////////////////////////
+//////////CREATE BLADE//////////
+////////////////////////////////
+
+IF
+Global("L#SMITH","LOCALS",1)
+THEN
+RESPONSE #100
+StartDialogue("L#Fou25J",Player1)
+END
+
+IF
+Global("L#SMITH","LOCALS",2)
+THEN
+RESPONSE #100
+ApplySpellRES("L#DE",Myself)
+SetGlobal("L#SMITH","LOCALS",3)
+END
+
+IF
+Global("L#SMITH","LOCALS",3)
+LevelLT(Myself,4)
+THEN
+RESPONSE #100
+GiveItemCreate("L#SBSW1",Myself,1,0,0)
+SetGlobal("L#SMITH","LOCALS",4)
+END
+
+IF
+Global("L#SMITH","LOCALS",3)
+LevelGT(Myself,3)
+LevelLT(Myself,8)
+THEN
+RESPONSE #100
+GiveItemCreate("L#SBSW2",Myself,1,0,0)
+SetGlobal("L#SMITH","LOCALS",4)
+END
+
+IF
+Global("L#SMITH","LOCALS",3)
+LevelGT(Myself,7)
+LevelLT(Myself,13)
+THEN
+RESPONSE #100
+GiveItemCreate("L#SBSW3",Myself,1,0,0)
+SetGlobal("L#SMITH","LOCALS",4)
+END
+
+IF
+Global("L#SMITH","LOCALS",3)
+LevelGT(Myself,12)
+LevelLT(Myself,17)
+THEN
+RESPONSE #100
+GiveItemCreate("L#SBSW4",Myself,1,0,0)
+SetGlobal("L#SMITH","LOCALS",4)
+END
+
+IF
+Global("L#SMITH","LOCALS",3)
+LevelGT(Myself,16)
+LevelLT(Myself,23)
+THEN
+RESPONSE #100
+GiveItemCreate("L#SBSW5",Myself,1,0,0)
+SetGlobal("L#SMITH","LOCALS",4)
+END
+
+IF
+Global("L#SMITH","LOCALS",3)
+LevelGT(Myself,22)
+THEN
+RESPONSE #100
+GiveItemCreate("L#SBSW6",Myself,1,0,0)
+SetGlobal("L#SMITH","LOCALS",4)
+END
+
+IF
+Global("L#SMITH","LOCALS",4)
+PartyRested()
+THEN
+RESPONSE #100
+ApplySpellRES("L#DE",Myself)
+SetGlobal("L#SMITH","LOCALS",5)
+END
+
+////////////////////////////////
+//////////CLOACK TALKS//////////
+////////////////////////////////
+
+IF
+  TimeOfDay(DAY)
+  AreaType(DAYNIGHT)
+  AreaType(OUTDOOR)
+  !AreaType(DUNGEON)
+  Global("L#fouDAY","LOCALS",0)
+  LevelLT(Myself,14)
+THEN
+  RESPONSE #100
+    SetGlobal("L#fouDAY","LOCALS",1)
+    ApplySpellRES("L#DAY",Myself)
+END
+
+IF
+  Global("L#fouDAY","LOCALS",1)
+  OR(3)
+    !AreaType(OUTDOOR)
+    AreaType(DUNGEON)
+    TimeOfDay(NIGHT)
+  LevelLT(Myself,14)
+THEN
+  RESPONSE #100
+    SetGlobal("L#fouDAY","LOCALS",0)
+    ApplySpellRES("L#NIG",Myself)
+END
+
+IF
+  TimeOfDay(DAY)
+  AreaType(DAYNIGHT)
+  AreaType(OUTDOOR)
+  !AreaType(DUNGEON)
+  Global("L#fouDAY2","LOCALS",0)
+  LevelGT(Myself,13)
+  LevelLT(Myself,21)
+THEN
+  RESPONSE #100
+    SetGlobal("L#fouDAY2","LOCALS",1)
+    ApplySpellRES("L#DAY2",Myself)
+END
+
+IF
+  TimeOfDay(DAY)
+  AreaType(DAYNIGHT)
+  AreaType(OUTDOOR)
+  !AreaType(DUNGEON)
+  Global("L#fouDAY3","LOCALS",0)
+  LevelGT(Myself,20)
+THEN
+  RESPONSE #100
+    SetGlobal("L#fouDAY3","LOCALS",1)
+    ApplySpellRES("L#DAY3",Myself)
+END
+
+////////////////////
+///Timered 1////////
+////////////////////
+
+IF
+InParty(Myself)
+Global("L#FouToBTimeredTalk","GLOBAL",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("L#FouToBTimeredTalkT","GLOBAL",2000)
+SetGlobal("L#FouToBTimeredTalk","GLOBAL",1)
+END
+
+IF
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck("L#FOU",CD_STATE_NOTVALID)
+CombatCounter(0)
+Global("L#FouToBTimeredTalk","GLOBAL",1)
+RealGlobalTimerExpired("L#FouToBTimeredTalkT","GLOBAL")
+THEN
+RESPONSE #100
+SetGlobal("L#FouToBTimeredTalk","GLOBAL",2)
+END
+
+IF
+Global("L#FouToBTimeredTalk","GLOBAL",2)
+THEN
+RESPONSE #100
+MoveToObject(Player1)
+PlaySong(0)
+PlaySound("L#FOU")
+StartDialogue("L#Fou25J",Player1)
+END
+
+////////////////////
+///Timered 2////////
+////////////////////
+
+IF
+InParty(Myself)
+Global("L#FouToBTimeredTalk","GLOBAL",3)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("L#FouToBTimeredTalkT","GLOBAL",2000)
+SetGlobal("L#FouToBTimeredTalk","GLOBAL",4)
+END
+
+IF
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck("L#FOU",CD_STATE_NOTVALID)
+CombatCounter(0)
+Global("L#FouToBTimeredTalk","GLOBAL",4)
+RealGlobalTimerExpired("L#FouToBTimeredTalkT","GLOBAL")
+THEN
+RESPONSE #100
+SetGlobal("L#FouToBTimeredTalk","GLOBAL",5)
+END
+
+IF
+Global("L#FouToBTimeredTalk","GLOBAL",5)
+THEN
+RESPONSE #100
+MoveToObject(Player1)
+PlaySong(0)
+PlaySound("L#FOU")
+StartDialogue("L#Fou25J",Player1)
+END
+
+////////////////////
+///Timered 3////////
+////////////////////
+
+IF
+InParty(Myself)
+Global("L#FouToBTimeredTalk","GLOBAL",6)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("L#FouToBTimeredTalkT","GLOBAL",2000)
+SetGlobal("L#FouToBTimeredTalk","GLOBAL",7)
+END
+
+IF
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck("L#FOU",CD_STATE_NOTVALID)
+CombatCounter(0)
+Global("L#FouToBTimeredTalk","GLOBAL",7)
+RealGlobalTimerExpired("L#FouToBTimeredTalkT","GLOBAL")
+THEN
+RESPONSE #100
+SetGlobal("L#FouToBTimeredTalk","GLOBAL",8)
+END
+
+IF
+Global("L#FouToBTimeredTalk","GLOBAL",8)
+THEN
+RESPONSE #100
+MoveToObject(Player1)
+PlaySong(0)
+PlaySound("L#FOU")
+StartDialogue("L#Fou25J",Player1)
+END
+
+////////////////////////
+////PLAYER HAS ROMANCE//
+////////////////////////
+
+IF
+InParty(Myself)
+Global("L#FouToBTimeredTalk","GLOBAL",9)
+OR(38)
+Global("JaheiraRomanceActive","GLOBAL",2)
+Global("ViconiaRomanceActive","GLOBAL",2)
+Global("AerieRomanceActive","GLOBAL",2)
+Global("AnomenRomanceActive","GLOBAL",2)
+GlobalGT("SolaTalk","GLOBAL",14)
+Global("NathRomanceActive","GLOBAL",2) 
+Global("FHFarenRomanceActive","GLOBAL",2) 
+Global("LK#ArathRomanceActive","GLOBAL",2) 
+Global("L7TsukiSexActive","GLOBAL",2)
+Global("ChloeRomanceActiveCR","GLOBAL",2) 
+Global("SarahRomanceActive","GLOBAL",2) 
+Global("T#DaceRomanceActive","GLOBAL",2) 
+Global("SimeRomanceActive","GLOBAL",2)
+Global("J#KelseyRomanceActive","GLOBAL",2)
+Global("TsujathaRomanceActive","GLOBAL",2)
+Global("SaerilethRomanceActive","GLOBAL",2)
+Global("TashiaRomanceActive","GLOBAL",2)
+Global("H#ValygarRomanceActive","GLOBAL",2)
+Global("ImoenRomanceActive","GLOBAL",2)
+Global("NaliaRomanceActive","GLOBAL",2)
+Global("E3FADEROMANCEACTIVE","GLOBAL",2)
+Global("O#XanRomanceActive","GLOBAL",2)
+Global("M#AmberRomanceActive","GLOBAL",2)
+Global("C#AjantisRomanceActive","GLOBAL",2)
+Global("LK#NindeRomanceActive","GLOBAL",2)
+Global("ADAngelRomanceActive","GLOBAL",2)
+Global("B!GavRA","GLOBAL",2)
+Global("SK#NehtRomanceActive","GLOBAL",2)
+Global("G#TF.TyrisRomanceActive","GLOBAL",2)
+Global("T1DarRomanceActive","GLOBAL",2)
+Global("B!KeldornRA","GLOBAL",2)
+Global("EdwinRomanceActive","GLOBAL",2)
+Global("YvetteRomanceActive","GLOBAL",2)
+Global("SkieRomanceActive","GLOBAL",2)
+Global("rh#AdrianRomanceActive","GLOBAL",2)
+Global("LK#ArathRomanceActive","GLOBAL",2)
+Global("L3PetsyRomanceActive","GLOBAL",2)
+Global("rh#IsraRomanceActive","GLOBAL",2)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("L#FouToBTimeredTalkT","GLOBAL",2000)
+SetGlobal("L#FouToBTimeredTalk","GLOBAL",10)
+END
+
+IF
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck("L#FOU",CD_STATE_NOTVALID)
+CombatCounter(0)
+Global("L#FouToBTimeredTalk","GLOBAL",10)
+RealGlobalTimerExpired("L#FouToBTimeredTalkT","GLOBAL")
+THEN
+RESPONSE #100
+SetGlobal("L#FouToBTimeredTalk","GLOBAL",11)
+END
+
+IF
+Global("L#FouToBTimeredTalk","GLOBAL",11)
+THEN
+RESPONSE #100
+MoveToObject(Player1)
+PlaySong(0)
+PlaySound("L#FOU")
+StartDialogue("L#Fou25J",Player1)
+END
+
+
+//////////////////////////
+///////SARADUSH///////////
+//////////////////////////
+
+IF
+InParty(Myself)
+Global("L#FouSaradushTalk","GLOBAL",0)
+Global("SaradushSacked","GLOBAL",1)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("L#FouSaradushTalkT","GLOBAL",60)
+SetGlobal("L#FouSaradushTalk","GLOBAL",1)
+END
+
+IF
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck("L#FOU",CD_STATE_NOTVALID)
+CombatCounter(0)
+Global("L#FouSaradushTalk","GLOBAL",1)
+RealGlobalTimerExpired("L#FouSaradushTalkT","GLOBAL")
+THEN
+RESPONSE #100
+SetGlobal("L#FouSaradushTalk","GLOBAL",2)
+END
+
+IF
+Global("L#FouSaradushTalk","GLOBAL",2)
+THEN
+RESPONSE #100
+MoveToObject(Player1)
+PlaySong(0)
+PlaySound("L#FOU")
+StartDialogue("L#Fou25J",Player1)
+END
+
+////////////////////////////
+////SHADOW DRAGON SKILLS////
+////////////////////////////
+
+IF
+InParty(Myself)
+Global("L#FouSkillTalk","GLOBAL",0)
+OR(2)
+Global("L#FOUDRA","LOCALS",1)
+Global("L#FOUHUM","LOCALS",1)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("L#FouSkillTalkT","GLOBAL",30)
+SetGlobal("L#FouSkillTalk","GLOBAL",1)
+END
+
+IF
+InParty(Myself)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck("L#FOU",CD_STATE_NOTVALID)
+CombatCounter(0)
+Global("L#FouSkillTalk","GLOBAL",1)
+RealGlobalTimerExpired("L#FouSkillTalkT","GLOBAL")
+THEN
+RESPONSE #100
+SetGlobal("L#FouSkillTalk","GLOBAL",2)
+END
+
+IF
+Global("L#FouSkillTalk","GLOBAL",2)
+THEN
+RESPONSE #100
+MoveToObject(Player1)
+PlaySong(0)
+PlaySound("L#FOU")
+StartDialogue("L#Fou25J",Player1)
+END
+
+
+
+/////////////////////////////
+/////QUEST///////////////////
+/////////////////////////////
+
+IF
+InParty(Myself)
+PartyHasItem("L#FGLV")
+Global("L#FouToBQuest","GLOBAL",0)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck("L#FOU",CD_STATE_NOTVALID)
+CombatCounter(0)
+THEN
+RESPONSE #100
+MoveToObject(Player1)
+PlaySong(0)
+PlaySound("L#FOU")
+StartDialogue("L#Fou25J",Player1)
+END
+
+IF
+InParty(Myself)
+PartyHasItem("L#FGLV")
+PartyHasItem("L#FGem1")
+PartyHasItem("L#FGem2")
+Global("L#FouToBQuest","GLOBAL",1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck("L#FOU",CD_STATE_NOTVALID)
+CombatCounter(0)
+THEN
+RESPONSE #100
+MoveToObject(Player1)
+PlaySong(0)
+PlaySound("L#FOU")
+StartDialogue("L#Fou25J",Player1)
+END
+
+IF
+Global("L#FouToBQuest","GLOBAL",3)
+PartyHasItem("L#FGLVF")
+THEN
+RESPONSE #100
+MoveToObject(Player1)
+PlaySong(0)
+PlaySound("L#FOU")
+StartDialogue("L#Fou25J",Player1)
+END
+
+IF
+Global("L#FouToBQuest","GLOBAL",4)
+Global("L#FGLV","LOCALS",1)
+THEN
+RESPONSE #100
+ActionOverride(Player1,MakeUnselectable(400000))
+ActionOverride(Player2,MakeUnselectable(400000))
+ActionOverride(Player3,MakeUnselectable(400000))
+ActionOverride(Player4,MakeUnselectable(400000))
+ActionOverride(Player5,MakeUnselectable(400000))
+ActionOverride(Player6,MakeUnselectable(400000))
+ActionOverride("L#Fou",MakeUnselectable(0))
+StorePartyLocations()
+SetGlobal("L#FouToBQuest","GLOBAL",5)
+ActionOverride("L#FOU",LeaveAreaLUA("L#FOU3","",[400.800],4))
+ActionOverride("L#Fou",DestroyItem("L#FGLVF"))
+GiveItemCreate("L#FGLVB","L#Fou",1,0,0)
+ActionOverride("L#FFAM",StartDialogueNoSet(Player1))
+END
+
+IF
+Dead("L#FFAM")
+Global("L#FGLVB","LOCALS",1)
+Global("L#FouToBQuest","GLOBAL",5)
+THEN
+RESPONSE #100
+SetGlobal("L#FouToBQuest","GLOBAL",6)
+ActionOverride("L#Fou",DestroyItem("L#FGLVB"))
+GiveItemCreate("L#FGLVC","L#Fou",1,0,0)
+ActionOverride(Player1,MakeUnselectable(0))
+ActionOverride(Player2,MakeUnselectable(0))
+ActionOverride(Player3,MakeUnselectable(0))
+ActionOverride(Player4,MakeUnselectable(0))
+ActionOverride(Player5,MakeUnselectable(0))
+ActionOverride(Player6,MakeUnselectable(0))
+RestorePartyLocations()
+END
+
+IF
+See(Player1)
+Global("L#FouToBQuest","GLOBAL",6)
+THEN
+RESPONSE #100
+MoveToObject(Player1)
+PlaySong(0)
+PlaySound("L#FOU")
+StartDialogue("L#Fou25J",Player1)
+END
+
+IF
+Global("L#FouToBQuest","GLOBAL",7)
+THEN
+RESPONSE #100
+SetGlobal("L#FouToBQuest","GLOBAL",8)
+AddXPObject(Player1,10000)
+AddXPObject(Player2,10000)
+AddXPObject(Player3,10000)
+AddXPObject(Player4,10000)
+AddXPObject(Player5,10000)
+AddXPObject(Player6,10000)
+END

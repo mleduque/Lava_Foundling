@@ -1,0 +1,152 @@
+IF
+HP(Myself,1)
+Global("L#Destroy1HP","LOCALS",0)
+Global("L#FouPlot","GLOBAL",23)
+THEN
+RESPONSE #100
+SetGlobal("L#FouPlot","GLOBAL",24)
+SetGlobal("L#Destroy1HP","LOCALS",1)
+END
+
+IF
+Global("L#FouPlot","GLOBAL",24)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+//////////////////////
+///////DRAGON/////////
+//////////////////////
+
+IF
+  See([GOODCUTOFF.GENERAL_ITEM.0.0.0.SUMMONED])
+  Global("sdSummon","LOCALS",0)
+THEN
+  RESPONSE #100
+    ForceSpell(Lastseenby(Myself),WIZARD_DEATH_SPELL)
+    SetGlobal("sdSummon","LOCALS",1)
+END
+
+IF
+  See(Nearestenemyof(Myself))
+  Global("RemoveMagic","LOCALS",0)
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,DRAGON_STONE_SKIN)
+    ForceSpell(Lastseenby(Myself),WIZARD_DISPEL_MAGIC)
+    SetGlobal("StoneSkin","LOCALS",1)
+    SetGlobal("RemoveMagic","LOCALS",1)
+END
+
+IF
+  !Detect([PC])
+  HPLT(Myself,50)
+  CombatCounter(0)
+THEN
+  RESPONSE #100
+    SetGlobal("RemoveMagic","LOCALS",0)
+    SetGlobal("WingBuffet","LOCALS",0)
+    SetGlobal("Haste","LOCALS",0)
+    SetGlobal("DRAGONFEAR","LOCALS",0)
+    ForceSpell(Myself,CLERIC_HEAL)
+END
+
+IF
+  See(Nearestenemyof(Myself))
+  Global("DRAGONFEAR","LOCALS",0)
+THEN
+  RESPONSE #100
+    ReallyForceSpell(Nearestenemyof(Myself),DRAGON_FEAR)
+    SetGlobal("DRAGONFEAR","LOCALS",1)
+    SetGlobalTimer("SHADOWDRAGONBREATH","GLOBAL",1)
+    ForceSpell(Lastseenby(Myself),DRAGON_WING_BUFFET)
+END
+
+IF
+  GlobalTimerExpired("SHADOWDRAGONBREATH","GLOBAL")
+  See(Nearestenemyof(Myself))
+  Range(Lastseenby(Myself),11)
+  Global("WingBuffet","LOCALS",0)
+THEN
+  RESPONSE #100
+    ForceSpell(Lastseenby(Myself),DRAGON_WING_BUFFET)
+    Wait(3)
+    SetGlobal("WingBuffet","LOCALS",1)
+  RESPONSE #60
+    Continue()
+END
+
+IF
+  See(Nearestenemyof(Myself))
+  !Range(Lastseenby(Myself),10)
+  GlobalTimerExpired("SHADOWDRAGONBREATH","GLOBAL")
+THEN
+  RESPONSE #100
+    SetGlobal("WingBuffet","LOCALS",0)
+    ForceSpell(Lastseenby(Myself),SHADOW_DRAGON_BREATH)
+    SetGlobalTimer("SHADOWDRAGONBREATH","GLOBAL",18)
+END
+
+IF
+  See(Nearestenemyof(Myself))
+  Global("Offensive","LOCALS",0)
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,PROTECTION_MAGIC_WEAPON_NOEFF)
+    SetGlobal("Offensive","LOCALS",2)
+END
+
+IF
+  See(Nearestenemyof(Myself))
+  Global("Offensive","LOCALS",2)
+THEN
+  RESPONSE #100
+    AttackOneRound(Lastseenby(Myself))
+    AttackOneRound(Lastseenby(Myself))
+    SetGlobal("Offensive","LOCALS",3)
+END
+
+IF
+  See(Nearestenemyof(Myself))
+  Global("Offensive","LOCALS",3)
+THEN
+  RESPONSE #100
+    ForceSpell(Lastseenby(Myself),WIZARD_CHAOS)
+    SetGlobal("Offensive","LOCALS",4)
+END
+
+IF
+  See(Nearestenemyof(Myself))
+  Global("Offensive","LOCALS",4)
+THEN
+  RESPONSE #100
+    ForceSpell(Lastseenby(Myself),WIZARD_GREATER_MALISON)
+    SetGlobal("Offensive","LOCALS",5)
+END
+
+IF
+  See(Nearestenemyof(Myself))
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    AttackReevaluate(Nearestenemyof(Myself),35)
+  RESPONSE #10
+    ForceSpell(Lastseenby(Myself),WIZARD_CHROMATIC_ORB)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  !See([0])
+THEN
+  RESPONSE #100
+    MoveToObject(Player1)
+END
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    Enemy()
+END

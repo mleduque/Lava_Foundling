@@ -1,0 +1,9 @@
+IF
+  Global("ItemMaker","GLOBAL",377)
+  Global("ImpForgeStuff","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImpForgeStuff","GLOBAL",0)
+    GiveItemCreate("L#FGLVF",Player1,1,0,0)
+    StartDialogNoSet(Player1)
+END

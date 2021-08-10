@@ -1,0 +1,137 @@
+// hla.tph
+
+//////HLA
+
+COPY ~Foundling/Spells/L#FHLA1.SPL~     ~override~ // obtained via luLSH.2da
+  SAY NAME1 @86 /* Shadow Dragon Disciple */
+  SAY NAME2 @86 /* Shadow Dragon Disciple */
+  SAY UNIDENTIFIED_DESC @87 /* After years of being the servant of the Shadow Dragon, some may become more than that--they may become a Shadow Dragon Disciple. After accepting the dark energy, one may be given +2 AC bonus and +1 Constitution bonus. What's more, the Disciple is given the Shadow Dragon Breath ability. */
+  
+COPY ~Foundling/Spells/L#FSP38.SPL~     ~override~ // obtained via L#FHLA1.SPL
+  SAY NAME1 @88 /* Shadow Dragon Breath */
+  SAY NAME2 @88 /* Shadow Dragon Breath */
+  
+COPY ~Foundling/Spells/L#FHLA2.SPL~     ~override~ // obtained via luLSH.2da
+  SAY NAME1 @89 /* Shadow Training */
+  SAY NAME2 @89 /* Shadow Training */
+  SAY UNIDENTIFIED_DESC @90 /* By picking this ability, the character is given additional fighting bonuses: +1 Thac0 and +1 Saving Throws. */
+  
+COPY ~Foundling/Spells/L#FHLA3.SPL~     ~override~ // obtained via luLSH.2da
+  SAY NAME1 @91 /* Greater Shadow Training */
+  SAY NAME2 @91 /* Greater Shadow Training */
+  SAY UNIDENTIFIED_DESC @92 /* By picking this ability, the character is given even greater fighting bonuses: +2 Thac0 and +2 to Saving Throws. */
+  
+COPY ~Foundling/Spells/L#FHLA4.SPL~     ~override~ // obtained via luLSH.2da
+  SAY NAME1 @93 /* Shadow Whirlwind Attack */
+  SAY NAME2 @93 /* Shadow Whirlwind Attack */
+  SAY UNIDENTIFIED_DESC @94 /* By picking this ability, the character is given a dark version of Whirlwind Attack. Thanks to it, the character may be hasted and gain a great number of attacks per round. */
+
+COPY ~Foundling/Spells/L#FHLA5.SPL~     ~override~ // obtained via luLSH.2da
+  SAY NAME1 @95 /* Shadowkin */
+  SAY NAME2 @95 /* Shadowkin */
+  SAY UNIDENTIFIED_DESC @96 /* After years of fighting on the side of the shadows and using Shadow Weave magic, a character may become a Shadowkin. Thanks to this title, character will be permanently considered kin by all types of shadows. */
+
+COPY ~Foundling/Spells/L#FHLA6.SPL~     ~override~ // obtained via luLSH.2da
+  SAY NAME1 @97 /* Shapeshift: Shadowbound */
+  SAY NAME2 @97 /* Shapeshift: Shadowbound */
+  SAY UNIDENTIFIED_DESC @98 /* Shapeshift: Shadowbound (Shadow Weave)
+Innate ability
+Range: 0
+Duration: 5 rounds
+Casting Time: 2
+Area of Effect: Self
+Saving Throw: None
+
+This spell lets the caster change shape and become a monstrous creature - The Shadowbound. While in this form, the caster becomes immune to: backstab, fear, level drain, confusion, stun, sleep, imprisoment, maze, and wing buffet. The creature is also resistant to most elemental damage: +90% fire and acid, but only +25% cold resistance. The form uses a special weapon that does 1d10+5 and +1d4 cold damage; +6 thac0. Attacks per round are set to 3.
+While in this shape, the mage can't cast spells.   
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  While in the long term the caster receives a +25% bonus to cold resistance, for the first 10 seconds after the spell is cast the mage suffers a -16% *penalty*. As this spell is a more powerful one, there is a 10% chance that more chill will appear, dealing 1d6 cold damage. */
+
+COPY ~Foundling/Spells/L#FHLA7.SPL~     ~override~ // obtained via luLSH.2da
+  SAY NAME1 @99 /* Human Heritage */
+  SAY NAME2 @99 /* Human Heritage */
+  SAY UNIDENTIFIED_DESC @100 /* After years of being the servant of the Shadow Dragon, one may become more human-like again. Remembering the real and true heritage may provide +1 Strength and +1 Constitution bonus as well as permanent +15 hP. */
+  
+COPY ~Foundling/Spells/L#FHLA8.SPL~     ~override~ // obtained via luLSH.2da
+  SAY NAME1 @101 /* Additional Shadow Spells */
+  SAY NAME2 @101 /* Additional Shadow Spells */
+  SAY UNIDENTIFIED_DESC @102 /* By picking this ability, the shadow adept is given 5 new spells: Banish with Shadows, Cold Blast, Dark Regeneration, Overwhelm, and Dark Acceleration. */
+  
+//////////////////PHLA
+  
+COPY ~Foundling/Spells/L#PHLA1.SPL~     ~override~ // obtained via L#FHLA8.SPL
+  SAY NAME1 @103 /* Banish with Shadows */
+  SAY NAME2 @103 /* Banish with Shadows */
+  SAY UNIDENTIFIED_DESC @104 /* Banish with Shadows (Shadow Weave)
+Level: 5
+Range: 30 feet
+Duration: instant
+Casting Time: 4
+Area of Effect: 1 creature
+Saving Throw: None
+
+This spell can open a gate and banish one creature that has been summoned by another sorcerer. When the spell is cast, the creature is sent to its home plane.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -12% penalty to cold resistance for 10 seconds. */
+
+COPY ~Foundling/Spells/L#PHLA2.SPL~     ~override~ // obtained via L#FHLA8.SPL
+  SAY NAME1 @105 /* Cold Blast */
+  SAY NAME2 @105 /* Cold Blast */
+  SAY UNIDENTIFIED_DESC @106 /* Cold Blast (Shadow Weave)
+Level: 6
+Range: 40 feet
+Duration: instant
+Casting Time: 3
+Area of Effect: 30' radius
+Saving Throw: Halves damage
+
+With this spell, the mage can summon an icy version of the Fireball spell, freezing everything caught in its area of effect and causing serious damage: 10D6+16 (half if a saving throw is successful). This spell may also harm allies.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -14% penalty to cold resistance for 10 seconds. */
+
+COPY ~Foundling/Spells/L#PHLA3.SPL~     ~override~ // obtained via L#FHLA8.SPL
+  SAY NAME1 @107 /* Dark Regeneration */
+  SAY NAME2 @107 /* Dark Regeneration */
+  SAY UNIDENTIFIED_DESC @108 /* Dark Regeneration (Shadow Weave)
+Level: 7
+Range: touch
+Duration: 1 round for every caster's level
+Casting Time: 9
+Area of Effect: 1 creature
+Saving Throw: none
+
+This powerful spell can provide one creature an extra-ordinary regeneration skill. Once the shadows have covered all the wounds, they disappear in a few moments. The spell can heal 3 HP every second for the duration of the spell. 
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers -16% penalty to cold resistance for 10 seconds. */
+
+COPY ~Foundling/Spells/L#PHLA4.SPL~     ~override~ // obtained via L#FHLA8.SPL
+  SAY NAME1 @109 /* Overwhelm */
+  SAY NAME2 @109 /* Overwhelm */
+  SAY UNIDENTIFIED_DESC @110 /* Overwhelm (Shadow Weave)
+Level: 8
+Range: 30 feet
+Duration: 2 rounds
+Casting Time: 3
+Area of Effect: 12' radius
+Saving Throw: vs spells to negate
+
+With this spell, the shadow adept may try to crush the minds of enemies and stun a whole group of foes to give himself and his allies some time to finish them off. Enemies can do nothing but observe and suffer.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -16% penalty to cold resistance for 10 seconds. */
+
+COPY ~Foundling/Spells/L#PHLA5.SPL~     ~override~ // obtained via L#FHLA8.SPL
+  SAY NAME1 @111 /* Dark Alacrity */
+  SAY NAME2 @111 /* Dark Alacrity */
+  SAY UNIDENTIFIED_DESC @112 /* Dark Alacrity (Shadow Weave)
+Level: 9
+Range: self
+Duration: 2 rounds
+Casting Time: 9
+Area of Effect: self
+Saving Throw: none
+
+This is a dark version of the acceleration spell that lets a mage cast arcane spells in the very moment the previous spell has been cast, without the need to take a single breath.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -25% penalty to cold resistance for 10 seconds. */
+
+

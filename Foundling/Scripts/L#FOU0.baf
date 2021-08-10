@@ -1,0 +1,42 @@
+IF
+Exists(Player1)
+Global("L#Barrier","L#FOU0",0)
+THEN
+RESPONSE #100
+SetGlobal("L#Barrier","L#FOU0",1)
+TriggerActivation("AR0020",FALSE)
+TriggerActivation("L#FOU1",FALSE)
+END
+
+IF
+Global("L#Barrier","L#FOU0",1)
+OR(2)
+Dead("L#FOIVO")
+Global("L#FoundlingIvory","GLOBAL",2)
+THEN
+RESPONSE #100
+TriggerActivation("L#FOU1",TRUE)
+AmbientActivate("L#FOWALL",FALSE)
+SetGlobal("L#Barrier","L#FOU0",2)
+END
+
+IF
+Global("L#Barrier","L#FOU0",2)
+GlobalGT("L#FouPlot","GLOBAL",16)
+THEN
+RESPONSE #100
+TriggerActivation("AR0020",TRUE)
+SetGlobal("L#Barrier","L#FOU0",3)
+END
+
+IF
+Contains("L#FOSEED","POND")
+Dead("L#FOGR2")
+Global("L#PondIsClear","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("L#PondIsClear","GLOBAL",1)
+DestroyItem("L#FOSEED")
+CreateVisualEffect("SPRAISEI",[3370.940])
+END
+

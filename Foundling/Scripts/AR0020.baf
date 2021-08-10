@@ -1,0 +1,32 @@
+IF
+  InParty("L#FOU")
+  !Dead("L#FOU")
+  Global("L#FouPlot","GLOBAL",9)
+THEN
+  RESPONSE #100
+    StartCutSceneMode()
+    SetGlobal("L#FouPlot","GLOBAL",10)
+    Wait(1)
+    DisplayStringHead("L#FOU",@0 /* The city gates--We should leave and find the place D'Orlaux told us about. Let's leave. */)
+    Wait(4)
+    ActionOverride(Player1,MoveToPointNoInterrupt([888.370]))
+    ActionOverride(Player2,Formation(Player1,[-3.3]))
+    ActionOverride(Player3,Formation(Player1,[3.3]))
+    ActionOverride(Player4,Formation(Player1,[4.6]))
+    ActionOverride(Player5,Formation(Player1,[-4.6]))
+    ActionOverride(Player6,Formation(Player1,[0.3]))
+    Wait(8)
+    FadeToColor([30.0],0)
+    Wait(1)
+    TextScreen("L#FouTxt")
+    ActionOverride(Player1,LeaveAreaLUA("L#FOU0","",[50.2100],0))
+    ActionOverride(Player2,LeaveAreaLUA("L#FOU0","",[55.2100],0))
+    ActionOverride(Player3,LeaveAreaLUA("L#FOU0","",[50.2105],0))
+    ActionOverride(Player4,LeaveAreaLUA("L#FOU0","",[55.2105],0))
+    ActionOverride(Player5,LeaveAreaLUA("L#FOU0","",[40.2100],0))
+    ActionOverride(Player6,LeaveAreaLUA("L#FOU0","",[40.2110],0))
+    FadeFromColor([30.0],0)
+    SetGlobal("L#FouPlot","GLOBAL",11)
+    EndCutSceneMode()
+END
+

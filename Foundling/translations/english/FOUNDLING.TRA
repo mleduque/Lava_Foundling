@@ -1,0 +1,1049 @@
+@0       = ~Foundling~ 
+@1       = ~SHADOW ADEPT~
+@2       = ~Shadow Adept~ 
+@3       = ~SHADOW ADEPT: These arcane casters are said to be bound to the Shadow Plane. Shadows are both their blessing and their curse. They are able to use a different source of magic--the Shadow Weave--due to a contract made with Shar. Most of them make a special sacrifice to gain access to the Shadow Weave; some are contracted against their will.  It is rumored that some powerful mages are able to use the Shadow Weave without contracting themselves to Shar.
+
+Advantages:
+
+-Gains a +2 thac0 bonus. At level 14 and 21 gets additional +2 thac0 and +0.5 attack per round
+-Gains +10% cold resistance and gains an additional 10% every 10 levels
+-At level 5 is given permanent Infravision as a result of dealing with shadow-oriented energy
+-Has access to a brand new selection of shadow magic spells. Most are similar to their Weave counterparts, but due to springing from a different source, their nature may differ from the spells of Mystra's Weave.
+-Once in their lifetime a Shadow Weave Mage may create a black blade that will be usable only by the creator. The power of the blade depends on the level of the Shadow Adept.
+
+Disadvantages:
+
+-Cannot be of any good alignment
+-Suffers from -20% fire resistance and -5% resistance to magic fire.
+-Cannot learn new spells or use any magic from Mystra's Weave--this includes magical scrolls.
+-Suffers -2 caster's level in daylight. At level 14 this penalty is cancelled.
+
+
+SHADOW WEAVE MAGIC: this new type of magic may be used only by Shadow Adepts, who are mostly servants of Shar. As coldness accompanies Shadow Weave Magic, every spell used by the mage makes cold more difficult for him to resist. Most Shadow Weave spells are more powerful and slightly faster, but Shadow Adepts know a smaller number of spells per level than their Mystra's Weave-using counterparts.~
+@4       = ~Fire Resistance Penalty~ 
+@5       = ~Cold Resistance Bonus~
+@6       = ~Gain Infravision~
+@8       = ~Darkvision~ 
+@9       = ~Darkvision (Shadow Weave Magic)
+Level: 1
+Range: Visual range of caster
+Duration: 10 turns
+Casting Time: 1 
+Area of Effect: 1 Creature
+Saving Throw: None 
+
+After this spell is cast, the mage gains the ability to see through non-magical darkness.  The spell has a 10% chance to detect the presence of those who are hidden by magic spells like Invisibility.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers -5% penalty to cold resistance for 10 seconds. ~
+@10      = ~Hue of Shadows~ 
+@11      = ~Hue of Shadows (Shadow Weave Magic)
+Level: 1
+Range: touch
+Duration: 20 turns
+Casting Time: 2
+Area of Effect: 1 Creature
+Saving Throw: None 
+
+The creature who is under the effect of this spell is given a +25% bonus to the "Hide in Shadows" ability, which makes thieves and rangers better scouts.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -5% penalty to cold resistance for 10 seconds.~
+@12      = ~Dark Missile~
+@13      = ~Dark Missile (Shadow Weave Magic)
+Level: 1
+Range: Visual range of caster 
+Duration: Instantaneous 
+Casting Time: 1
+Area of Effect: 1 Creature
+Saving Throw: None 
+
+This spell is a distant and dark cousin of the well-known Magic Missile spell. However, this spell does not create more than one missile; the power is concentrated into one powerful strike that has an increased chance of hitting the target. This missile inflicts 1d4+1 damage (additional 1d4 for each two levels) and +1 cold damage.  
+
+NOTE: This spell uses Shadow Weave Magic that makes caster more vulnerable to cold.  If this spell is cast, the mage suffers -5% penalty to cold resistance for 10 seconds.~ 
+@14      = ~Black Blindness~
+@15      = ~Black Blindness (Shadow Weave Magic)
+Level: 1
+Range: Visual range of caster 
+Duration: 10 turns
+Casting Time: 2
+Area of Effect: 1 creature 
+Saving Throw: Neg.
+
+This first level spell temporarily blinds its target.  A saving throw is allowed, and if successful there are no harmful effects.  If a victim is blinded he receives -4 to hit on his attack rolls, and has a 4 point armor penalty.
+The Shadow Weave version of the spell differs slightly--it provides a 5% chance that the target will run in panic.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold. If this spell is cast, the mage suffers a -5% penalty to cold resistance for 10 seconds.~ 
+@16      = ~Shadow Armor~
+@17      = ~Shadow Armor (Shadow Weave Magic)
+Level: 1
+Range: 0
+Duration: 9 hours
+Casting Time: 1 round 
+Area of Effect: caster
+Saving Throw: None 
+
+By means of this spell, the wizard creates a magical field of force equivalent to scale mail armor (AC 6). It is cumulative with Dexterity and, in the case of fighter/mages, with the shield bonus. The armor spell does not hinder movement, adds no weight or encumbrance, and does not prevent spellcasting. It lasts until successfully dispelled or until the duration ends.
+The Shadow Weave version of this spell is said to be more successful against missiles and shadows. It provides extra +2 AC vs missiles and another +2 AC versus all types of shadows. 
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold. If this spell is cast, the mage suffers a -5% penalty to cold resistance for 10 seconds~
+@18      = ~Faded Horror~
+@19      = ~Faded Horror (Shadow Weave Magic)
+Level: 2
+Range: 25 yards
+Duration: 1 turn
+Casting Time: 1 
+Area of Effect: 30 foot cube
+Saving Throw: Neg. 
+
+All enemies within the area of effect when this spell is cast must save vs. spells (with -1 penalty) or flee in terror.  Certain creatures are immune to the effects of Fear, including all undead. This spell has a 2% chance to kill enemies just as an arcane Death Spell.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -5% penalty to cold resistance for 10 seconds.~ 
+@20      = ~Explosive Darkness~
+@21      = ~Explosive Darkness (Shadow Weave Magic)
+Level: 2
+Range: Visual range of caster 
+Duration: 1 turn
+Casting Time: 1 
+Area of Effect: 1 Creature
+Saving Throw: halves the damage
+
+This Shadow Spell does 2d8+2 piercing damage with +1d4 fire damage per five levels of the caster (maximum +3d4).  The explosion itself has the power to hurt only one selected creature. The victim is allowed to make a save vs. magic--if it's successful, the damage is halved.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -5% penalty to cold resistance for 10 seconds.~ 
+@22      = ~Shadow Invisibility~ 
+@23      = ~Shadow Invisibility (Shadow Weave Magic)
+Level: 2
+Range: Touch 
+Duration: Special 
+Casting Time: 1 
+Area of Effect: Creature touched 
+Saving Throw: None
+
+This spell causes the creature touched to vanish from sight and be undetectable by both normal vision and infravision. Of course, the invisible creature is not magically silenced, and certain other conditions can render the creature detectable. Even allies cannot see the invisible creature or his/her gear, unless these allies can normally see invisible things or employ magic to do so.  Items dropped or put down by the invisible creature become visible, items picked up disappear if tucked into the clothing or pouches worn by the creature. The spell remains in effect until it is magically broken or dispelled, the recipient attacks any creature, or until 24 hours have passed. The caster cannot perform any actions that manipulate the environment around him such as opening doors, disarming a trap, or opening a chest without becoming visible.  He can, however, cast defensive spells on himself and fellow party members.  If he attacks, he immediately becomes visible, though the invisibility enables him to attack first.
+Shadow Magic version of the Invisibility spell provides additional +2 movement rate bonus.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -5% penalty to cold resistance for 10 seconds.~
+@24      = ~Dark Luck~ 
+@25      = ~Dark Luck (Shadow Weave Magic)
+Level: 2
+Range: 10 yards
+Duration: 3 rounds
+Casting Time: 2 
+Area of Effect: 1 creature
+Saving Throw: None 
+
+The recipient of this spell is lucky in everything that he does for the next 3 rounds. He receives a 5% bonus to any of his actions.  This includes saving throws, to-hit chances, thieving skills, etc.
+This dark version of the Luck spell provides a 45% chance to get +1 AC bonus and 2% magic resistance.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -5% penalty to cold resistance for 10 seconds.~
+@26      = ~Shadow Twin~
+@27      = ~Shadow Twin (Shadow Weave Magic)
+Level: 2
+Range: 0 
+Duration: 3 rounds + 1 round/level 
+Casting Time: 1
+Area of Effect: Special
+Saving Throw: None 
+
+Upon casting this spell the wizard creates one image of himself that will travel along beside him.  The image will perform all of the actions that the wizard does so that if any enemies are trying to attack the wizard they will not know which one is real.  There is a 50% chance that an attacker will attack the image and a 50% chance that he will attack the caster.  The image will disappear with a successful casting of dispel magic, when attacked, or when the spell duration runs out.
+As well as the Reflected Image spell effect, the Shadow Twin also provides +5% physical resistance (excluding bludgeoning, as it may "crack the mirror" nature of the spell) and +2 save vs. death.
+What is more, there is 30% chance that the spell will act as a Mirror Image spell instead.
+
+The Reflected Image (or Mirror Image) and the caster are both covered with dark gray hues.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -5% penalty to cold resistance for 10 seconds.~
+@28      = ~Shadow Bolt~
+@29      = ~Shadow Bolt (Shadow Weave Magic)
+Level: 3
+Range: Visual range of caster
+Duration: Instantaneous
+Casting Time: 2
+Area of Effect: 1 Creature
+Saving Throw: 1/2
+
+Upon casting this spell, the wizard releases a powerful bolt of dark energy that inflicts 1d6 points of electric damage per level of the spellcaster (maximum damage of 8d6) +1d12 piercing damage and +2 cold damage to the specific creature targeted. A successful saving throw vs. spell reduces this damage to half (round fractions down).
+There is a difference between the Shadow Bolt spell and the more well-known Lightning Bolt spell as the first one hits the target with the whole of its power, which means the bolt itself won't go through the enemy and won't bounce against any surfaces. However, there is a 15% chance that the victim and enemies close to him will be slowed for 10 seconds.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -8% penalty to cold resistance for 10 seconds.
+~
+@30      = ~Black Meteors~
+@31      = ~Black Meteors (Shadow Weave)
+Level: 3
+Range: 70 yds
+Duration: Special
+Casting Time: 3
+Area of Effect: 1 target/meteor
+Saving Throw: None
+
+This spell enables the wizard to cast small globes of dark fire (one for each experience level she has attained), each of which bursts into a 1-foot-diameter sphere upon impact and inflicts 1d4 points of magic damage to the creature struck. It can also ignite combustible materials (even solid planks). The meteors are treated as missiles hurled by the wizard with a +5 bonus to the attack rolls and with no penalty for range. Each meteor inflicts +3 damage as well as an additional +1 fire damage (less than Minute Meteors, as the fire seems colder), and has a +6 enchantment. There is 10% chance that the meteors will scare the target. The wizard may discharge up to five missiles per round.
+
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers -8% penalty to cold resistance for 10 seconds.~
+@32      = ~Blackout~
+@33      = ~Blackout (Shadow Weave)
+Level: 3
+Range: 0
+Duration: Special
+Casting Time: 1 round
+Area of Effect: 10' radius
+Saving Throw: None
+
+This spell is similar to the Mystra's Weave spell "Invisibility 10' Radius". When cast, this spell causes all creatures within a 10 foot radius of the caster to vanish from sight and be rendered undetectable by normal vision or even infravision.  The spell remains in effect until it is magically broken or dispelled, until the recipients perform any action that cancels it, or until 24 hours have passed.  The newly-invisible creatures cannot talk or attack without immediately becoming visible, although the invisibility does enable them to attack first.
+However, Shadow Weave version provides also +3 movement speed rate too all creatures in the effect area.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -8% penalty to cold resistance for 10 seconds.~
+@34      = ~Dim Haste~
+@35      = ~Dim Haste (Shadow Weave)
+Level: 3
+Range: Visual range of caster
+Duration: 3 rounds + 1 round/level
+Casting Time: 3
+Area of Effect: 40' cube, 1 creature/level
+Saving Throw: None
+
+When this spell is cast, all creatures affected function at double their normal movement rate, gain a -2 initiative bonus, and receive an extra attack each round. Thus, a creature moving at 6 and attacking once per round would move at 12 and attack twice per round. At the instant the spell is completed, it affects all ally creatures in a 40-foot cube centered on a point selected by the caster (thus, creatures leaving the area are still subject to the spell's effect; those entering the area after the casting is completed are not). Note that affected creatures expend as much energy during this spell as they would normally in a whole day, significantly raising their fatigue level. This spell is not cumulative with itself or with other similar magic. Spellcasting and spell effects are not affected. Note that this spell negates the effects of a slow spell.
+There is also a 5% chance that the enemies who are in the area will become confused.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -8% penalty to cold resistance for 10 seconds.~
+@36      = ~Dark Blade~
+@37      = ~Dark Blade (Shadow Weave)
+Level: 3
+Range: 0
+Duration: 4 rounds + 1 round/2 levels
+Casting Time: 3
+Area of Effect: Special
+Saving Throw: None
+
+This is a dark version, allowed by Shar, of the divine Flame Blade spell. With this spell, the caster causes a blazing ray of black fire to spring forth from his hand. This blade-like darkness is wielded as if it were a sword that the caster already knows how to use, hence there are no bonuses or penalties. If the caster successfully hits with the blade in melee combat, the creature struck suffers 1d4 points of slashing damage, plus an additional 1d2 + 4 points of magic damage +2% chance to cause additional 3 cold damage. However, it is not a magical weapon in the normal sense of the term, so creatures struck only by magical weapons are not harmed by it.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -8% penalty to cold resistance for 10 seconds.~
+@38      = ~Shadow Ritual~
+@39      = ~Shadow Ritual (Shadow Weave)
+Level: 4
+Range: Visual range of caster
+Duration: instant
+Casting Time: 3
+Area of Effect: 10' radius
+Saving Throw: half damage
+
+This spell is a combination of Shadow Weave Magic and Shadow Magic, which makes it more powerful than other spells of 4th level. It allows the caster to trigger a shadow ritual that may become deadly for some enemies. It causes 3d10+5 magic damage (+1d10 every 3 levels up to 6d10+5). The victim may halve the damage with a successful saving throw vs. magic (-3 penalty). There is also a 20% chance that enemies with less than 60 will instantly die.
+Apart from damage, the spell has also 10% chance to summon a Shadow that can be controlled by the caster.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -10% penalty to cold resistance for 10 seconds.~
+@40      = ~Fireshield (Black)~
+@41      = ~Fireshield (Black) (Shadow Weave)
+Level: 4
+Range: 0
+Duration: 3 rounds + 1 round/level
+Casting Time: 4
+Area of Effect: The Caster
+Saving Throw: None
+
+The Black Fireshield partially protects the user from magic damage by surrounding the caster with a shield of dark flame.  This shield not only grants the user 15% magic resistance, but also protects the caster from attacks made within a 5' radius around him.  An opponent that hits the caster with any weapons or spells within this radius is harmed by shadowy and solid energy formed from darkness, which deals 1d8 piercing damage and +2 magic damage.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -10% penalty to cold resistance for 10 seconds.~
+@42      = ~Dark Eye~
+@43      = ~Dark Eye (Shadow Weave)
+Level: 4
+Range: 0
+Duration: 1 round/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+When this spell is employed, the wizard creates an invisible sensory organ that sends him visual information. The wizard eye can see with normal vision up to 60 feet away in brightly lit areas. The wizard eye can travel in any direction as long as the spell lasts. It has substance and a form that can be detected (by a detect invisibility spell, for instance). Solid barriers prevent the passage of a wizard eye.  The powers of the eye cannot be enhanced by other spells or items. The caster is subject to any gaze attack met by the eye. A successful dispel cast on the wizard or eye ends the spell.
+
+NOTE: This spell uses Shadow Weave Magic that makes caster more vulnerable to cold.  If this spell is cast, the mage suffers a -10% penalty to cold resistance for 10 seconds.~
+@44      = ~Shadowskin~
+@45      = ~Shadowskin (Shadow Weave)
+Level: 4
+Range: 0
+Duration: 12 hours
+Casting Time: 1
+Area of Effect: Caster
+Saving Throw: None
+
+When a wizard casts this powerful spell upon himself, an outer skin of shadow will move up from the ground, completely covering him.  This skin is of course magical and will hinder the wizard in no way.  The effect of this is to protect the wizard from physical attacks such as melee weapons and projectiles.  For every 2 levels of the caster an additional skin is gained upon casting; for example a 10th level wizard would receive 5 skins while a 20th level wizard would receive 10.  For each skin the wizard possesses, the spell will stop one attack, so a 10th level wizard would be protected from the first 5 attacks made against him, but the sixth would affect him normally.  The skins will remain on the wizard until he is affected by dispel magic, all of the skins are removed due to physical attacks, or the spell duration expires.  It is important to note that this will not protect the wizard from any magical attacks such as Fireball; however, it will protect him from physical magical attacks such as Magic Missile.
+While Stoneskin provides gray skin, Shadowskin provides pitch black skin.
+
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -10% penalty to cold resistance for 10 seconds.~
+@46      = ~Shadow Walk~
+@47      = ~Shadow Walk (Shadow Weave)
+Level: 4
+Range: 0
+Duration: Instant
+Casting Time: 0
+Area of Effect: The caster
+Saving Throw: None
+
+This spell transports the caster to any place within his or her visual range.  When the spell is cast, a dimensional portal opens up in front of the caster, which is immediately stepped into.  Upon passing through the portal, the caster finds himself at his chosen destination.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -10% penalty to cold resistance for 10 seconds.~
+@48      = ~Breaching Shadow~
+@49      = ~Breaching Shadow (Shadow Weave)
+Level: 5
+Range: Visual sight of caster
+Duration: Instant
+Casting Time: 5
+Area of Effect: Target Creature
+Saving Throw: None
+
+When this spell is cast at a creature, it breaches and dispels all of the specific and combat protections on the target creature.
+
+Here is a complete list of all the specific protection spells that are dispelled by Breaching Shadow:  Chaotic Commands, Resist Fear, Protection From Fire/Cold, Resist Fire/Cold, Death Ward, Fireshield, Free Action, Protection From Acid, Protection From Electricity, Protection From Evil, Protection From Evil 10' Radius, Protection From Lightning, Protection From Magic Energy, Protection From The Elements, and Protection From Energy.
+
+The combat protection spells dispelled by this spell are: Blade Barrier, Physical Mirror, Shield, Protection From Normal Missiles, Protection From Normal Weapons, Protection From Magic Weapons, Barkskin, Stoneskin, Defensive Harmony, Armor, Armor Of Faith, Ghost Armor, Spirit Armor, Absolute Immunity, Mantle, and Improved Mantle.  The target's magic resistance, if any, does not affect this spell. It will not dispel Iron Skins.
+
+The shadow version of the spell makes the target less resistant to cold - it causes -25% cold resistance.
+
+NOTE: This spell uses Shadow Weave Magic that makes the the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -12% penalty to cold resistance for 10 seconds.~
+@50      = ~Unbreachable Blackness~
+@51      = ~Unbreachable Blackness (Shadow Weave)
+Level: 5
+Range: Self
+Duration: 1 round/level
+Casting Time: 2
+Area of Effect: Self
+Saving Throw: None
+
+When the spell is cast it confers complete invulnerability to all non-magical weapons.  This does not include weapons that are blessed or enchanted. This spell may not be cast on someone who is protected from magical weapons. This spell also provides a +2 AC bonus for its duration.  This effect lasts for the duration of the spell or until dispelled.
+
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -12% penalty to cold resistance for 10 seconds.~
+@52      = ~Dark Fatum~
+@53      = ~Dark Fatum (Shadow Weave)
+Level: 5
+Range: Self
+Duration: 1 round/level
+Casting Time: 1
+Area of Effect: Self
+Saving Throw: None
+
+This spell's source is the energy of dark luck. It provides protection from poison and backstabs, which makes the incantation useful in fights with assassins. One of these three effects will also be applied: 20% magic resistance, protection from level drain, or a 30 HP bonus.
+There is a 20% chance that two of three effects will be applied.
+
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -12% penalty to cold resistance for 10 seconds.~
+@54      = ~+20% Magic Resistance~
+@55      = ~+30 HP~
+@56      = ~Protection from Level Drain~
+@57      = ~Black Rain~
+@58      = ~Black Rain (Shadow Weave)
+Level: 5
+Range: Self
+Duration: 1 round/level
+Casting Time: 1
+Area of Effect: 15' radius
+Saving Throw: halves damage
+
+When cast, this spell summons a rain of black shards that pierce the creatures in range of the spell causing 5d8+6 piercing damage. When embedded in enemies, the dark shards melt and deal 1d4 acid damage per every 3 levels of the caster (up to 5d4). Those affected by the spell will also suffer from a -1 movement rate penalty.
+Movement rate penalty may be avoided with a successful saving throw.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -12% penalty to cold resistance for 10 seconds.~
+@59      = ~Pitch Black Death~
+@60      = ~Pitch Black Death (Shadow Weave)
+Level: 6
+Range: Visual sight of caster
+Duration: Instant
+Casting Time: 6
+Area of Effect: 30' radius
+Saving Throw: None
+
+When Pitch Black Death is cast, it instantly and irrevocably drains the life forces of all creatures in the area of effect. Such creatures cannot be raised or resurrected, but an individual slain in this manner might be brought back via a wish.  Creatures with more than 8 hit dice are immune to this spell, with the exception of summoned creatures, which are slain automatically.  All enemies who were in the area of the spell and didn't die, suffer 2d10 crushing damage.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -14% penalty to cold resistance for 10 seconds.~
+@61      = ~Unsmashable Blackness~
+@62      = ~Unsmashable Blackness (Shadow Weave)
+Level: 6
+Range: Self
+Duration: 4 rounds
+Casting Time: 1
+Area of Effect: Self
+Saving Throw: None
+
+This particular spell works like its well-known cousin Protection from Magic Weapons. When the spell is cast it confers complete invulnerability to all magical weapons.  This includes weapons that are blessed or enchanted. The attacks of powerful monsters are also considered magical weapons.  This spell cannot be cast on anyone who is Protected from Normal Weapons, or by Mantle, Improved Mantle, or Absolute Immunity.  Due to the nature of this spell with its short speed factor and duration, it is mainly used to buy the wizard a few rounds in the thick of combat.  This effect lasts for the duration of the spell or until dispelled.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -14% penalty to cold resistance for 10 seconds.~
+@63      = ~Feast on Shadows~
+@64      = ~Feast on Shadows (Shadow Weave)
+Level: 6
+Range: 0
+Duration: instant / 5 rounds
+Casting Time: 2
+Area of Effect: visual range of sight / Self
+Saving Throw: None
+
+This little-known spell is mainly used by those who serve Shar. It allows the caster to feast on all shadows cast by normal objects. If there are any shadow creatures in visual range of the character's sight, they will die without any saving throw. When the hunger is satiated, the caster will regenerate for 5 rounds - 1 HP per second.
+There is also a 20% (+5% every 6 levels to a maximum of 40%) chance that the character will be fully healed.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -14% penalty to cold resistance for 10 seconds.~
+@65      = ~Mislead with Shadows~
+@66      = ~Mislead with Shadows (Shadow Weave)
+Level: 6
+Range: 0
+Duration: 1 round/level
+Casting Time: 1
+Area of Effect: Special
+Saving Throw: None
+
+When this spell is cast, the wizard is affected with an Improved Invisibility spell and teleported a few feet away from his original position.  Meanwhile, an exact image of the caster is created where he used to be with exactly the same hit points as the caster.  The image cannot perform any actions at all such as attacking or casting spells.  It can, however, move around and act as a decoy for the invisible mage.  The image will remain under the control of the caster until it is reduced to 0 hit points, or until it is affected by Dispel Magic or a spell that destroys illusions such as True Sight.
+Even though the spell seems to work similarly to the usual Mislead spell, there is an additional effect. The created decoy looks more demonic and dangerous - there is a 20% chance it may cause fear in nearby creatures.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -14% penalty to cold resistance for 10 seconds.~
+@67      = ~Sphere of Black Chaos~
+@68      = ~Sphere of Black Chaos (Shadow Weave)
+Level: 7
+Range: Visual sight of caster
+Duration: 1 turn
+Casting Time: 3
+Area of Effect: 30' radius
+Saving Throw: Special
+
+All enemies within the area of effect must make a save vs. spells every round that they remain in the sphere, and if the save is failed one of the following random effects occurs:  polymorphed into a squirrel, confused, burst into flames, paralyzed, disintegrated, healed 20 hit points, randomly teleported, rendered unconscious, or hasted.
+The Shadow Weave version of "Sphere of Chaos" is much faster to cast than its more well-known counterpart and provides 10% magic resistance. The protection lasts for the duration of the sphere.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -15% penalty to cold resistance for 10 seconds.~
+@69      = ~Dark Cocoon~
+@70      = ~Dark Cocoon (Shadow Weave)
+Level: 7
+Range: Self
+Duration: 1 turn
+Casting Time: 2
+Area of Effect: Self
+Saving Throw: None
+
+This spell creates a protective sphere around the caster. Nothing that's outside the cocoon can affect the protected individual, but neither can the protected individual affect others outside the sphere. This is similar to the spell Oiluke's Resiliant Sphere.
+However, the creature inside the cocoon is given regeneration (3 HP per second).
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -15% penalty to cold resistance for 10 seconds.~
+@71      = ~Unavoidable Fangs~
+@72      = ~Unavoidable Fangs (Shadow Weave)
+Level: 7
+Range: Visual range of the caster
+Duration: Instant
+Casting Time: 2
+Area of Effect: 1 Creature
+Saving Throw: halves the damage
+
+This spell creates magical fangs and spikes, most of them located on crushing tentacles. They try to grasp the enemy and apply different effects:
+First of all, spikes and fangs do 2d10+5 piercing damage.
+Tentacles grasp and try to crush enemies, applying 2d10+5 crushing damage.
+Sharper and longer fangs may cause 2d10+5 slashing damage.
+There is a 25% chance that the target will have bleeding damage, causing 2 points of damage each second (lasts 12 seconds).
+There is a 10% chance that the target will be stunned.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -15% penalty to cold resistance for 10 seconds.~
+@73      = ~Shadowblood~
+@74      = ~Shadowblood (Shadow Weave)
+Level: 8
+Range: Self
+Duration: Instant
+Casting Time: 2
+Area of Effect: Party Members
+Saving Throw: None
+
+This spell lets the caster sacrifice 2 points of constitution for 6 rounds, in exchange for healing all the party members.
+There is a 30% chance that the spell will bring back drained levels.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -15% penalty to cold resistance for 10 seconds. As this spell is a more powerful one, there is a 10% chance that more chill will appear, dealing 1d6 cold damage.~
+@75      = ~Infernal Shadows~
+@76      = ~Infernal Shadows (Shadow Weave)
+Level: 8
+Range: Self
+Duration: Instant
+Casting Time: 2
+Area of Effect: Party Members
+Saving Throw: None
+
+This spell creates black fire around the enemy and not only causes 6d10 magic damage, but +10 fire damage as well.  Further more, it includes the same dispel effect as Breach.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -15% penalty to cold resistance for 10 seconds. As this spell is a more powerful one, there is a 10% chance that more chill will appear, dealing 1d6 cold damage.~
+@77      = ~Black Blade of Disaster~
+@78      = ~Black Blade of Disaster (Shadow Weave)
+Level: 8
+Range: 0
+Duration: 18 rounds
+Casting Time: 4
+Area of Effect: Special
+Saving Throw: None
+
+This spell enables the caster to create a black, blade-shaped planar rift, about three feet long.  It jumps into the caster's hand and is used as a normal sword, remaining there for the duration of the spell.  The caster is considered to have grandmastery with this weapon.  The sword acts as a +6 weapon and deals 2-24 damage to its victims.  Also, every time this hits a target, the victim must make a save vs. death at +4 or be disintegrated. There is also a 10% chance with every hit that the sword drains 4 levels from the target and heals the wielder 20 hit points.
+This spell is available sooner for Shadow Weave users (8 level spell instead of 9 level).
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -15% penalty to cold resistance for 10 seconds. As this spell is a more powerful one, there is a 10% chance that more chill will appear, dealing 1d6 cold damage.~
+@79      = ~Timeless Shadow~
+@80      = ~Timeless Shadow (Shadow Weave)
+Level: 9
+Range: 0
+Duration: 2 rounds
+Casting Time: 3
+Area of Effect: Self
+Saving Throw: None
+
+This spell makes the caster resistant to time manipulation--the target can't be slowed down and is immune to Time Stop. There is a 15% chance that the caster will be granted 50% magic resistance.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -16% penalty to cold resistance for 10 seconds. As this spell is a more powerful one, there is a 10% chance that more chill will appear, dealing 1d6 cold damage.~
+@81      = ~Field of Perfect Shadow~
+@82      = ~Field of Perfect Shadow (Shadow Weave)
+Level: 9
+Range: Self
+Duration: instant / 2 rounds
+Casting Time: 2
+Area of Effect: 10' radius
+Saving Throw: halves the damage
+
+The Field of Perfect Shadow partially protects the user from magic damage by surrounding the caster with a shield of dark particles.  This shield not only grants the user 15% magic resistance, but also protects the caster from attacks made within a 10' radius around the caster.  An opponent that hits the caster with any weapons or spells within this radius is pierced with shadowy and solid energy formed from darkness dealing 6d10 piercing damage and +1 magic damage with 10% chance to cause enemy to berserk for 10 seconds.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -16% penalty to cold resistance for 10 seconds. As this spell is a more powerful one, there is 10% chance that more chill will appear, dealing 1d6 cold damage.~
+@83      = ~Summon Shadow Hatchling~
+@84      = ~Summon Shadow Hatchling (Shadow Weave) 
+Level: 9
+Range: Self 
+Duration: 7 rounds
+Casting Time: 2
+Area of Effect: special
+Saving Throw: none
+
+This spell lets the mage summon a special creature from the Plane of Shadows. It passes through the portal to support the caster. The creature is immune to backstabs, fear, stun, sleep, berserk, level drain, poison, disease, blindness and silence. It is also partially resistant to all elemental damage and magic.
+The Hatchling fights with two +5 magic daggers and is difficult to hit. However, the creature itself is fragile, so when hit, it is easily killed. 
+Each Hatchling's successful hit has a 5% chance to kill the victim.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -16% penalty to cold resistance for 10 seconds. As this spell is a more powerful one, there is a 10% chance that more chill will appear, dealing 1d6 cold damage.~
+@85      = ~Shadow Dagger~
+@86      = ~Shadow Dragon Disciple~
+@87      = ~After years of being the servant of the Shadow Dragon, some may become more than that--they may become a Shadow Dragon Disciple. After accepting the dark energy, one may be given +2 AC bonus and +1 Constitution bonus. What's more, the Disciple is given the Shadow Dragon Breath ability.~
+@88      = ~Shadow Dragon Breath~
+@89      = ~Shadow Training~
+@90      = ~By picking this ability, the character is given additional fighting bonuses: +1 Thac0 and +1 Saving Throws.~
+@91      = ~Greater Shadow Training~
+@92      = ~By picking this ability, the character is given even greater fighting bonuses: +2 Thac0 and +2 to Saving Throws.~
+@93      = ~Shadow Whirlwind Attack~
+@94      = ~By picking this ability, the character is given a dark version of Whirlwind Attack. Thanks to it, the character may be hasted and gain a great number of attacks per round.~
+@95      = ~Shadowkin~
+@96      = ~After years of fighting on the side of the shadows and using Shadow Weave magic, a character may become a Shadowkin. Thanks to this title, character will be permanently considered kin by all types of shadows.~
+@97      = ~Shapeshift: Shadowbound~
+@98      = ~Shapeshift: Shadowbound (Shadow Weave)
+Innate ability
+Range: 0
+Duration: 5 rounds
+Casting Time: 2
+Area of Effect: Self
+Saving Throw: None
+
+This spell lets the caster change shape and become a monstrous creature - The Shadowbound. While in this form, the caster becomes immune to: backstab, fear, level drain, confusion, stun, sleep, imprisoment, maze, and wing buffet. The creature is also resistant to most elemental damage: +90% fire and acid, but only +25% cold resistance. The form uses a special weapon that does 1d10+5 and +1d4 cold damage; +6 thac0. Attacks per round are set to 3.
+While in this shape, the mage can't cast spells.   
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  While in the long term the caster receives a +25% bonus to cold resistance, for the first 10 seconds after the spell is cast the mage suffers a -16% *penalty*. As this spell is a more powerful one, there is a 10% chance that more chill will appear, dealing 1d6 cold damage.~
+@99      = ~Human Heritage~
+@100     = ~After years of being the servant of the Shadow Dragon, one may become more human-like again. Remembering the real and true heritage may provide +1 Strength and +1 Constitution bonus as well as permanent +15 hP.~
+@101     = ~Additional Shadow Spells~
+@102     = ~By picking this ability, the shadow adept is given 5 new spells: Banish with Shadows, Cold Blast, Dark Regeneration, Overwhelm, and Dark Acceleration.~
+@103     = ~Banish with Shadows~
+@104     = ~Banish with Shadows (Shadow Weave)
+Level: 5
+Range: 30 feet
+Duration: instant
+Casting Time: 4
+Area of Effect: 1 creature
+Saving Throw: None
+
+This spell can open a gate and banish one creature that has been summoned by another sorcerer. When the spell is cast, the creature is sent to its home plane.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -12% penalty to cold resistance for 10 seconds.~
+@105     = ~Cold Blast~
+@106     = ~Cold Blast (Shadow Weave)
+Level: 6
+Range: 40 feet
+Duration: instant
+Casting Time: 3
+Area of Effect: 30' radius
+Saving Throw: Halves damage
+
+With this spell, the mage can summon an icy version of the Fireball spell, freezing everything caught in its area of effect and causing serious damage: 10D6+16 (half if a saving throw is successful). This spell may also harm allies.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -14% penalty to cold resistance for 10 seconds.~
+@107     = ~Dark Regeneration~
+@108     = ~Dark Regeneration (Shadow Weave)
+Level: 7
+Range: touch
+Duration: 1 round for every caster's level
+Casting Time: 9
+Area of Effect: 1 creature
+Saving Throw: none
+
+This powerful spell can provide one creature an extra-ordinary regeneration skill. Once the shadows have covered all the wounds, they disappear in a few moments. The spell can heal 3 HP every second for the duration of the spell. 
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers -16% penalty to cold resistance for 10 seconds.~
+@109     = ~Overwhelm~
+@110     = ~Overwhelm (Shadow Weave)
+Level: 8
+Range: 30 feet
+Duration: 2 rounds
+Casting Time: 3
+Area of Effect: 12' radius
+Saving Throw: vs spells to negate
+
+With this spell, the shadow adept may try to crush the minds of enemies and stun a whole group of foes to give himself and his allies some time to finish them off. Enemies can do nothing but observe and suffer.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -16% penalty to cold resistance for 10 seconds.~
+@111     = ~Dark Alacrity~
+@112     = ~Dark Alacrity (Shadow Weave)
+Level: 9
+Range: self
+Duration: 2 rounds
+Casting Time: 9
+Area of Effect: self
+Saving Throw: none
+
+This is a dark version of the acceleration spell that lets a mage cast arcane spells in the very moment the previous spell has been cast, without the need to take a single breath.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -25% penalty to cold resistance for 10 seconds.~
+@113     = ~ FOUNDLING doesn't know much about his past; his recollections are little more than vague images. He was found by the Shadow Dragon in the Plane of Shadows when he was still a child. He doesn't remember much from that time--just fear, confusion, and a feeling of insignificance. He also remembers that his new "master" examined invisible signs that led him to realizing the Foundling had been given access to the Shadow Weave. After some time, the Shadow Dragon discovered the reason: Foundling had been a sacrifice to Shar--a sacrifice that was made in order to grant the 'beasts' who would kill a child the power of the Shadow Weave. Foundling doesn't know his real parents and he doesn't care much about them.
+  The Shadow Dragon and the Shade Lord have both taught Foundling some magic, as they wanted to make him a useful pawn; their motives were obvious from the very start, but their teachings were limited. A servant should never know too much.~
+@114     = ~Think wisely: we need to leave. We can't do anything if we're dead.~ [L#Fo01]
+@115     = ~You are very wise.~ [L#Fo02]
+@116     = ~Hmm?~ [L#Fo03]
+@117     = ~That's not very smart.~ [L#Fo04]
+@118     = ~You should think things through more.~ [L#Fo05]
+@119     = ~I believe there are others more appropriate for this position.~ [L#Fo06]
+@120     = ~We may need to rest to regain our strength.~ [L#Fo07]
+@121     = ~It's good being able to catch my breath without a master around giving me busy work.~ [L#Fo08]
+@122     = ~Prepare.~ [L#Fo09]
+@123     = ~This is the end.~ [L#Fo10]
+@124     = ~This is your last day.~ [L#Fo11]
+@125     = ~Die.~ [L#Fo12]
+@126     = ~Soften them up, and my magic will finish them.~ [L#Fo13]
+@127     = ~Ah!~ [L#Fo14]
+@128     = ~Please, forgive me ... I...~ [L#Fo15]
+@129     = ~I need help!~ [L#Fo16]
+@130     = ~This is a strange place.~ [L#Fo17]
+@131     = ~There's too many people. Someone should do something about it.~ [L#Fo18]
+@132     = ~My eyes can finally rest from the sun.~ [L#Fo19]
+@133     = ~There's too much light here. I can't focus.~ [L#Fo20]
+@134     = ~No burning globe in the sky. This is much better.~ [L#Fo21]
+@135     = ~Yes?~ [L#Fo22]
+@136     = ~Ready.~ [L#Fo23]
+@137     = ~I'm listening.~ [L#Fo24]
+@138     = ~You have a plan?~ [L#Fo25]
+@139     = ~What is it?~ [L#Fo26]
+@140     = ~Hmm?~ [L#Fo27]
+@141     = ~Wise.~ [L#Fo28]
+@142     = ~I believe I can.~ [L#Fo29]
+@143     = ~Sagaciously.~ [L#Fo30]
+@144     = ~Acceptable.~ [L#Fo31]
+@145     = ~I will try.~ [L#Fo32]
+@146     = ~I've done worse.~ [L#Fo33]
+@147     = ~Fine.~ [L#Fo34]
+@148     = ~I will do as you ask, but don't forget: I'm not a slave anymore.~ [L#Fo35]
+@149     = ~There's too much sun here. This plane is so very different to the Plane of Shadows.~ [L#Fo36]
+@150     = ~I won't be enslaved again.~ [L#Fo37]
+@151     = ~Missed.~ [L#Fo38]
+@152     = ~Magic may be more effective.~ [L#Fo39]
+@153     = ~I can't carry that much.~ [L#Fo40]
+@154     = ~Get them off me!~ [L#Fo41]
+@155     = ~This could be of use.~ [L#Fo42]
+@156     = ~No one will see me.~ [L#Fo43]
+@157     = ~Perhaps you will find some use for this.~ [L#Fo44]
+@158     = ~Please, forgive me ... I ...~ [L#Fo15]
+@159     = ~Shadow Hatchling~
+@160     = ~Shadowbound~
+@161     = ~Shadow~
+@162     = ~Gloria D'Orlaux~
+@163     = ~Toracz~
+@164     = ~Joah~
+@165     = ~Sonya~
+@166     = ~Faded-to-Gray~
+@167     = ~Pearl Mist~
+@168     = ~Misty Guardian~
+@169     = ~Curse~
+@170     = ~Familiar~
+@171     = ~Thaxll'ssillyia~
+@172     = ~Ivory Witch~
+@173     = ~(Sings.)~ [L#foivo]
+@174     = ~Gray Spectre~
+@175     = ~Gray Hag~
+@176     = ~Daylight penalty (-2 spellcasting level).~
+@177     = ~Hidden from daylight (penalty cancelled).~
+@178     = ~Daylight penalty cancelled permanently. Fighting abilities increased.~
+@179     = ~Fighting abilities increased.~
+@180     = ~Create Blade~
+@181     = ~Ripped Cloak~
+@182     = ~This ripped cloak is made from a type of grayish weave. It is far from being soft and pleasant to the touch. The material near the lower edge has become ragged. It has at least five small holes.
+It's difficult to guess why Foundling still uses this cloak. It must be a matter of sentimental attachment since the cloak itself does not seem to have any real value.~
+@183     = ~This ripped cloak is of a grayish weave. It is harsh and unpleasant to the touch. The material near the lower edge has become ragged. It has at least five small holes.
+It's difficult to tell why Foundling still uses this cloak. It must be a matter of sentimental attachment since the cloak itself does not seem to have any real value.~
+@184     = ~This ripped cloak is of a grayish weave. It is far from being soft and pleasant to the touch. The material near the lower edge has become ragged. It has at least five small holes.
+It's difficult to tell why Foundling still uses this cloak. It must be a matter of sentimental attachment since the cloak itself does not seem to have any real value.~
+@185     = ~Black Figurine~
+@186     = ~This black figurine seems very peculiar.~
+@187     = ~Left Stone Eye~
+@188     = ~This is an eye made of carved stone. It seems to be the left one.~
+@189     = ~Right Stone Eye~
+@190     = ~This is an eye made of carved stone. It seems to be the right one.~
+@191     = ~Black Sword~
+@192     = ~Ritual Sword "Leira's Lie"~
+@193     = ~This sword, obviously made for ritualistic use, also seems to be a solid and well-crafted weapon--not just decorative but a weapon of choice. It seems to be made of gold and some dark metal. There are some marks on both handle and blade, but you're not sure what they mean.
+This sword is said to turn small wounds into serious ones and turn the truth into mystification. It has been kept for a long time inside this strange cave.
+
+STATISTICS:
+
+This blade should be able to make the curse binding Foundling material.
+The one using this weapon is considered to have mastery in using long swords
+This blade is considered a +5 weapon
+
+Damage: 1d8 +3
+THAC0: +3 
+Special: 5% chance to curse enemy with Wild Magic for 10 seconds
+         2% chance to restore used spells of the user
+         1% chance to kill target if it has less than 60 HP
+Proficiency: Long Swords
+Type: One-handed
+Damage type: slashing
+Weight: 3 lbs
+
+Usable by:
+ Foundling~
+@194     = ~Chain of the Solar~
+@195     = ~This armour is a special type of gear that is said to be used by solars, planetars and devas; in reality, this is just a myth. This armour was blessed with divine powers that can protect the wearer not only from usual weapons, but also grants some special protection from undead creatures. The user of this chainmail will be ignored by most undead save for those of immense power like liches and dracoliches.
+
+STATISTICS:
+
+User is ignored by skeletons, zombies, and ghouls
+
+Armour Class: 3
+Special:
++25% fire resistance
+Weight: 10 lbs
+
+Usable by:
+ Good Bards
+ Good Clerics
+ Paladins~
+@196     = ~Dusty Leather~
+@197     = ~This old armour is made of dark gray leather. It doesn't look very solid and does not grant any extraordinary protection, but is elastic enough not to block any spellcasting abilities.
+It is Foundling's favorite armor.
+
+STATISTICS:
+
++3 polymorph/petrification saving throw
+
+Armour Class: 7
+Weight: 8 lbs
+
+Usable by:
+ Foundling~
+@198     = ~Chicken~
+@199     = ~This chicken was locked in a chest along with some... skulls. You're not sure if you want to know how this poultry managed to survive till now.~
+@200     = ~Shadow Ioun~
+@201     = ~This ioun stone is similar to the guardian stone of the Shadow Dragon found in the temple ruins. However, this one has been enchanted with special magic that was freed after the fight with the resurrected Shadow Dragon, who took control of Foundling's body.
+
+STATISTICS:
+
+Armour Class: +2, +2 vs undead
+Protection from wing buffet
+
+Not usable by:
+ Good-aligned characters~
+@202     = ~Shadow Sword~
+@203     = ~This sword was created by a Shadow Adept and only they can use the item without being attacked by magic frost. The blade itself looks as if it was created from black metal and a dark crystal. It is said that the more powerful the Shadow Adept at the time of its creation is, the more deadly the blade becomes.
+
+STATISTICS:
+
+Damage: 1d8 +1 cold damage
+THAC0: +1, +1 vs humanoids
+Special: is considered a +1 weapon
+Proficiency: Long Swords
+Type: One-handed
+Damage type: slashing
+Weight: 8 lbs
+
+Usable by:
+ Foundling
+ Anyone else who attempts to use the weapon will be attacked by dark frost.~
+@204     = ~Shadow Sword +2~
+@205     = ~This sword was created by a Shadow Adept and only they can use the item without being attacked by magic frost. The blade itself looks as if it was created from black metal and a dark crystal. It is said that the more powerful the Shadow Adept at the time of its creation is, the more deadly the blade becomes.
+
+STATISTICS:
+
+Damage: 1d8 +1d4 cold damage
+THAC0: +2, +1 vs humanoids
+Special: is considered a +2 weapon
+Proficiency: Long Swords
+Type: One-handed
+Damage type: slashing
+Weight: 8 lbs
+
+Usable by:
+ Foundling
+ Anyone else who attempts to use the weapon will be attacked by dark frost.~
+@206     = ~Shadow Sword +3~
+@207     = ~This sword was created by a Shadow Adept and only they can use the item without being attacked by magic frost. The blade itself looks as if it was created from black metal and a dark crystal. It is said that the more powerful the Shadow Adept at the time of its creation is, the more deadly the blade becomes.
+
+STATISTICS:
+
+Damage: 1d8 +1d6 cold damage
+THAC0: +3, +2 vs humanoids
+Special: is considered a +3 weapon
+         10% chance to slow target
+Proficiency: Long Swords
+Type: One-handed
+Damage type: slashing
+Weight: 8 lbs
+
+Usable by:
+ Foundling
+ Anyone else who attempts to use the weapon will be attacked by dark frost.~
+@208     = ~Shadow Sword +4~
+@209     = ~This sword was created by a Shadow Adept and only they can use the item without being attacked by magic frost. The blade itself looks as if it was created from black metal and a dark crystal. It is said that the more powerful the Shadow Adept at the time of its creation is, the more deadly the blade becomes.
+
+STATISTICS:
+
+Damage: 1d8 +1d8 cold damage
+THAC0: +4, +2 vs humanoids
+Special: is considered a +4 weapon
+         20% chance to slow target
+Proficiency: Long Swords
+Type: One-handed
+Damage type: slashing
+Weight: 8 lbs
+
+Usable by:
+ Foundling
+ Anyone else who attempts to use the weapon will be attacked by dark frost.~
+@210     = ~Shadow Sword +5~
+@211     = ~This sword was created by a Shadow Adept and only they can use the item without being attacked by magic frost. The blade itself looks as if it was created from black metal and a dark crystal. It is said that the more powerful the Shadow Adept at the time of its creation is, the more deadly the blade becomes.
+
+STATISTICS:
+
+Damage: 1d8 +1d10 cold damage
+THAC0: +5, +2 vs humanoids
+Special: is considered a +5 weapon
+         40% chance to slow target
+         10% chance to drain 1 Dexterity
+Proficiency: Long Swords
+Type: One-handed
+Damage type: slashing
+Weight: 8 lbs
+
+Usable by:
+ Foundling
+ Anyone else who attempts to use the weapon will be attacked by dark frost.~
+@212     = ~Burning Shadow Sword +5~
+@213     = ~This sword was created by a Shadow Adept and only they can use the item without being attacked by magic frost. The blade itself looks as if it was created from black metal and a dark crystal. It is said that the more powerful the Shadow Adept at the time of its creation is, the more deadly the blade becomes.
+
+STATISTICS:
+
+Damage: 1d8 +1d12 cold damage
+THAC0: +5, +3 vs humanoids
+Special: is considered a +5 weapon
+         40% chance to slow target
+         10% chance to drain 1 Dexterity
+Proficiency: Long Swords
+Type: One-handed
+Damage type: slashing
+Weight: 8 lbs
+
+Usable by:
+ Foundling
+ Anyone else who attempts to use the weapon will be attacked by dark frost.~
+@214     = ~Blueshadow Gem~
+@215     = ~This round gem has a deep blue color. It looks as if it is darker in the very center of the small globe.~
+@216     = ~Dark Gloves~
+@217     = ~This is a pair of dark-colored gloves. They don't seem to hold any magic, but they look unique and well-crafted. You may get some gold for these, that's for sure.~
+@218     = ~The Blackscratchers~
+@219     = ~These are the Blackscratchers--powerful gloves that may enhance Shadow Weave magic. They seem unique and intriguing. They are colored black, blue, and gray and seem very solid.  They are set with dark blue gems.
+Sadly, only shadows and Shadow Adepts may use these.
+
+STATISTICS:
+
++1 casting level
+Lets the Shadow Adept enter a personal sphere similar to a Pocket Plane.
+
+Usable by:
+ Foundling~
+@220     = ~These are the Blackscratchers--powerful gloves that may enhance Shadow Weave magic. They seem unique and intriguing. They are colored black, blue, and gray and seem very solid.  They are set with dark blue gems.
+Sadly, only shadows and Shadow Adepts may use these.
+
+STATISTICS:
+
+NOTE: Use these gloves to leave the Blackscratchers' plane.
+
++1 casting level
+Lets the Shadow Adept enter a personal sphere similar to a Pocket Plane.
+
+Usable by:
+ Foundling~
+@221     = ~These are the Blackscratchers--powerful gloves that enhance Shadow Weave magic. They seem unique and intriguing. They are colored black, blue, and gray and seem very solid.  They are set with dark blue gems.
+Sadly, only shadows and Shadow Adepts may use these.
+
+STATISTICS:
+
++1 casting level
+These gloves can hide a Shadow Adept in his personal plane, where his spells are restored. The time in the personal sphere obeys different rules--the 8 hour rest lasts for 30 seconds in the Prime Material plane.
+
+Usable by:
+ Foundling~
+@222     = ~Claw~
+@223     = ~Ivory Seed~
+@224     = ~This seed should be brought to the frozen pond mentioned by the Ivory Witch.~
+@225     = ~Perennial Ice Arrow~
+@226     = ~This magical arrow is made of solid ice. Not only it deals additional ice damage, but also returns to the owner. With this arrow you'll never run out of luck.
+
+STATISTICS:
+
+Damage: 1D6 + 1D2 cold damage
+Damage type: Piercing
+Weight: 0 lbs.
+Launcher: Bow
+
+Not usable by:
+ Cleric
+ Druid
+ Mage~
+@227     = ~After adventuring with the Bhaalspawn, Foundling tried to walk Faerun on his own, but found it difficult without companions. He never tried to see distant lands; he stayed near the lands he had visited with his former leader, but wherever he went, he felt out of place. Some time later, he fell into conflict with followers of Sune, who considered him an abomination shaped by Shar and her dark powers. He tried to escape as he considered the fight pointless, but the group of Sunites followed and caught the lone Shadow Adept. In the ensuing fight he lost one of his hands, denying him the use of most of his Shadow Weave spells. 
+		Foundling eventually overcame his maiming, relearned the use of powerful magic with only one hand, and found another group of adventurers to fight with. In time his new band traveled through the Underdark and stumbled upon a settlement of Deep Imaskari that offered him sanctuary--a privilege his adventurer companions were not granted. He left them to find their own destinies, and of his final days nothing is known in the surface world.~
+@228     = ~After his adventures with the Bhaalspawn, Foundling decided to see more of Faerun, eventually returning to the places he had seen with <CHARNAME> - the Windspear Hills, the Umar Hills, the ruined temple of Amaunator, even Athkatla. Once, near Trademeet, he encountered a group of knights that chased him for some time and considered him an abomination--nothing more than a cruel shadow creature. The hunt was long and fierce, but after ten days, working together, the group of knights brought down the lone Shadow Adept.
+		It was then that Mazzy Fentan appeared and stopped the knights. Foundling, more than surprised, thanked the halfling lady. When asked why she did this, she said "without shadow there is no light," and suggested to the knights that there are more dangerous creatures than this particular Shadow Adept. When she left, Foundling followed her secretly for a time, though what he concluded from his observations is unclear. 
+		When he ceased this behavior, after some days of lone wandering, he met a man named Si'iliatrias. This man was a member of the Deep Imaskari, and took Foundling to his homeland beneath the Surface. The Shadow Adept was never heard of again. He could be dead or alive, somewhere in the tunnels of the Underdark.~
+@229     = ~When his adventures with the Bhaalspawn ended, Foundling still remembered the suggestion made by <CHARNAME>. That one thought echoed inside his mind: "You should return to the Plane of Shadows." It echoed over and over again until he had no more power to resist. He returned to the Temple Ruins and searched for an old tome of his former masters: The Book of Shadowpath. When he found it, he studied it for days and finally found his way back to the Shadow Plane. In the land of darkness it took him some time to forget the rules he had learned to obey in Faerun. He is said to have used the great powers he had acquired to create a hideout only he could safely enter. Some say that the insides of the hideout can break the rules of time and allow him to exist forever.
+		Gossips say that even though Foundling left Faerun, a dark figure still walks near the Umar Hills during the night, observing the villagers and sitting near the sculpture of Amaunator, tracing the inscription made by Mazzy Fentan.~
+@230     = ~When his adventures with the Bhaalspawn ended, Foundling still remembered the suggestion made by <CHARNAME>. That one thought echoed inside his mind: "You can create objects just like you created the blade." Foundling knew that, even though his shadow blade was only created because of his Shadow Weave magic, his creation still had a meaning. He decided to give it a try and studied the creation of magical items and blacksmithing. Foundling created many weapons that could both save lives and kill. He never cared for gold, and his prices weren't high. Once he had sold one hundred different weapons, he is said to have disappeared. But his weapons are still there, in different parts of Faerun. Some say that his old companions from the Bhaalspawn's group use the daggers he made. None know that these weapons store part of Foundling's energy, letting him live as long as his weapons are in use.
+		Gossips say that a dark figure still appears near the Umar Hills from time to time during the night, observing the villagers and sitting near the sculpture of Amaunator. No one knows if it is Foundling or just another threat from the shadows to be afraid of.~
+@231     = ~Shadow Command~
+@232     = ~Shadow Command (Shadow Weave Magic)
+  
+Level: 1
+Range: touch
+Duration: 20 turns
+Casting Time: 1
+Area of Effect: 1 Creature
+Saving Throw: Special
+
+This spell enables the shadow adept to command another creature to "die" (sleep) for a single round. At the end of the round, the creature awakens and is unharmed. Creatures with 6 or more Hit Dice (or experience levels) are entitled to a Saving Throw vs. Spell to ignore the command.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -5% penalty to cold resistance for 10 seconds.~
+@233     = ~Shadow Command (Shadow Weave Magic)
+Level: 1
+Range: touch
+Duration: 20 turns
+Casting Time: 1
+Area of Effect: 1 Creature
+Saving Throw: Special
+
+This spell enables the shadow adept to command another creature to "die" (sleep) for a single round. At the end of the round, the creature awakens and is unharmed. Creatures with 6 or more Hit Dice (or experience levels) are entitled to a Saving Throw vs. Spell to ignore the command.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -5% penalty to cold resistance for 10 seconds.~
+@234     = ~Shadow Summoning I~
+@235     = ~Shadow Summoning I (Shadow Weave Magic)
+  
+Level: 2
+Range: 120 ft. 
+Duration: 6 rounds
+Casting Time: 4 
+Area of Effect: Special 
+Saving Throw: None 
+
+With the casting of this spell, the shadow adept summons a shadow creature. The monster appear within spell range and attack the spellcaster's opponents until the spell duration expires or until it is slain.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -5% penalty to cold resistance for 10 seconds.~
+@236     = ~Shadow Summoning I (Shadow Weave Magic)
+
+Level: 2
+Range: 120 ft. 
+Duration: 6 rounds
+Casting Time: 4 
+Area of Effect: Special 
+Saving Throw: None 
+
+With the casting of this spell, the shadow adept summons a shadow creature. The monster appear within spell range and attack the spellcaster's opponents until the spell duration expires or until it is slain.
+The shadow is a powerful ally when compared to other summoned creatures of the same level, however it instantly dies in sunlight.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -5% penalty to cold resistance for 10 seconds.~
+@237     = ~Holding Shadow~
+@238     = ~Holding Shadow (Shadow Weave Magic)
+
+Level: 3
+Range: 35 ft.
+Duration: 1 turn
+Casting Time: 3
+Area of Effect: 1 creature and any enemy within 7.5 ft.
+Saving Throw: Neg. 
+
+This spell holds 1d4 humans, demihumans, or humanoid creatures rigidly immobile and in place for five or more rounds. The Hold Person spell affects any bipedal human, demihuman, or humanoid of mansize or smaller, including brownies, dryads, dwarves, elves, gnolls, gnomes, goblins, half-elves, halflings, half-orcs, hobgoblins, humans, kobolds, lizard men, nixies, orcs, pixies, sprites, troglodytes, and others. Thus, a 10th-level fighter could be held, while an ogre could not. The effect is centered on the victim selected by the caster. Every enemy within 7.5 ft. of the target is also affected. Those who save vs. Spell at -1 are totally unaffected by the spell. Undead creatures cannot be held.
+
+Held creatures cannot move or speak, but they remain aware of events around them and can use abilities not requiring motion or speech. Being held does not prevent the worsening of the subjects' condition due to wounds, disease, or poison.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -8% penalty to cold resistance for 10 seconds.~
+@239     = ~Holding Shadow (Shadow Weave Magic)
+  
+Level: 3
+Range: 35 ft.
+Duration: 1 turn
+Casting Time: 3
+Area of Effect: 1 creature and any enemy within 7.5 ft.
+Saving Throw: Neg. 
+
+This spell holds 1d4 humans, demihumans, or humanoid creatures rigidly immobile and in place for five or more rounds. The Hold Person spell affects any bipedal human, demihuman, or humanoid of mansize or smaller, including brownies, dryads, dwarves, elves, gnolls, gnomes, goblins, half-elves, halflings, half-orcs, hobgoblins, humans, kobolds, lizard men, nixies, orcs, pixies, sprites, troglodytes, and others. Thus, a 10th-level fighter could be held, while an ogre could not. The effect is centered on the victim selected by the caster. Every enemy within 7.5 ft. of the target is also affected. Those who save vs. Spell at -1 are totally unaffected by the spell. Undead creatures cannot be held.
+
+Held creatures cannot move or speak, but they remain aware of events around them and can use abilities not requiring motion or speech. Being held does not prevent the worsening of the subjects' condition due to wounds, disease, or poison.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -8% penalty to cold resistance for 10 seconds.~
+@240     = ~Shadow thievery~
+@241     = ~Shadow thievery (Shadow Weave Magic)
+
+Level: 4
+Range: 10 ft.
+Duration: 26 turns
+Casting Time: 2
+Area of Effect: 1 creature 
+Saving Throw: none 
+
+This spell, when cast at thieves, bards and rangers, makes them more powerful. Target creature gets +40% bonus to all thievery skills, +5 Thac0 and +1 backstab modifier. Effects last 26 turns.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -8% penalty to cold resistance for 10 seconds.~
+@242     = ~Outerblack~
+@243     = ~Outerblack (Shadow Weave Magic)
+
+Level: 5
+Range: 20 ft.
+Casting Time: 1
+Area of Effect: 1 creature 
+Saving Throw: none 
+
+This spell use dark telekinetic energy. It pushes target away from the caster and cause 10d5 +10 crushing damage. There is no saving throw.
+
+NOTE: This spell uses Shadow Weave Magic that makes the caster more vulnerable to cold.  If this spell is cast, the mage suffers a -8% penalty to cold resistance for 10 seconds.~
+@244     = ~Foundling's class option:
+Enter 1 to keep Foundling's original class (single-class mage: Shadow Adept)
+Enter 2 to install Foundling's optional class (multi-class Shadow Adept/thief)~
+@245     = ~Keeping Foundling's original class.~
+@246     = ~Changing Foundling's class to Shadow Adept/thief.~
+@249     = ~Foundling: Between the Shades~
+@250     = ~SHADOW ADEPT / THIEF~
+@251     = ~Shadow Adept / Thief~ 
+@252     = ~SHADOW ADEPT: These arcane casters are said to be bound to the Shadow Plane. Shadows are both their blessing and their curse. They are able to use a different source of magic--the Shadow Weave--due to a contract made with Shar. Most of them make a special sacrifice to gain access to the Shadow Weave; some are contracted against their will.  It is rumored that some powerful mages are able to use the Shadow Weave without contracting themselves to Shar.
+
+Advantages:
+
+-Gains a +2 thac0 bonus. At level 14 and 21 gets additional +2 thac0 and +0.5 attack per round
+-Gains +10% cold resistance and gains an additional 10% every 10 levels
+-At level 5 is given permanent Infravision as a result of dealing with shadow-oriented energy
+-Has access to a brand new selection of shadow magic spells. Most are similar to their Weave counterparts, but due to springing from a different source, their nature may differ from the spells of Mystra's Weave.
+-Once in their lifetime a Shadow Weave Mage may create a black blade that will be usable only by the creator. The power of the blade depends on the level of the Shadow Adept.
+
+Disadvantages:
+
+-Cannot be of any good alignment
+-Suffers from -20% fire resistance and -5% resistance to magic fire.
+-Cannot learn new spells or use any magic from Mystra's Weave--this includes magical scrolls.
+-Suffers -2 caster's level in daylight. At level 14 this penalty is cancelled.
+
+
+SHADOW WEAVE MAGIC: this new type of magic may be used only by Shadow Adepts, who are mostly servants of Shar. As coldness accompanies Shadow Weave Magic, every spell used by the mage makes cold more difficult for him to resist. Most Shadow Weave spells are more powerful and slightly faster, but Shadow Adepts know a smaller number of spells per level than their Mystra's Weave-using counterparts.
+
+THIEF: To accomplish <PRO_HISHER> goals, for good or ill, the Thief is a skilled pilferer. Cunning, nimbleness, and stealth are <PRO_HISHER> hallmarks. Whether <PRO_HESHE> turns <PRO_HISHER> talent against innocent passersby and wealthy merchants or oppressors and monsters is a choice for the Thief to make.~
+@4000300 = ~Hours~
+@4000301 = ~Unreachable~
+@768001  = ~Yes, but don't patch the existing save games~
+@768002  = ~Yes, and patch the existing save games~
+@500     = ~Foundling... The mysterious companion has joined your group. The former servant of the shadow dragon is still under the influence of a curse bound upon him by his master. According to Gloria D'Orlaux, we need a very specific sword to break the spell. The sword is called Leira's Lie and it may be found in an old sanctuary in the mountains a few hours away from Athkatla. The road may be more than dangerous, but it may also be the only way to set Foundling free.~ [L#FouTxt]

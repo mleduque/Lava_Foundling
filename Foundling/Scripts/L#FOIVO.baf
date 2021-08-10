@@ -1,0 +1,7 @@
+IF
+See([PC])
+Global("L#FoundlingIvory","GLOBAL",0)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END

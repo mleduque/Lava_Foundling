@@ -1,0 +1,16 @@
+IF
+See([PC])
+Global("L#FouPlot","GLOBAL",12)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+IF
+Global("L#FouMou","GLOBAL",1)
+Global("L#Start","LOCALS",0)
+THEN
+RESPONSE #100
+SetGlobal("L#Start","LOCALS",1)
+StartDialogueNoSet(Player1)
+END

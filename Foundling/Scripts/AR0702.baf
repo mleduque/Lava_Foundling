@@ -1,0 +1,32 @@
+
+IF
+  Global("L#FouPlot","GLOBAL",6)
+  GlobalTimerExpired("L#FoundGloriaTime","GLOBAL")
+  Global("L#FouGloriaCreate","AR0702",0)
+THEN
+  RESPONSE #100
+    CreateCreature("L#Glor",[790.680],3)
+    SetGlobal("L#FouGloriaCreate","AR0702",1)
+END
+
+IF
+  Global("L#GloriaDoor","AR0702",0)
+  Global("L#FouPlot","GLOBAL",8)
+THEN
+  RESPONSE #100
+    ActionOverride("L#Glor",DestroySelf())
+    CreateVisualEffect("SPDIMNDR",[790.680])
+    SetGlobal("L#GloriaDoor","AR0702",1)
+END
+
+IF
+  Global("L#GloriaDoor","AR0702",1)
+  Global("L#FouPlot","GLOBAL",8)
+  GlobalTimerExpired("L#FouGloriaOneDay","GLOBAL")
+THEN
+  RESPONSE #100
+    CreateCreature("L#Glor",[790.680],3)
+    CreateVisualEffect("SPDIMNDR",[790.680])
+    SetGlobal("L#GloriaDoor","AR0702",2)
+END
+

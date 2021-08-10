@@ -1,0 +1,69 @@
+BACKUP ~Foundling\backup~
+AUTHOR ~Lava Del'Vortel~
+README ~Foundling\readme.txt~
+
+VERSION ~5.1~
+
+AUTO_TRA ~Foundling/translations/%s~
+
+ALWAYS
+  ACTION_IF GAME_IS ~eet~ BEGIN
+    OUTER_SET bg2_chapter = 12
+  END ELSE BEGIN
+    OUTER_SET bg2_chapter = 0
+  END
+  OUTER_FOR (i=1; i<=10; i=i+1) BEGIN
+    OUTER_SET bg2_chapter = bg2_chapter + 1
+    OUTER_TEXT_SPRINT name_source ~bg2_chapter_%i%~
+    OUTER_SET EVAL ~%name_source%~ = bg2_chapter
+  END
+
+  //either use cpmvars that have these variables set or add this variable declaration somewhere in your tp2 code
+  ACTION_IF GAME_IS ~eet~ BEGIN
+    OUTER_SET wmp_xCoord_SoA = 0 //in relation to BG2/BG2:EE WORLDMAP.WMP add 0 px correction to X coordinate
+    OUTER_SET wmp_yCoord_SoA = 2283 //in relation to BG2/BG2:EE WORLDMAP.WMP add 2283 px correction to Y coordinate
+    OUTER_TEXT_SPRINT wmp_worldmap_ToB "worldmap" //when editing ToB worldmap use WORLDMAP.WMP instead of WORLDM25.WMP
+  END ELSE BEGIN
+    OUTER_SET wmp_xCoord_SoA = 0
+    OUTER_SET wmp_yCoord_SoA = 0
+    OUTER_TEXT_SPRINT wmp_worldmap_ToB "worldm25"
+  END
+
+  // No exception, everything needs to be converted
+  ACTION_DEFINE_ARRAY FouXnoconvert BEGIN END
+
+  // any tra files used in LANGUAGE need to be reloaded after UTF-8 conversion
+  ACTION_DEFINE_ARRAY FouXreload BEGIN Foundling Foundling_EE END
+
+  LAF HANDLE_CHARSETS
+    INT_VAR
+      infer_charsets = 1
+    STR_VAR
+      tra_path = EVAL ~%MOD_FOLDER%/Translations~
+      noconvert_array = FouXnoconvert
+      reload_array = FouXreload
+  END
+END
+
+
+LANGUAGE ~English~
+         ~English~
+         ~Foundling/translations/English/Foundling.TRA~
+
+LANGUAGE ~Polish (Translated by Astharoshe)~
+         ~Polish~
+         ~Foundling/translations/Polish/Foundling.TRA~
+
+BEGIN @768001 /* Yes, but don't patch existing save games */
+DESIGNATED 0
+SUBCOMPONENT @249 /* Foundling: Between the Shades */
+
+OUTER_SET include_saves = 0
+INCLUDE ~%MOD_FOLDER%/install.tph~
+
+BEGIN @768002 /* Yes and patch existing save games */
+DESIGNATED 1
+SUBCOMPONENT @249 /* Foundling: Between the Shades */
+
+OUTER_SET include_saves = 1
+INCLUDE ~%MOD_FOLDER%/install.tph~

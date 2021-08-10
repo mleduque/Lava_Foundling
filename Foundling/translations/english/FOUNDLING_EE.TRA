@@ -1,0 +1,233 @@
+@191 = ~Black Sword~ 
+@192 = ~Ritual Sword "Leira's Lie"~
+@193 = ~This sword, obviously made for ritual use, also seems to be a solid and well-crafted weapon--not just decorative but a weapon of choice. It seems to be made of gold and some dark metal. There are some marks on both handle and blade, but you're not sure what they mean.
+This sword is said to turn small wounds into serious ones and turn the truth into a lie. It has been kept for a long time inside this strange cave.
+
+STATISTICS:
+
+Special abilities:
+- Can make the curse binding Foundling material
+
+Equipped abilities:
+- Gains Long Sword mastery
+
+Combat abilities:
+- Strikes as +5 weapon
+- Each hit has a 5% chance to curse enemy with Wild Magic for 10 seconds
+- Each hit has 2% chance to restore used spells of the user
+- Each hit has 1% chance to kill target if it has less than 60 hit points
+
+THAC0: +3 
+Damage: 1d8+3
+Damage type: Slashing
+Speed Factor: 5
+Proficiency: Long Sword
+Type: One-handed
+
+Weight: 3
+~ 
+@194 = ~Chain of the Solar~
+@195 = ~This armour is a special type of gear that is said to be used by solars, planetars and devas; in reality, this is just a myth. This armour was blessed with divine powers that can protect the wearer not only from usual weapons, but also grants some special protection from undead creatures. The user of this chainmail will be ignored by most undead save for those of immense power like liches and dracoliches.
+
+STATISTICS:
+
+Equipped abilities:
+- Fire Resistance: +25%
+- Wearer is ignored by skeletons, zombies, and ghouls
+
+Armor Class: 3 (-2 vs. crushing, 2 vs. slashing)
+Requires:
+ 8 Strength
+
+Weight: 10
+~ 
+@196 = ~Dusty Leather~
+@197 = ~This old armour is made of dark gray leather. It doesn't look very solid and does not grant any extraordinary protection, but is elastic enough not to block any spellcasting abilities.
+It is Foundling's favorite armor.
+
+STATISTICS:
+
+Equipped abilities:
+- Saving Throw vs. Petrification: +3
+- Saving Throw vs. Polymorph: +3
+
+Armor Class: 7
+
+Weight: 8
+~
+@200 = ~Shadow Ioun~ 
+@201 = ~This ioun stone is similar to the guardian stone of the Shadow Dragon found in the temple ruins. However, this one has been enchanted with special magic that was freed after the fight with the resurrected Shadow Dragon, who took control of Foundling's body.
+
+STATISTICS:
+
+Equipped abilities:
+- Protection from wing buffet
+
+Armor Class: +2, +2 vs. undead
+
+Weight: 1
+~
+@202 = ~Shadow Sword~ 
+@203 = ~This sword was created by a Shadow Adept and only they can use the item without being attacked by magic frost. The blade itself looks as if it was created from black metal and a dark crystal. It is said that the more powerful the Shadow Adept at the time of its creation is, the more deadly the blade becomes. Any non-Shadow Adept who attempts to use the weapon will be attacked by dark frost.
+
+STATISTICS:
+
+Combat abilities:
+- Strikes as +1 weapon
+
+THAC0: +1, +1 vs. humanoids
+Damage: 1d8+1 cold damage
+Damage type: Slashing
+Speed Factor: 5
+Proficiency: Long Sword
+Type: One-handed
+Requires:
+ 11 Strength
+
+Weight: 8
+~
+@204 = ~Shadow Sword +2~
+@205 = ~This sword was created by a Shadow Adept and only they can use the item without being attacked by magic frost. The blade itself looks as if it was created from black metal and a dark crystal. It is said that the more powerful the Shadow Adept at the time of its creation is, the more deadly the blade becomes. Any non-Shadow Adept who attempts to use the weapon will be attacked by dark frost.
+
+STATISTICS:
+
+Combat abilities:
+- Strikes as +2 weapon
+
+THAC0: +2, +1 vs. humanoids
+Damage: 1d8, +1d4 cold
+Damage type: Slashing
+Speed Factor: 5
+Proficiency: Long Sword
+Type: One-handed
+Requires:
+ 11 Strength
+
+Weight: 8
+~ 
+@206 = ~Shadow Sword +3~
+@207 = ~This sword was created by a Shadow Adept and only they can use the item without being attacked by magic frost. The blade itself looks as if it was created from black metal and a dark crystal. It is said that the more powerful the Shadow Adept at the time of its creation is, the more deadly the blade becomes. Any non-Shadow Adept who attempts to use the weapon will be attacked by dark frost.
+
+STATISTICS:
+
+Combat abilities:
+- Strikes as +3 weapon
+- Each hit has a 10% chance to slow the target
+
+THAC0: +3, +2 vs. humanoids
+Damage: 1d8, +1d6 cold
+Damage type: Slashing
+Speed Factor: 5
+Proficiency: Long Sword
+Type: One-handed
+Requires:
+ 11 Strength
+
+Weight: 8
+~ 
+@208 = ~Shadow Sword +4~
+@209 = ~This sword was created by a Shadow Adept and only they can use the item without being attacked by magic frost. The blade itself looks as if it was created from black metal and a dark crystal. It is said that the more powerful the Shadow Adept at the time of its creation is, the more deadly the blade becomes. Any non-Shadow Adept who attempts to use the weapon will be attacked by dark frost.
+
+STATISTICS:
+
+Combat abilities:
+- Strikes as +4 weapon
+- Each hit has a 20% chance to slow the target
+
+THAC0: +4, +2 vs. humanoids
+Damage: 1d8, +1d8 cold
+Damage type: Slashing
+Speed Factor: 5
+Proficiency: Long Sword
+Type: One-handed
+Requires:
+ 11 Strength
+ 
+Weight: 8
+~
+@210 = ~Shadow Sword +5~
+@211 = ~This sword was created by a Shadow Adept and only they can use the item without being attacked by magic frost. The blade itself looks as if it was created from black metal and a dark crystal. It is said that the more powerful the Shadow Adept at the time of its creation is, the more deadly the blade becomes. Any non-Shadow Adept who attempts to use the weapon will be attacked by dark frost.
+
+STATISTICS:
+
+Combat abilities:
+- Strikes as +5 weapon
+- Each hit has a 40% chance to slow the target
+- Each hit has a 10% chance to srain 1 Dexterity from the target
+
+THAC0: +5, +2 vs. humanoids
+Damage: 1d8, +1d10 cold
+Damage type: Slashing
+Speed Factor: 5
+Proficiency: Long Sword
+Type: One-handed
+Requires:
+ 11 Strength
+
+Weight: 8
+~ 
+@212 = ~Burning Shadow Sword +5~
+@213 = ~This sword was created by a Shadow Adept and only they can use the item without being attacked by magic frost. The blade itself looks as if it was created from black metal and a dark crystal. It is said that the more powerful the Shadow Adept at the time of its creation is, the more deadly the blade becomes. Any non-Shadow Adept who attempts to use the weapon will be attacked by dark frost.
+
+STATISTICS:
+
+Combat abilities:
+- Strikes as +5 weapon
+- Each hit has a 40% chance to slow the target
+- Each hit has a 10% chance to srain 1 Dexterity from the target
+
+THAC0: +5, +3 vs. humanoids
+Damage: 1d8, +1d12 cold
+Damage type: Slashing
+Speed Factor: 5
+Proficiency: Long Sword
+Type: One-handed
+Requires:
+ 11 Strength
+
+Weight: 8
+~ 
+@218 = ~The Blackscratchers~ 
+@219 = ~These are the Blackscratchers--powerful gloves that may enhance Shadow Weave magic. They seem unique and intriguing. They are colored black, blue, and gray and seem very solid.  They are set with dark blue gems. Sadly, only shadows and Shadow Adepts may use these.
+
+STATISTICS:
+
+Equipped abilities:
+- Casting Level: +1
+- Lets the Shadow Adept enter a personal sphere similar to a Pocket Plane
+
+Weight: 2
+~
+@220 = ~These are the Blackscratchers--powerful gloves that may enhance Shadow Weave magic. They seem unique and intriguing. They are colored black, blue, and gray and seem very solid.  They are set with dark blue gems. Sadly, only shadows and Shadow Adepts may use these.
+
+STATISTICS:
+
+NOTE: Use these gloves to leave the Blackscratchers' plane.
+
+Equipped abilities:
+- Casting Level: +1
+- Lets the Shadow Adept enter a personal sphere similar to a Pocket Plane
+
+Weight: 2
+~ 
+@221 = ~These are the Blackscratchers--powerful gloves that enhance Shadow Weave magic. They seem unique and intriguing. They are colored black, blue, and gray and seem very solid.  They are set with dark blue gems. Sadly, only shadows and Shadow Adepts may use these.
+
+STATISTICS:
+
+Equipped abilities:
+- Casting Level: +1
+- These gloves can hide a Shadow Adept in his personal plane, where his spells are restored. The time in the personal sphere obeys different rules - the 8 hour rest lasts for 30 seconds in the Prime Material plane.
+
+Weight: 2
+~
+@225 = ~Perennial Ice Arrow~
+@226 = ~This magical arrow is made of solid ice. It not only deals additional ice damage, but also returns to the owner. With this arrow you'll never run out of luck.
+
+STATISTICS:
+
+Damage: 1d6, +1d2 cold
+Damage type: Piercing
+Launcher: Bow
+
+Weight: 0
+~

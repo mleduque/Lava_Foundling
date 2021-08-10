@@ -1,0 +1,36 @@
+//////////PORTAL
+
+IF
+Global("L#DeactivatePortal","L#FOU1",0)
+THEN
+RESPONSE #100
+SetGlobal("L#DeactivatePortal","L#FOU1",1)
+TriggerActivation("L#FOU2",FALSE)
+AmbientActivate("portal",FALSE)
+END
+
+IF
+Global("L#FouMou","GLOBAL",0)
+Global("L#DeactivatePortal","L#FOU1",1)
+Contains("L#Eye1","Eye1")
+Contains("L#Eye2","Eye2")
+THEN
+RESPONSE #100
+SetGlobal("L#FouMou","GLOBAL",1)
+SetGlobal("L#DeactivatePortal","L#FOU1",2)
+TriggerActivation("L#FOU2",TRUE)
+AmbientActivate("portal",TRUE)
+END
+
+IF
+Global("L#DeactivatePortal","L#FOU1",2)
+OR(2)
+!Contains("L#Eye1","Eye1")
+!Contains("L#Eye2","Eye2")
+THEN
+RESPONSE #100
+SetGlobal("L#DeactivatePortal","L#FOU1",1)
+TriggerActivation("L#FOU2",FALSE)
+AmbientActivate("portal",FALSE)
+END
+

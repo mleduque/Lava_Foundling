@@ -1,0 +1,293 @@
+//////////////////////////
+/////JOURNAL ENTRIES//////
+//////////////////////////
+
+IF
+Global("L#FouPlot","GLOBAL",3)
+Global("L#JournalEntryFoundling","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("L#JournalEntryFoundling","GLOBAL",1)
+AddJournalEntry(@0 /* Foundling and the Black Curse
+I let Foundling, the shadow dragon's servant, join my group. He needs to find a special token that belonged to the Shadow Dragon. We should return to the Temple Ruins. */,QUEST)
+END
+
+IF
+Global("L#FouPlot","GLOBAL",5)
+Global("L#JournalEntryFoundling","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("L#JournalEntryFoundling","GLOBAL",2)
+EraseJournalEntry(@0 /* Foundling and the Black Curse
+I let Foundling, the shadow dragon's servant, join my group. He needs to find a special token that belonged to the Shadow Dragon. We should return to the Temple Ruins. */)
+AddJournalEntry(@1 /* Foundling and the Black curse
+We found the special token Foundling was looking for. It doesn't work, and we may need to find an experienced adventurer or merchant who may know something about magical gadgets. */,QUEST)
+END
+
+IF
+Global("L#FouPlot","GLOBAL",6)
+Global("L#JournalEntryFoundling","GLOBAL",2)
+THEN
+RESPONSE #100
+SetGlobal("L#JournalEntryFoundling","GLOBAL",3)
+EraseJournalEntry(@2 /* Foundling and the Black Curse
+We found the special token Foundling was looking for. It doesn't work, and we may need to find an experienced adventurer or merchant who may know something about magical gadgets. */)
+AddJournalEntry(@3 /* Foundling and the Black curse
+We asked Ribald for help and he suggested talking to someone named Gloria. Ribald says she comes in often and should arrive within a few hours. */,QUEST)
+END
+
+IF
+Global("L#FouPlot","GLOBAL",8)
+Global("L#JournalEntryFoundling","GLOBAL",3)
+THEN
+RESPONSE #100
+SetGlobal("L#JournalEntryFoundling","GLOBAL",4)
+EraseJournalEntry(@4 /* Foundling and the Black Curse
+We asked Ribald for help and he suggested talking to someone named Gloria. Ribald says she comes in often and should arrive within a few hours. */)
+AddJournalEntry(@5 /* Foundling and the Black Curse
+We have spoken to Gloria and she has promised to investigate Foundling's token. She will have information soon and we should meet her at the Adventurer's Mart in one day. */,QUEST)
+END
+
+IF
+Global("L#FouPlot","GLOBAL",9)
+Global("L#JournalEntryFoundling","GLOBAL",4)
+THEN
+RESPONSE #100
+SetGlobal("L#JournalEntryFoundling","GLOBAL",5)
+EraseJournalEntry(@5 /* Foundling and the Black Curse
+We have spoken to Gloria and she has promised to investigate Foundling's token. She will have information soon and we should meet her at the Adventurer's Mart in one day. */)
+AddJournalEntry(@6 /* Foundling and the Black Curse
+Gloria told us what we need to prepare the ritual that may free Foundling. All we need is a specific ritual sword. We should visit the City Gates once we're ready for the adventure. */,QUEST)
+END
+
+IF
+Global("L#FoundlingIvory","GLOBAL",1)
+Global("L#JournalEntryIvory","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("L#JournalEntryIvory","GLOBAL",1)
+EraseJournalEntry(@6)
+AddJournalEntry(@7 /* Colour of Ivory
+We met the Ivory Witch who asked us to save her land that has been invaded by a Hag. In return, she will destroy the barrier that is preventing our passage. We are also to place a special seed in the frozen pond that will heal the land. */,QUEST)
+END
+
+IF
+Global("L#FoundlingIvory","GLOBAL",2)
+Global("L#JournalEntryIvory","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("L#JournalEntryIvory","GLOBAL",2)
+EraseJournalEntry(@7 /* Colour of Ivory
+We met the Ivory Witch who asked us to save her land that has been invaded by a Hag. In return, she will destroy the barrier that is preventing our passage. We are also to place a special seed in the frozen pond that will heal the land. */)
+AddJournalEntry(@8 /* Colour of Ivory
+We did what the Ivory Witch asked us to do and now we can safely travel through the snow-white lands of the Ivory Witch. */,QUEST_DONE)
+END
+
+IF
+Global("L#FouPlot","GLOBAL",18)
+Global("L#JournalEntryFoundling","GLOBAL",5)
+THEN
+RESPONSE #100
+SetGlobal("L#JournalEntryFoundling","GLOBAL",6)
+EraseJournalEntry(@9 /* Foundling and the Black Curse
+Gloria told us that we need a specific ritual sword to free Foundling. All we need is a specific ritual sword. We should visit the City Gates once we're ready for the adventure. */)
+AddJournalEntry(@10 /* Foundling and the Black Curse
+We found the ritual sword 'Leira's Lie'. Now we need to take the sword to the ruins of Amaunator's temple, to the place the Shadow Dragon died. Foundling will be able to dispel the curse when we arrive. */,QUEST)
+END
+
+IF
+Global("L#JournalEntryFoundling","GLOBAL",6)
+Dead("L#FSha")
+OR(2)
+Global("L#FouPlot","GLOBAL",29)
+Global("L#FouPlot","GLOBAL",85)
+THEN
+RESPONSE #100
+SetGlobal("L#JournalEntryFoundling","GLOBAL",7)
+EraseJournalEntry(@10 /* Foundling and the Black Curse
+We found the ritual sword 'Leira's Lie'. Now we need to take the sword to the ruins of Amaunator's temple, to the place the Shadow Dragon died. Foundling will be able to dispel the curse when we arrive. */)
+AddJournalEntry(@11 /* Foundling and the Black Curse
+The whole ritual was predicted by the shadow dragon. He returned and possessed Foundling, but we managed to stop him. */,QUEST_DONE)
+END
+
+
+//////////////////////////
+/////////FAILED///////////
+//////////////////////////
+
+IF
+Dead("L#FOU")
+GlobalLT("L#FouPlot","GLOBAL",30)
+Global("L#SorryYouFailed","GLOBAL",0)
+THEN
+RESPONSE #100
+ActionOverride("L#FOU",LeaveParty())
+SetGlobal("L#SorryYouFailed","GLOBAL",1)
+DisplayStringHead(Player1,@12 /* Foundling died and his flesh turned to ashes. You have failed to dispel the curse. */)
+END
+
+
+//////////////////////////
+////////HURT BLADE////////
+//////////////////////////
+
+//1
+
+IF
+Global("L#DamageMe","GLOBAL",0)
+OR(6)
+HasItemEquiped("L#SBSW1",Player1)
+HasItemEquiped("L#SBSW2",Player1)
+HasItemEquiped("L#SBSW3",Player1)
+HasItemEquiped("L#SBSW4",Player1)
+HasItemEquiped("L#SBSW5",Player1)
+HasItemEquiped("L#SBSW6",Player1)
+THEN
+RESPONSE #100
+ApplySpellRES("L#HURT",Player1)
+SetGlobal("L#DamageMe","GLOBAL",1)
+RealSetGlobalTimer("L#HURTTIME","GLOBAL",6)
+END
+
+IF
+RealGlobalTimerExpired("L#HURTTIME","GLOBAL")
+Global("L#DamageMe","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("L#DamageMe","GLOBAL",0)
+END
+
+//2
+
+IF
+Global("L#DamageMe","GLOBAL",0)
+!Name("L#FOU",Player2)
+OR(6)
+HasItemEquiped("L#SBSW1",Player2)
+HasItemEquiped("L#SBSW2",Player2)
+HasItemEquiped("L#SBSW3",Player2)
+HasItemEquiped("L#SBSW4",Player2)
+HasItemEquiped("L#SBSW5",Player2)
+HasItemEquiped("L#SBSW6",Player2)
+THEN
+RESPONSE #100
+ApplySpellRES("L#HURT",Player2)
+SetGlobal("L#DamageMe","GLOBAL",1)
+RealSetGlobalTimer("L#HURTTIME","GLOBAL",6)
+END
+
+IF
+RealGlobalTimerExpired("L#HURTTIME","GLOBAL")
+Global("L#DamageMe","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("L#DamageMe","GLOBAL",0)
+END
+
+//3
+
+IF
+Global("L#DamageMe","GLOBAL",0)
+!Name("L#FOU",Player3)
+OR(6)
+HasItemEquiped("L#SBSW1",Player3)
+HasItemEquiped("L#SBSW2",Player3)
+HasItemEquiped("L#SBSW3",Player3)
+HasItemEquiped("L#SBSW4",Player3)
+HasItemEquiped("L#SBSW5",Player3)
+HasItemEquiped("L#SBSW6",Player3)
+THEN
+RESPONSE #100
+ApplySpellRES("L#HURT",Player3)
+SetGlobal("L#DamageMe","GLOBAL",1)
+RealSetGlobalTimer("L#HURTTIME","GLOBAL",6)
+END
+
+IF
+RealGlobalTimerExpired("L#HURTTIME","GLOBAL")
+Global("L#DamageMe","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("L#DamageMe","GLOBAL",0)
+END
+
+//4
+
+IF
+Global("L#DamageMe","GLOBAL",0)
+!Name("L#FOU",Player4)
+OR(6)
+HasItemEquiped("L#SBSW1",Player4)
+HasItemEquiped("L#SBSW2",Player4)
+HasItemEquiped("L#SBSW3",Player4)
+HasItemEquiped("L#SBSW4",Player4)
+HasItemEquiped("L#SBSW5",Player4)
+HasItemEquiped("L#SBSW6",Player4)
+THEN
+RESPONSE #100
+ApplySpellRES("L#HURT",Player4)
+SetGlobal("L#DamageMe","GLOBAL",1)
+RealSetGlobalTimer("L#HURTTIME","GLOBAL",6)
+END
+
+IF
+RealGlobalTimerExpired("L#HURTTIME","GLOBAL")
+Global("L#DamageMe","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("L#DamageMe","GLOBAL",0)
+END
+
+//5
+
+IF
+Global("L#DamageMe","GLOBAL",0)
+!Name("L#FOU",Player5)
+OR(6)
+HasItemEquiped("L#SBSW1",Player5)
+HasItemEquiped("L#SBSW2",Player5)
+HasItemEquiped("L#SBSW3",Player5)
+HasItemEquiped("L#SBSW4",Player5)
+HasItemEquiped("L#SBSW5",Player5)
+HasItemEquiped("L#SBSW6",Player5)
+THEN
+RESPONSE #100
+ApplySpellRES("L#HURT",Player5)
+SetGlobal("L#DamageMe","GLOBAL",1)
+RealSetGlobalTimer("L#HURTTIME","GLOBAL",6)
+END
+
+IF
+RealGlobalTimerExpired("L#HURTTIME","GLOBAL")
+Global("L#DamageMe","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("L#DamageMe","GLOBAL",0)
+END
+
+//6
+
+IF
+Global("L#DamageMe","GLOBAL",0)
+!Name("L#FOU",Player6)
+OR(6)
+HasItemEquiped("L#SBSW1",Player6)
+HasItemEquiped("L#SBSW2",Player6)
+HasItemEquiped("L#SBSW3",Player6)
+HasItemEquiped("L#SBSW4",Player6)
+HasItemEquiped("L#SBSW5",Player6)
+HasItemEquiped("L#SBSW6",Player6)
+THEN
+RESPONSE #100
+ApplySpellRES("L#HURT",Player6)
+SetGlobal("L#DamageMe","GLOBAL",1)
+RealSetGlobalTimer("L#HURTTIME","GLOBAL",6)
+END
+
+IF
+Global("L#DamageMe","GLOBAL",1)
+RealGlobalTimerExpired("L#HURTTIME","GLOBAL")
+THEN
+RESPONSE #100
+SetGlobal("L#DamageMe","GLOBAL",0)
+END

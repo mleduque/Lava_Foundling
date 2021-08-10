@@ -1,0 +1,15 @@
+IF
+  Global("L#FouPlot","GLOBAL",3)
+  Global("L#FouNewSha1","LOCALS",0)
+  See([PC])
+THEN
+  RESPONSE #100
+    SetGlobal("L#FouNewSha1","LOCALS",1)
+    StartDialogNoSet(Player1)
+END
+
+
+
+
+
+
