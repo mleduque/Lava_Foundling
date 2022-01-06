@@ -3,7 +3,7 @@
 ********by Lava Del Vortel*********
 ***********************************
 
-v5.1
+v5.3
 
 Mod for BG2 / BG2EE
 
@@ -42,6 +42,7 @@ Betatesters: Psycho Data, Oracle, Valky, Cahir, Luc of Candlekeep, Soul
 Misc. help and discussion: The Imp, Soul, agb1, Artemius_I
 EET compatibility, area icon coding and other help: K4thos
 Polish Translation: Astharoshe, one of CoB's Stars of Mystra
+Russian translation: Ulpian, Bullfer & yota13
 Item description corrections: Cahir
 Traification: Soul
 
@@ -141,5 +142,12 @@ July 2020 - v5.0
 - Additional proofreading
 - Re-recorded all voiced lines
 
-July 2020 - v5.1
+July 2021 - v5.1
 - Better EE item descriptions by Cahir
+
+October 2021 - v5.2:
+-Fixed two .cre files
+-Disabled EE-only tpa files on non-EE games
+
+January 2022: v5.3:
+-Russian translation by Ulpian, Bullfer & yota13

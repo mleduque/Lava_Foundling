@@ -2,7 +2,7 @@ BACKUP ~Foundling\backup~
 AUTHOR ~Lava Del'Vortel~
 README ~Foundling\readme.txt~
 
-VERSION ~5.1~
+VERSION ~5.3~
 
 AUTO_TRA ~Foundling/translations/%s~
 
@@ -53,6 +53,10 @@ LANGUAGE ~English~
 LANGUAGE ~Polish (Translated by Astharoshe)~
          ~Polish~
          ~Foundling/translations/Polish/Foundling.TRA~
+         
+LANGUAGE ~Russian (Translated by Ulpian, Bullfer & yota13)~
+         ~Russian~
+         ~Foundling/translations/Russian/Foundling.TRA~
 
 BEGIN @768001 /* Yes, but don't patch existing save games */
 DESIGNATED 0
